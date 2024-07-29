@@ -1,0 +1,1059 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1220" height="1030" viewBox="0 -130 1220 1030">
+	<title>倫敦地上鐵路綫圖 / London Overground route map under the Creative Commons Attribution-Share Alike 3.0 Unported by Wikimedian(s)</title>
+	<defs>
+		<style type="text/css">
+.zone {font-size:35px;font-weight:bold;text-anchor:middle;font-family:Arimo,Liberation Sans,Arial,sans-serif}
+.zh {font-family:WenQuanYi Zen Hei,Microsoft JhengHei,Arial Unicode MS,sans-serif}
+.en {font-family:Arimo,Liberation Sans,Arial,sans-serif}
+.small {font-size:11px;fill:#000;font-family:Arimo,Liberation Sans,Arial,sans-serif}
+.route {fill:#fff;font-size:12px;font-weight:bold;text-anchor:middle}
+.intline {font-size:11px;fill:#fff;font-family:WenQuanYi Zen Hei,Microsoft JhengHei,Arial Unicode MS,sans-serif}
+.title {font-weight:bold;font-family:Old Newspapers Sung,SimSun,AR PL UMing CN,Apple LiSung Light,Songti SC Bold,LiSong Pro,Times New Roman,serif}
+.x {fill:#999}
+.b {font-weight:bold}
+.sten {font-size:10px;fill:#666}
+.owhite {stroke-width:8;stroke:#fff}
+.ogrey {stroke-width:8;stroke:#eee}
+.mid {text-anchor:middle}
+.end {text-anchor:end}
+.fog {fill:#E87511}
+.fogr {fill:#1175E8}
+.sog {stroke:#E87511}
+.sogx {fill:none;stroke:#F3BA88}
+.sdlr {stroke:#00a4a7}
+.selizabeth {stroke:#7156A5}
+.stl {stroke:#6C0}
+.rn {fill:#99f}
+.osi {fill:none;stroke:#009;stroke-width:3.5;cursor:help}
+.doublezone {fill:#efe;stroke:#999;stroke-width:0.5;stroke-linejoin:round}
+		</style>
+		<g id="int">
+			<circle cx="0" cy="0" r="8.5" fill="#fff"/>
+			<circle cx="0" cy="0" r="6" style="fill:white;stroke:#000;stroke-width:3"/>
+		</g>
+		<g id="intosi">
+			<use xlink:href="#int"/>
+			<path style="fill:none;stroke:#000;stroke-width:1" d="M -3,0 h 6 M 0,-3 v 6"/>
+		</g>
+		<g id="term">
+			<circle cx="0" cy="0" r="10.5" fill="#fff"/>
+			<circle cx="0" cy="0" r="8" style="fill:white;stroke:#000;stroke-width:3"/>
+			<circle cx="0" cy="0" r="3" style="fill:#000;stroke:0"/>
+		</g>
+		<g id="termx">
+			<circle cx="0" cy="0" r="10.5" fill="#fff"/>
+			<circle cx="0" cy="0" r="8" style="fill:white;stroke:#888;stroke-width:3"/>
+			<circle cx="0" cy="0" r="3" style="fill:#888;stroke:0"/>
+		</g>
+		<g id="termnr">
+			<circle cx="0" cy="0" r="10.5" fill="#fff"/>
+			<circle cx="0" cy="0" r="8" style="fill:white;stroke:#000;stroke-width:3"/>
+			<use xlink:href="#nr" x="-6.25" y="-4"/>
+		</g>
+		<g id="st">
+			<path class="sog" style="fill:none;stroke-width:5" d="M 0,0 L 8,0"/>
+			<circle cx="0" cy="0" r="1" style="fill:white;stroke:none"/>
+		</g>
+		<g id="stx"><path class="sog" style="fill:none;stroke-width:5;opacity:0.5" d="M 0,0 L 8,0"/></g>
+		<g id="nr">
+			<path style="fill:#ef2721" transform="scale(0.25)" d="
+			M 11,0 L 22,0
+			37,8 50,8 50,13 37,13
+			24,20 50,20 50,25 24,25
+			40,33 28,33
+			13,25 0,25 0,20 13,20
+			26,13 0,13 0,8 26,8
+			z
+			"/>
+		</g>
+		<g id="intnr">
+			<circle cx="0" cy="0" r="8.5" fill="#fff"/>
+			<circle cx="0" cy="0" r="7" style="fill:#fff;stroke:#000;stroke-width:1"/>
+			<use xlink:href="#nr" x="-6.25" y="-4"/>
+		</g>
+		<g id="ring"><circle cx="0" cy="0" r="3.5" style="stroke-width:2;fill:#fff"/></g>
+		<g id="stripe"><path style="fill:#0019a8;stroke-width:0" d="M -5.5,-1 H 5.5 V 1 H -5.5 z"/></g>
+		<g id="tl">
+			<use xlink:href="#ring" class="stl"/>
+			<use xlink:href="#stripe"/>
+			<path class="stl" style="stroke-width:12" d="M 7,0 H 58"/>
+			<text class="intline" x="10" y="3.5" style="fill:#000">電車連綫</text>
+		</g>
+		<g id="dlr">
+			<use xlink:href="#ring" class="sdlr"/>
+			<use xlink:href="#stripe"/>
+			<path class="sdlr" style="stroke-width:12" d="M 7,0 H 69"/>
+			<text class="intline" x="10" y="3.5">碼頭區輕鐵</text>
+		</g>
+		<g id="elizabeth">
+			<use xlink:href="#ring" class="selizabeth"/>
+			<use xlink:href="#stripe"/>
+			<path class="selizabeth" style="stroke-width:12" d="M 7,0 H 69"/>
+			<text class="intline" x="10" y="3.5">伊利莎伯綫</text>
+		</g>
+		<g id="ug">
+			<use xlink:href="#ring" style="stroke:#dc241f"/>
+			<use xlink:href="#stripe"/>
+		</g>
+		<g id="ug_district">
+			<use xlink:href="#ug"/>
+			<path style="stroke:#007229;stroke-width:12" d="M 7,0 H 47"/>
+			<text class="intline" x="10" y="3.5">區域綫</text>
+		</g>
+		<g id="ug_district_b">
+			<use xlink:href="#ug"/>
+			<path style="stroke:#80b894;stroke-width:12" d="M 7,0 H 85"/>
+			<text class="intline" x="10" y="3.5">區域綫（支綫）</text>
+		</g>
+		<g id="ug_bakerloo">
+			<use xlink:href="#ug"/>
+			<path style="stroke:#894E24;stroke-width:12" d="M 7,0 H 58"/>
+			<text class="intline" x="10" y="3.5">貝克魯綫</text>
+		</g>
+		<g id="ug_northern">
+			<use xlink:href="#ug"/>
+			<path style="stroke:#000;stroke-width:12" d="M 7,0 H 37"/>
+			<text class="intline" x="10" y="3.5">北綫</text>
+		</g>
+		<g id="ug_victoria">
+			<use xlink:href="#ug"/>
+			<path style="stroke:#00A0E2;stroke-width:12" d="M 7,0 H 69"/>
+			<text class="intline" x="10" y="3.5">維多利亞綫</text>
+		</g>
+		<g id="ug_central">
+			<use xlink:href="#ug"/>
+			<path style="stroke:#DC241F;stroke-width:12" d="M 7,0 H 47"/>
+			<text class="intline" x="10" y="3.5">中央綫</text>
+		</g>
+		<g id="ug_circle">
+			<use xlink:href="#ug"/>
+			<path style="stroke:#FFCE00;stroke-width:12" d="M 7,0 H 35"/>
+			<text class="intline" x="10" y="3.5" style="fill:#000">環綫</text>
+		</g>
+		<g id="ug_metropolitan">
+			<use xlink:href="#ug"/>
+			<path style="stroke:#751056;stroke-width:12" d="M 7,0 H 59"/>
+			<text class="intline" x="10" y="3.5">大都會綫</text>
+		</g>
+		<g id="ug_hammersmith">
+			<use xlink:href="#ug"/>
+			<path style="stroke:#D799AF;stroke-width:12" d="M 7,0 H 112"/>
+			<text class="intline" x="10" y="3.5" style="fill:#0019a8">漢默史密斯及城市綫</text>
+		</g>
+		<g id="ug_jubilee">
+			<use xlink:href="#ug"/>
+			<path style="stroke:#868F98;stroke-width:12" d="M 7,0 H 47"/>
+			<text class="intline" x="10" y="3.5">銀禧綫</text>
+		</g>
+		<g id="route_base"><rect x="-8" y="-8" width="16" height="16" rx="5" class="fog"/></g>
+		<g id="route_base2"><rect x="-8" y="-8" width="16" height="16" rx="5" class="fogr"/></g>
+		<g id="route_a">
+			<use xlink:href="#route_base"/>
+			<text dy="4" class="en route">A</text>
+		</g>
+		<g id="route_a2">
+			<use xlink:href="#route_base2"/>
+			<text dy="4" class="en route">A</text>
+		</g>
+		<g id="route_b">
+			<use xlink:href="#route_base"/>
+			<text dy="4" class="en route">B</text>
+		</g>
+		<g id="route_b2">
+			<use xlink:href="#route_base2"/>
+			<text dy="4" class="en route">B</text>
+		</g>
+		<g id="route_c">
+			<use xlink:href="#route_base"/>
+			<text dy="4" class="en route">C</text>
+		</g>
+		<g id="route_c2">
+			<use xlink:href="#route_base2"/>
+			<text dy="4" class="en route">C</text>
+		</g>
+		<g id="route_d">
+			<use xlink:href="#route_base"/>
+			<text dy="4" class="en route">D</text>
+		</g>
+		<g id="route_d2">
+			<use xlink:href="#route_base2"/>
+			<text dy="4" class="en route">D</text>
+		</g>
+		<g id="route_e">
+			<use xlink:href="#route_base"/>
+			<text dy="4" class="en route">E</text>
+		</g>
+		<g id="route_e2">
+			<use xlink:href="#route_base2"/>
+			<text dy="4" class="en route">E</text>
+		</g>
+		<g id="route_f">
+			<use xlink:href="#route_base"/>
+			<text dy="4" class="en route">F</text>
+		</g>
+		<g id="route_f2">
+			<use xlink:href="#route_base2"/>
+			<text dy="4" class="en route">F</text>
+		</g>
+		<g id="route_g">
+			<use xlink:href="#route_base"/>
+			<text dy="4" class="en route">G</text>
+		</g>
+		<g id="route_g2">
+			<use xlink:href="#route_base2"/>
+			<text dy="4" class="en route">G</text>
+		</g>
+	</defs>
+	<rect x="-200" y="-200" width="3000" height="3000" style="fill:#fff"/>
+	<g id="zones">
+		<path id="zone_bg" style="fill:#eee;fill-rule:evenodd;stroke:none;stroke-width:0.5;stroke-linejoin:round" d="
+		M -10,-140 H 1500 V 810 H -100 z
+			
+		M -10,70 h 162 l 10,-10
+		V -140 H 1500 V 810 H -10 z
+			
+		M -10,130 h 175 l 10,-10 v -120 l 300,-300
+		V -140 H 850 v 91 l 10,10 H 931 l 100,-100 h 130 l 100,100
+		L 1379,480 l -330,330 H -10 z
+			
+		M -10,160 h 188 l 10,-10 v -110 l 300,-300
+		V -140 H 750 v 98 l 10,10 H 975 l 75,-75 h 90 l 200,200
+		L 1319,480 l -330,330 H -10 z
+			
+		M -10,190 h 198 l 10,-10 v -103 l 185,-185
+		H 635 l 82,82 H 975 l 255,255
+		L 1259,480 l -330,330 H -10 z
+			
+		M -10,250 h 210 l 10,-10 v -120 l 159,-159
+		H 658 l 45,45 H 993 l 236,236
+		L 1229,450 l -360,360 H -10 z
+			
+		M 563,730 h -211 l -20,20 h -162 l -60,-60 h -86 l -10,-10 v -300
+		l 10,-10 h 185 l 10,-10 v -227 l 113,-113 h 328 l 45,45 h 337 L 1170,194 L 1059,240 v 330 l -240,240 h -176 z
+			
+		M 120,480 l 110,-110 v -220 l 30,-30 h 120 l 69,69
+		H 649 l 10,-10 h 20
+		L 689,189
+		l 23,23 h 263 l 15,15 v 355 l -148,148
+		h -160 l -20,-20 h -300 l -35,35 h -154 l -12,-12 v -35 l 33,-33 v -13 l -100,-100 v -46 z
+			
+		M 708,385 l 15,15 v 129 l -15,15 h -200 l -15,-15 v -129 l 15,-15 z
+		"/>
+		<use xlink:href="#zone_numbers" style="stroke:#999;stroke-width:1;stroke-linejoin:round"/>
+		<g id="zone_numbers">
+			<g class="zone" fill="#fff">
+				<text x="570" y="480">1</text>
+				<text x="35" y="490">3</text>
+				<text x="520" y="70">3</text>
+				<text x="520" y="170">3</text>
+				<text x="690" y="760">3</text>
+				<text x="900" y="170">3</text>
+				<text x="1023" y="410">3</text>
+				<text x="35" y="220">5</text>
+				<text x="570" y="-75">5</text>
+				<text x="900" y="2">5</text>
+				<text x="35" y="157">7</text>
+				<text x="800" y="-95">7</text>
+			</g>
+			<text x="23" y="30" class="zh b" style="fill:#fff;font-size:35px;text-anchor:start">特殊</text>
+			<g class="zone" fill="#eee">
+				<text x="250" y="170">2</text>
+				<text x="420" y="560">2</text>
+				<text x="420" y="410">2</text>
+				<text x="503" y="630">2</text>
+				<text x="520" y="220">2</text>
+				<text x="900" y="410">2</text>
+				<text x="900" y="630">2</text>
+				<text x="35" y="315">4</text>
+				<text x="35" y="760">4</text>
+				<text x="390" y="760">4</text>
+				<text x="520" y="0">4</text>
+				<text x="900" y="50">4</text>
+				<text x="1135" y="272">4</text>
+				<text x="35" y="187">6</text>
+				<text x="710" y="-95">6</text>
+				<text x="1100" y="-75">6</text>
+				<text x="35" y="100">8</text>
+				<text x="900" y="-95">8</text>
+			</g>
+		</g>
+	</g>
+	<g id="river" style="stroke-width:16;stroke:#ddf;fill:none">
+		<path id="Thames" d="
+		M -10,675
+		H 200 q 28,0 48,-20
+		l 50,-50 q 20,-20 48,-20
+		h 230 q 28,0 48,-20
+		l 10,-10 q 20,-20 48,-20
+		h 250 q 28,0 48,-20
+		l 400,-400
+		"/>
+	</g>
+	<use xlink:href="#Thames" style="stroke-width:15;stroke:#d9eafa;fill:none"/>
+	<g id="double_zones_stations" class="doublezone">
+		<path id="Willesden_Junction_zone" d="M 120,471 l -3,-3 h -43 v -45 h 92 v 45 h -43 z"/>
+		<path id="Kew_Gardens_zone" d="M 56,690 l 3,-3 v -7 h 70 v 29 h -70 v -16 z"/>
+		<path id="Woodgrange_Park_zone" d="M 1059,240 v -46 h 111 v 46 h -100 z"/>
+		<path id="Hoxton_zone" d="M 689,385 h -59 v 29 h 59 z"/>
+		<path id="Crystal_Palace_zone" d="M 552,729 l -3,-3 v -7 h -125 v 20 h 125 v -7 z"/>
+		<path id="Clapton_zone" d="M 735,212 l 3,-3 v -7 h 64 v 29 h -64 v -16 z"/>
+		<path id="Stratford_zone" d="M 990,293 l -3,3 h -37 v 80 h 80 v -80 h -37 z"/>
+	</g>
+	<g id="route" class="sog" style="fill:none;stroke-width:5;opacity:1;cursor:help">
+		<g>
+			<path id="Watford_DC_line_route" d="M 50,50 V 455 a 30,30 0 0,0 30,30 H 520"/>
+			<title>地上鐵沃特福德交匯－尤斯頓</title>
+		</g>
+		<path id="Willesden_high_level" class="ogrey" d="
+		M 100,475 a 20,20 0 0,0 -14,34
+		M 50,505 a 30,30 0 0,1 30,-30
+		"/>
+		<g>
+			<path id="West_London_line_route" d="
+			M 120,475
+			h -20 a 20,20 0 0,0 -14,34
+			L 243,666 a 20,20 0 0,1 -14,34
+			"/>
+			<title>地上鐵衛斯頓交匯－克拉珀姆交匯、列治文／克拉珀姆交匯－史特拉福</title>
+		</g>
+		<g>
+			<path id="North_London_line_route" d="
+			M 50,720 V 505 a 30,30 0 0,1 30,-30
+			H 151 q 14,0 24,-10
+			L 240,400 q 10,-10 10,-24
+			V 250 a 30,30 0 0,1 30,-30
+			H 360 q 14,0 24,10
+			L 429,275 q 10,10 24,10
+			H 990
+			"/>
+			<title>地上鐵列治文／克拉珀姆交匯－史特拉福</title>
+		</g>
+		<g>
+			<path id="Gospel_Oak_Barking_line_route" d="
+			M 290,210 H 296 q 14,0 24,-10
+			L 385,135 q 10,-10 24,-10
+			H 930 q 14,0 24,10
+			L 1070,251 q 10,10 10,24
+			V 375
+			"/>
+			<title>地上鐵福音橡－柏京</title>
+		</g>
+		<path class="ogrey" d="
+		M 729,130 v -10
+		M 610,131 l -13,-13
+		"/>
+		<g>
+			<path class="owhite" d="
+			M 729,290 v -10
+			"/>
+			<path id="Chingford_line_route" d="
+			M 699,475
+			L 719,455 q 10,-10 10,-24
+			V -5
+			"/>
+			<title>地上鐵利物浦街－清福德</title>
+		</g>
+		<g>
+			<path class="owhite" d="
+			M 739,290 v -10
+			V 274 q 0,-14 -10,-24 l -10,-10
+			"/>
+			<path id="Enfield_line_route" d="
+			M 706,482
+			L 726,462 a 44,44 0 0,0 13,-31
+			V 274 q 0,-14 -10,-24
+			L 580,101 q -10,-10 -10,-24
+			V -21 a 30,30 0,0 0 -30,-30
+			H 460
+			
+			M 570,-21 a 30,30 0,0 1 30,-30
+			H 870
+			"/>
+			<title>地上鐵利物浦街－恩菲爾德鎮／切森特</title>
+		</g>
+		<a xlink:href="http://www.tfl.gov.uk/modes/london-overground/london-overground-timetables" cursor="pointer">
+			<path id="Battersea_Park_branch" d="
+			M 435,650
+			H 395 q -14,0 -24,10
+			L 353,678 q -10,10 -24,10
+			H 300
+			"/>
+			<use xlink:href="#Battersea_Park_branch" style="stroke:#fff;stroke-width:3;stroke-dasharray:5"/>
+			<title>地上鐵巴特西公園支綫，只提供有限度服務，出發前請查閱最新官方時間表。</title>
+		</a>
+		<g>
+			<path stroke="none" fill="#fff" d="
+			M 724,420 v -5.66 l 10,10 v 11.3 l -10,-10 z
+			"/>
+			<path class="owhite" d="M 729,425 l 10,10 L 740,436 q 10,10 10,24"/>
+			<path id="East_London_line_route" d="
+			M 500,295
+			H 585 q 14,0 24,10
+			L 740,436 q 10,10 10,24
+			V 580
+				
+			M 750,580
+			V 616 a 34,34 0,0 1 -34,34
+			H 395 q -14,0 -24,10
+			L 331,700 q -10,10 -24,10
+			L 230,710
+				
+			M 750,580
+			V 616 q 0,14 10,24
+			L 770,650
+				
+			M 750,580
+			V 740 a 30,30 0,0 1 -30,30
+			H 350
+				
+			M 614,770
+			q -14,0 -24,-10
+			L 560,730
+			"/>
+			<title>地上鐵多斯頓／高貝利及伊斯靈頓－西克洛頓／水晶宮／新十字</title>
+		</g>
+		<g>
+			<path id="Romford_to_Upminster_line_route" d="
+			M 1090,-51 l 80,80
+			"/>
+			<title>地上鐵羅姆福德－上敏：平日列車於晚上8時後停運；星期日不提供服務。</title>
+		</g>
+	</g>
+	<g class="osi">
+		<path d="M 580,101 V 125" id="Seven_Sisters-South_Tottenham"><title>20分鐘內免費站外來往兩站之間，320米步行距離。</title></path>
+		<path d="M 729,104 L 750,125" id="Walthamstow_Central-Walthamstow_Queens_Road"><title>25分鐘內免費站外來往兩站之間，640米步行距離。</title></path>
+		<path d="M 669,285 L 629,325" id="Dalston_Kingsland-Dalston_Junction"><title>20分鐘內免費站外來往兩站之間，320米步行距離。</title></path>
+		<path d="M 775,655 L 750,680" id="New_Cross-New_Cross_Gate"><title>25分鐘內免費站外來往兩站之間，640米步行距離。</title></path>
+	</g>
+	<g id="station_nodes">
+		<g id="Watford_DC_line_stations">
+			<use xlink:href="#termnr" x="50" y="50" id="Watford_Junction"/>
+			<use xlink:href="#route_a" x="30" y="50"/>
+			<use xlink:href="#st" x="50" y="80" id="Watford_High_Street"/>
+			<use xlink:href="#intnr" x="50" y="110" id="Bushey"/>
+			<use xlink:href="#st" x="50" y="140" id="Carpenders_Park"/>
+			<use xlink:href="#st" x="50" y="170" id="Hatch_End"/>
+			<use xlink:href="#st" x="50" y="200" id="Headstone_Lane"/>
+			<use xlink:href="#intnr" x="50" y="230" id="Harrow_and_Wealdstone"/>
+			<use xlink:href="#st" x="50" y="260" id="Kenton"/>
+			<use xlink:href="#st" x="50" y="290" id="South_Kenton"/>
+			<use xlink:href="#st" x="50" y="320" id="North_Wembley"/>
+			<use xlink:href="#intnr" x="50" y="350" id="Wembley_Central"/>
+			<use xlink:href="#st" x="50" y="380" id="Stonebridge_Park"/>
+			<use xlink:href="#st" x="50" y="410" id="Harlesden"/>
+			<use xlink:href="#term" transform="translate(120,480)" id="Willesden_Junction"/>
+			<use xlink:href="#route_c" x="120" y="500"/>
+			<use xlink:href="#ug_bakerloo" x="90" y="432" id="Willesden_Junction_Bakerloo"/>
+			<use xlink:href="#st" transform="translate(240,485)rotate(90)" id="Kensal_Green"/>
+			<use xlink:href="#int" x="310" y="485" id="Queens_Park"/>
+			<use xlink:href="#ug_bakerloo" x="284" y="442" id="Queens_Park_Bakerloo"/>
+			<use xlink:href="#st" transform="translate(380,485)rotate(90)" id="Kilburn_High_Road"/>
+			<use xlink:href="#st" transform="translate(450,485)rotate(-90)" id="South_Hampstead"/>
+			<use xlink:href="#termnr" x="520" y="485" id="Euston"/>
+			<use xlink:href="#route_a2" x="520" y="505"/>
+			<use xlink:href="#ug_victoria" x="500" y="428" id="Euston_Victoria"/>
+			<use xlink:href="#ug_northern" x="500" y="440" id="Euston_Northern"/>
+		</g>
+		<g id="West_London_line_stations">
+			<g>
+				<title>Out-of-station interchange for Central line</title>
+				<use xlink:href="#intnr" x="115" y="538" id="Shepherds_Bush"/>
+				<use xlink:href="#ug_central" x="177" y="528" id="Shepherds_Bush_Central"/>
+			</g>
+			<use xlink:href="#intnr" x="150" y="573" id="Kensington_Olympia"/>
+			<a xlink:href="http://www.tfl.gov.uk/tube/timetable/district/" cursor="pointer">
+				<title>地鐵區域綫肯辛頓（奧林匹亞）支綫，只提供有限度服務，出發前請查閱最新官方時間表。</title>
+				<use xlink:href="#ug_district_b" x="289" y="564" id="Kensington_Olympia_District"/>
+			</a>
+			<use xlink:href="#intnr" x="185" y="608" id="West_Brompton"/>
+			<use xlink:href="#ug_district" x="261" y="598" id="West_Brompton_District"/>
+			<use xlink:href="#st" transform="translate(220,643)rotate(315)" id="Imperial_Wharf"/>
+			<use xlink:href="#termnr" x="230" y="705" id="Clapham_Junction"/>
+			<use xlink:href="#route_b" x="170" y="705"/>
+			<use xlink:href="#route_c2" x="190" y="705"/>
+			<use xlink:href="#route_e2" x="210" y="705"/>
+		</g>
+		<g id="North_London_line_stations">
+			<use xlink:href="#termnr" x="50" y="720" id="Richmond"/>
+			<use xlink:href="#route_b" x="30" y="720"/>
+			<use xlink:href="#st" x="50" y="690" id="Kew_Gardens"/>
+			<use xlink:href="#int" x="50" y="660" id="Gunnersbury"/>
+			<use xlink:href="#ug_district" x="143" y="660" id="Gunnersbury_District"/>
+			<use xlink:href="#st" x="50" y="630" id="South_Acton"/>
+			<use xlink:href="#st" x="50" y="600" id="Acton_Central"/>
+			<use xlink:href="#st" transform="translate(205,435)rotate(45)" id="Kensal_Rise"/>
+			<use xlink:href="#st" transform="translate(235,405)rotate(45)" id="Brondesbury_Park"/>
+			<g>
+				<title>Out-of-station interchange for Jubilee line at Kentish Town station</title>
+				<use xlink:href="#intosi" x="250" y="370" id="Brondesbury"/>
+				<use xlink:href="#ug_jubilee" x="267" y="355" id="Kilburn"/>
+			</g>
+			<g>
+				<title>Out-of-station interchange for Jubilee line</title>
+				<use xlink:href="#intnr" x="250" y="330" id="West_Hampstead"/>
+				<use xlink:href="#ug_jubilee" x="267" y="315" id="West_Hampstead_Jubilee"/>
+			</g>
+			<g>
+				<title>Out-of-station interchange for Jubilee and Metropolitan lines at Finchley Road station</title>
+				<use xlink:href="#intosi" x="250" y="285" id="Finchley_Road_and_Frognal"/>
+				<use xlink:href="#ug_jubilee" x="267" y="270" id="Finchley_Road_Jubilee"/>
+				<use xlink:href="#ug_metropolitan" x="325" y="270" id="Finchley_Road_Metropolitan"/>
+			</g>
+			<use xlink:href="#st" x="250" y="250" id="Hampstead_Heath"/>
+			<use xlink:href="#term" x="290" y="215" id="Gospel_Oak"/>
+			<use xlink:href="#route_d" x="270" y="207"/>
+			<g>
+				<title>Out-of-station interchange for Northern line at Kentish Town station</title>
+				<use xlink:href="#intnr" x="345" y="220" id="Kentish_Town_West"/>
+				<use xlink:href="#ug_northern" x="372" y="178" id="Kentish_Town"/>
+			</g>
+			<g>
+				<title>Out-of-station interchange for Northern line at Camden Town station</title>
+				<use xlink:href="#intosi" x="398" y="244" id="Camden_Road"/>
+				<use xlink:href="#ug_northern" x="435" y="210" id="Camden_Town"/>
+			</g>
+			<use xlink:href="#st" transform="translate(429,275)rotate(-45)" id="Caledonian_Road_and_Barnsbury"/>
+			<use xlink:href="#termnr" x="500" y="290" id="Highbury_and_Islington"/>
+			<use xlink:href="#route_e" x="520" y="310"/>
+			<use xlink:href="#ug_victoria" x="441" y="353" id="Highbury_and_Islington_Victoria"/>
+			<use xlink:href="#int" x="580" y="290" id="Canonbury"/>
+			<use xlink:href="#intosi" x="669" y="285" id="Dalston_Kingsland"/>
+			<use xlink:href="#st" transform="translate(830,285)rotate(-90)" id="Homerton"/>
+			<use xlink:href="#st" transform="translate(910,285)rotate(-90)" id="Hackney_Wick"/>
+			<use xlink:href="#termnr" x="990" y="285" id="Stratford"/>
+			<use xlink:href="#route_b2" x="990" y="265"/>
+			<use xlink:href="#ug_central" x="958" y="331" id="Stratford_Central"/>
+			<use xlink:href="#elizabeth"  x="958" y="343" id="Stratford_Elizabeth"/>
+			<use xlink:href="#dlr"        x="958" y="355" id="Stratford_DLR"/>
+			<use xlink:href="#ug_jubilee" x="958" y="367" id="Stratford_Jubilee"/>
+		</g>
+		<g id="Gospel_Oak_Barking_line_stations">
+			<g>
+				<title>Out-of-station interchange for Northern line at Archway station</title>
+				<use xlink:href="#intosi" x="355" y="165" id="Upper_Holloway"/>
+				<use xlink:href="#ug_northern" x="307" y="127" id="Archway"/>
+			</g>
+			<use xlink:href="#st" transform="translate(420,125)rotate(-90)" id="Crouch_Hill"/>
+			<use xlink:href="#intnr" x="500" y="125" id="Harringay_Green_Lanes"/>
+			<use xlink:href="#intosi" x="580" y="125" id="South_Tottenham"/>
+			<use xlink:href="#int" x="685" y="125" id="Blackhorse_Road"/>
+			<use xlink:href="#ug_victoria" x="657" y="167"/>
+			<use xlink:href="#intosi" x="750" y="125" id="Walthamstow_Queens_Road"/>
+			<use xlink:href="#st" transform="translate(905,125)rotate(-90)" id="Leyton_Midland_Road"/>
+			<g>
+				<title>Out-of-station interchange for Central line at Leyton station</title>
+				<use xlink:href="#intosi" x="969" y="150" id="Leytonstone_High_Road"/>
+				<use xlink:href="#ug_central" x="984" y="112" id="Leyton"/>
+			</g>
+			<g>
+				<title>Out-of-station interchange for TfL Rail at Forest Gate station</title>
+				<use xlink:href="#intosi" x="1014" y="195" id="Wanstead_Park"/>
+				<use xlink:href="#elizabeth" x="1029" y="157" id="Forest_Gate"/>
+			</g>
+			<g>
+				<title>Out-of-station interchange for TfL Rail at Manor Park station</title>
+				<use xlink:href="#intosi" x="1059" y="240" id="Woodgrange_Park"/>
+				<use xlink:href="#elizabeth" x="1074" y="202" id="Manor_Park"/>
+			</g>
+			<use xlink:href="#termnr" x="1080" y="285" id="Barking"/>
+			<use xlink:href="#route_d2" x="1060" y="285"/>
+			<use xlink:href="#ug_district" x="1097" y="301" id="Barking_District"/>
+			<use xlink:href="#ug_hammersmith" x="1097" y="313" id="Barking_HnC"/>
+			<use xlink:href="#stx" x="1080" y="340" id="Renwick_Road"/>
+			<use xlink:href="#term" x="1080" y="375" id="Barking_Riverside"/>
+		</g>
+		<g id="East_London_line_stations">
+			<use xlink:href="#term" x="629" y="325" id="Dalston_Junction"/>
+			<use xlink:href="#route_e" x="601" y="317"/>
+			<use xlink:href="#st" transform="translate(659,355)rotate(135)" id="Haggerston"/>
+			<use xlink:href="#st" transform="translate(689,385)rotate(135)" id="Hoxton"/>
+			<use xlink:href="#st" transform="translate(719,415)rotate(135)" id="Shoreditch_High_Street"/>
+			<use xlink:href="#int" x="750" y="460" id="Whitechapel"/>
+			<use xlink:href="#ug_district" x="830" y="446" id="Whitechapel_District"/>
+			<use xlink:href="#ug_hammersmith" x="830" y="458" id="Whitechapel_HnC"/>
+			<use xlink:href="#elizabeth" x="830" y="470" id="Whitechapel_Elizabeth"/>
+			<g>
+				<title>Out-of-station interchange for Docklands Light Railway at Shadwell DLR station</title>
+				<use xlink:href="#intosi" x="750" y="490" id="Shadwell"/>
+				<use xlink:href="#dlr" x="813" y="489" id="Shadwell_DLR"/>
+			</g>
+			<use xlink:href="#st" x="750" y="520" id="Wapping"/>
+			<use xlink:href="#st" x="750" y="550" id="Rotherhithe"/>
+			<use xlink:href="#int" x="750" y="580" id="Canada_Water"/>
+			<use xlink:href="#ug_jubilee" x="828" y="579" id="Canada_Water_Jubilee"/>
+			<use xlink:href="#st" x="750" y="610" id="Surrey_Quays"/>
+			<use xlink:href="#stx" transform="translate(695,650)rotate(-90)" id="Surrey_Canal"/>
+			<use xlink:href="#intnr" x="630" y="650" id="Queens_Road_Peckham"/>
+			<use xlink:href="#intnr" x="565" y="650" id="Peckham_Rye"/>
+			<use xlink:href="#intnr" x="490" y="650" id="Denmark_Hill"/>
+			<g>
+				<title>Out-of-station interchange for Northern line at Clapham North station</title>
+				<use xlink:href="#intosi" x="425" y="650" id="Clapham_High_Street"/>
+				<use xlink:href="#ug_northern" x="410" y="604" id="Clapham_North"/>
+			</g>
+			<use xlink:href="#st" transform="translate(361,670)rotate(45)" id="Wandsworth_Road"/>
+			<use xlink:href="#intnr" x="300" y="688" id="Battersea_Park"/>
+			
+			<use xlink:href="#termnr" x="775" y="655" id="New_Cross"/>
+			<use xlink:href="#route_e2" x="795" y="655"/>
+			<use xlink:href="#intnr" x="750" y="680" id="New_Cross_Gate"/>
+			<use xlink:href="#st" x="750" y="710" id="Brockley"/>
+			<use xlink:href="#st" x="750" y="740" id="Honor_Oak_Park"/>
+			<use xlink:href="#st" transform="translate(720,770)rotate(90)" id="Forest_Hill"/>
+			<use xlink:href="#intnr" x="660" y="770" id="Sydenham"/>
+			<use xlink:href="#termnr" x="560" y="730" id="Crystal_Palace"/>
+			<use xlink:href="#route_e2" x="580" y="730"/>
+			<use xlink:href="#st" transform="translate(560,770)rotate(90)" id="Penge_West"/>
+			<use xlink:href="#st" transform="translate(490,770)rotate(90)" id="Anerley"/>
+			<use xlink:href="#intnr" x="420" y="770" id="Norwood_Junction"/>
+			<use xlink:href="#termnr" x="350" y="770" id="West_Croydon"/>
+			<use xlink:href="#route_e2" x="350" y="790"/>
+			<use xlink:href="#tl" x="280" y="797"/>
+		</g>
+		<g id="Seven_Sister_line_stations">
+			<use xlink:href="#termnr" x="702.5" y="478.5" id="Liverpool_Street"/>
+			<use xlink:href="#route_f" x="685" y="493"/>
+			<use xlink:href="#ug_central" x="610" y="490" id="Liverpool_Street_Central"/>
+			<use xlink:href="#ug_circle" x="610" y="502" id="Liverpool_Street_Circle"/>
+			<use xlink:href="#ug_hammersmith" x="610" y="514" id="Liverpool_Street_HnC"/>
+			<use xlink:href="#ug_metropolitan" x="610" y="526" id="Liverpool_Street_Metropolitan"/>
+			<use xlink:href="#elizabeth" x="610" y="538" id="Liverpool_Street_Elizabeth"/>
+			<use xlink:href="#st" x="729" y="400" id="Bethnal_Green_Chingford"/>
+			<use xlink:href="#st" x="739" y="400" id="Bethnal_Green"/>
+			<use xlink:href="#st" x="739" y="370" id="Cambridge_Heath"/>
+			<use xlink:href="#st" x="739" y="340" id="London_Fields"/>
+			<g cursor="help">
+				<title>20分鐘內免費站外來往兩站之間，480米步行距離。</title>
+				<use xlink:href="#intnr" x="734" y="269" id="Hackney_Downs"/>
+				<use xlink:href="#int" x="755" y="285" id="Hackney_Central"/>
+				<path style="stroke:#000;stroke-width:6" d="M 739,272.35 L 751,282"/>
+				<path style="stroke:#fff;stroke-width:1.5" d="M 738,272 L 755,285"/>
+			</g>
+			<use xlink:href="#st" transform="translate(699,220)rotate(135)" id="Rectory_Road"/>
+			<use xlink:href="#st" transform="translate(669,190)rotate(135)" id="Stoke_Newington"/>
+			<use xlink:href="#st" transform="translate(639,160)rotate(135)" id="Stamford_Hill"/>
+			<use xlink:href="#intnr" x="580" y="101" id="Seven_Sisters"/>
+			<use xlink:href="#ug_victoria" x="642" y="101" id="Seven_Sisters_Victoria"/>
+			<use xlink:href="#st" x="570" y="71" id="Bruce_Grove"/>
+			<use xlink:href="#st" x="570" y="41" id="White_Hart_Lane"/>
+			<use xlink:href="#st" x="570" y="11" id="Silver_Street"/>
+			<use xlink:href="#intnr" x="570" y="-21" id="Edmonton_Green"/>
+			
+			<use xlink:href="#st" transform="translate(510,-51)rotate(-90)" id="Bush_Hill_Park"/>
+			<use xlink:href="#term" x="460" y="-51" id="Enfield_Town"/>
+			<use xlink:href="#route_f2" x="460" y="-71"/>
+			
+			<use xlink:href="#st" transform="translate(630,-51)rotate(-90)" id="Southbury"/>
+			<use xlink:href="#st" transform="translate(710,-51)rotate(-90)" id="Turkey_Street"/>
+			<use xlink:href="#st" transform="translate(800,-51)rotate(-90)" id="Theobalds_Grove"/>
+			<use xlink:href="#termnr" x="870" y="-51" id="Cheshunt"/>
+			<use xlink:href="#route_f2" x="870" y="-71"/>
+			
+			<use xlink:href="#st" x="729" y="212" id="Clapton"/>
+			<use xlink:href="#st" x="729" y="177" id="St_James_Street"/>
+			<use xlink:href="#intosi" x="729" y="104" id="Walthamstow_Central"/>
+			<use xlink:href="#ug_victoria" x="746" y="77" id="Walthamstow_Central_Victoria"/>
+			<use xlink:href="#st" x="729" y="55" id="Wood_Street"/>
+			<use xlink:href="#st" x="729" y="25" id="Highams_Park"/>
+			<use xlink:href="#term" x="729" y="-5" id="Chingford"/>
+			<use xlink:href="#route_f2" x="709" y="-5"/>
+		</g>
+		<g id="Romford_to_Upminster_line_stations">
+			<use xlink:href="#termnr" x="1090" y="-51" id="Romford"/>
+			<use xlink:href="#route_g" x="1110" y="-51"/>
+			<use xlink:href="#elizabeth" x="1008" y="-27" id="Romford_Elizabeth"/>
+			<use xlink:href="#st" transform="translate(1130,-11)rotate(135)" id="Emerson_Park"/>
+			<use xlink:href="#termnr" x="1170" y="29" id="Upminster"/>
+			<use xlink:href="#route_g2" x="1190" y="29"/>
+			<use xlink:href="#ug_district" x="1111" y="67" id="Upminster_District"/>
+		</g>
+	</g>
+	<g id="text">
+		<g class="en sten" id="stname_en" transform="translate(0,4)">
+			<g id="stname_en_Watford_DC_line">
+				<text x="62" y="62">Watford Junction</text>
+				<text x="62" y="92">Watford High Street</text>
+				<text x="62" y="122">Bushey</text>
+				<text x="62" y="152">Carpenders Park</text>
+				<text x="62" y="182">Hatch End</text>
+				<text x="62" y="212">Headstone Lane</text>
+				<text x="62" y="242">Harrow &amp; Wealdstone</text>
+				<text x="62" y="272">Kenton</text>
+				<text x="62" y="302">South Kenton</text>
+				<text x="62" y="332">North Wembley</text>
+				<text x="62" y="362">Wembley Central</text>
+				<text x="62" y="392">Stonebridge Park</text>
+				<g class="mid">
+					<text x="120" y="444">Willesden Junction</text>
+					<text x="240" y="515">Kensal Green</text>
+					<text x="310" y="453">Queen's Park</text>
+					<text x="380" y="515">Kilburn High Road</text>
+					<text x="450" y="453">South Hampstead</text>
+					<text x="520" y="453">Euston</text>
+				</g>
+			</g>
+			<g id="stname_en_West_London_line">
+				<text x="130" y="540"><title>Out-of-station interchange for Central line</title>Shepherd's Bush</text>
+				<text x="165" y="575">Kensington (Olympia)</text>
+				<text x="200" y="610">West Brompton</text>
+				<text x="230" y="737" class="mid">Clapham Junction</text>
+				<text x="62" y="732">Richmond</text>
+			</g>
+			<g id="stname_en_North_London_line">
+				<text x="62" y="702">Kew Gardens</text>
+				<text x="62" y="672">Gunnersbury</text>
+				<text x="62" y="642">South Acton</text>
+				<text x="62" y="612">Acton Central</text>
+				<text x="215" y="457">Kensal Rise</text>
+				<text x="347" y="410">Brondesbury <tspan x="347" dy="10">Park</tspan></text>
+				<text x="335" y="370">Brondesbury</text>
+				<text x="335" y="330" dy="-5"><title>Out-of-station interchange for Jubilee line</title>West <tspan x="335" dy="10">Hampstead</tspan></text>
+				<text x="262" y="297"><title>Out-of-station interchange for Jubilee and Metropolitan lines at Finchley Road station</title>Finchley Road &amp; Frognal</text>
+				<text x="262" y="236">Hampstead Heath</text>
+				<text x="290" y="177" class="mid">Gospel Oak</text>
+				<text x="340" y="190"><title>Out-of-station interchange for Northern line at Kentish Town station</title> Kentish Town West</text>
+				<text x="408" y="221"><title>Out-of-station interchange for Northern line at Camden Town station</title>Camden Road</text>
+				<text x="480" y="229">Caledonian Road<tspan x="480" dy="10">&amp; Barnsbury</tspan></text>
+				<text x="510" y="338" class="end">Highbury &amp; Islington</text>
+				<text x="747" y="315">Hackney Central</text>
+				<g class="mid">
+					<text x="580" y="258">Canonbury</text>
+					<text x="669" y="253">Dalston Kingsland</text>
+					<text x="830" y="253">Homerton</text>
+					<text x="910" y="253">Hackney Wick</text>
+					<text x="990" y="317">Stratford</text>
+				</g>
+			</g>
+			<g id="stname_en_Gospel_Oak_Barking_line">
+				<text x="345" y="140" class="end"><title>Out-of-station interchange for Northern line at Archway station</title>Upper Holloway</text>
+				<text x="425" y="92" class="end">Crouch Hill</text>
+				<text x="742" y="154">Walthamstow Queen's Road</text>
+				<text x="979" y="124"><title>Out-of-station interchange for Central line at Leyton station</title>Leytonstone High Road</text>
+				<text x="1024" y="169"><title>Out-of-station interchange for TfL Rail at Forest Gate station</title>Wanstead Park</text>
+				<text x="1069" y="214"><title>Out-of-station interchange for TfL Rail at Manor Park station</title>Woodgrange Park</text>
+				<g class="mid">
+					<text x="500" y="92">Harringay Green Lanes</text>
+					<text x="580" y="154">South Tottenham</text>
+					<text x="685" y="154">Blackhorse Road</text>
+					<text x="905" y="81">Leyton<tspan x="905" dy="11">Midland Road</tspan></text>
+				</g>
+				<text x="1092" y="352">Renwick Road</text>
+				<text x="1092" y="387">Barking Riverside</text>
+			</g>
+			<g id="stname_en_East_London_line">
+				<g class="end">
+					<text x="619" y="347">Dalston Junction</text>
+					<text x="649" y="377">Haggerston</text>
+					<text x="679" y="407">Hoxton</text>
+					<text x="709" y="437">Shoreditch High Street</text>
+				</g>
+				<text x="762" y="472">Whitechapel</text>
+				<text x="762" y="502"><title>Out-of-station interchange for Docklands Light Railway at Shadwell DLR station</title>Shadwell</text>
+				<text x="762" y="530">Wapping</text>
+				<text x="762" y="562">Rotherhithe</text>
+				<text x="762" y="592">Canada Water</text>
+				<text x="762" y="622">Surrey Quays</text>
+				
+				<text x="371" y="695">Wandsworth Road</text>
+				<g class="mid">
+					<text x="695" y="617">Surrey Canal</text>
+					<text x="630" y="680">Queens Road Peckham</text>
+					<text x="565" y="617">Peckham Rye</text>
+					<text x="490" y="680">Denmark Hill</text>
+					<text x="425" y="617"><title>Out-of-station interchange for Northern line at Clapham North station</title>Clapham High Street</text>
+					<text x="300" y="655">Battersea Park</text>
+				</g>
+				<text x="762" y="692">New Cross Gate</text>
+				
+				<text x="762" y="722">Brockley</text>
+				<text x="762" y="752">Honor Oak Park</text>
+				<text x="715" y="800">Forest Hill</text>
+				<g class="mid">
+					<text x="660" y="800">Sydenham</text>
+					<text x="560" y="800">Penge West</text>
+					<text x="490" y="800">Anerley</text>
+					<text x="420" y="800">Norwood Junction</text>
+				</g>
+				<text x="338" y="782" class="end">West Croydon</text>
+			</g>
+			<g id="stname_eb_Seven_Sisters_line">
+				<g class="end">
+					<text x="690" y="459">Liverpool Street</text>
+				</g>
+				<text x="751" y="412">Bethnal Green</text>
+				<text x="751" y="382">Cambridge Heath</text>
+				<text x="751" y="352">London Fields</text>
+				<text x="744" y="240">Hackney<tspan x="744" dy="10">Downs</tspan></text>
+				<g class="end">
+					<text x="643" y="225">Rectory<tspan x="643" dy="11">Road</tspan></text>
+					<text x="659" y="212">Stoke Newington</text>
+					<text x="629" y="182">Stamford Hill</text>
+				</g>
+				<text x="592" y="86">Seven Sisters</text>
+				<text x="582" y="56">Bruce Grove</text>
+				<text x="582" y="26">White Hart Lane</text>
+				<text x="582" y="-4">Silver Street</text>
+				<text x="582" y="-34">Edmonton Green</text>
+				
+				<text x="510" y="-84" class="mid">Bush Hill Park</text>
+				<text x="448" y="-67" class="end">Enfield Town</text>
+				
+				<g class="mid">
+					<text x="630" y="-84">Southbury</text>
+					<text x="710" y="-84">Turkey Street</text>
+					<text x="800" y="-84">Theobalds Grove</text>
+				</g>
+				<text x="882" y="-67">Cheshunt</text>
+				
+				<text x="741" y="224">Clapton</text>
+				<text x="741" y="189">St James Street</text>
+				<text x="741" y="90">Walthamstow Central</text>
+				<text x="741" y="41">Wood Street</text>
+				<text x="741" y="11">Highams Park</text>
+				<text x="741" y="-21">Chingford</text>
+			</g>
+			<g id="stname_en_Romford_to_Upminster_line" class="end">
+				<text x="1078" y="-39">Romford</text>
+				<text x="1120" y="11">Emerson Park</text>
+				<text x="1158" y="53">Upminster</text>
+			</g>
+		</g>
+		<g class="zh" id="stname_zh" transform="translate(0,4)" font-size="14px" opacity="1">
+			<g id="stname_zh_Watford_DC_line">
+				<text x="62" y="50" style="font-weight:bold">沃特福德交匯</text>
+				<text x="62" y="80">沃特福德高街</text>
+				<text x="62" y="110">寶樹</text>
+				<text x="62" y="140">賈炳達公園</text>
+				<text x="62" y="170">夏治晏</text>
+				<text x="62" y="200">首石里</text>
+				<text x="62" y="230">哈洛及威斯頓</text>
+				<text x="62" y="260">肯頓</text>
+				<text x="62" y="290">南肯頓</text>
+				<text x="62" y="320">北溫布萊</text>
+				<text x="62" y="350">溫布萊中央</text>
+				<text x="62" y="380">石橋公園</text>
+				<text x="62" y="410">哈利斯登<tspan class="en sten"> Harlesden</tspan></text>
+				<g class="mid">
+					<text x="120" y="459" class="b">衛斯頓交匯</text>
+					<text x="240" y="503">堅守綠地</text>
+					<text x="310" y="468">昆士柏</text>
+					<text x="380" y="503">橋本高路</text>
+					<text x="450" y="468">南漢普斯特</text>
+					<text x="520" y="468" class="b">尤斯頓</text>
+				</g>
+				</g>
+			<g id="stname_zh_West_London_line">
+				<text x="125" y="528"><title>站外換乘中央綫</title>牧者林</text>
+				<text x="160" y="563">肯辛頓（奧林匹亞）</text>
+				<text x="195" y="598">西布林頓</text>
+				<text x="230" y="633"><tspan fill="#fff">帝國碼頭</tspan><tspan dy="-6" class="en sten"> Imperial</tspan></text>
+				<text x="230" y="633">帝國碼頭<tspan dy="5" class="en sten"> Wharf</tspan></text>
+				<text x="230" y="725" class="mid b">克拉珀姆交匯</text>
+				<text x="62" y="720" class="b">列治文</text>
+			</g>
+			<g id="stname_zh_North_London_line">
+				<text x="62" y="690">邱園</text>
+				<text x="62" y="660">根拿斯貝利</text>
+				<text x="62" y="630">南艾頓</text>
+				<text x="62" y="600">艾頓中央</text>
+				<text x="215" y="445">堅守台</text>
+				<text x="245" y="415">邦德斯貝利公園</text>
+				<text x="262" y="370">邦德斯貝利</text>
+				<text x="262" y="330"><title>站外換乘銀禧綫</title>西漢普斯特</text>
+				<text x="262" y="285"><title>出站往分治理路站換乘銀禧綫和大都會綫</title>分治理路及霍格勞</text>
+				<text x="262" y="250">漢普斯特希思</text>
+				<text x="290" y="192" class="b mid">福音橡</text>
+				<text x="340" y="203"><title>出站往肯特殊鎮站換乘北綫</title>肯特殊鎮西</text>
+				<text x="408" y="234"><title>出站往金頓鎮站換乘北綫</title>金頓路</text>
+				<text x="439" y="255">喀里多尼亞路<tspan x="439" dy="16">及邦斯柏利</tspan></text>
+				<text x="510" y="310" class="b end">高貝利及<tspan x="510" dy="16">伊斯靈頓</tspan></text>
+				<text x="747" y="303">克尼中央</text>
+				<g class="mid">
+					<text x="580" y="273">卡農貝利</text>
+					<text x="669" y="268">多斯頓王領地</text>
+					<text x="830" y="268">荷馬頓</text>
+					<text x="910" y="268">克尼域</text>
+					<text x="990" y="305" class="b">史特拉福</text>
+				</g>
+			</g>
+			<g id="stname_zh_Gospel_Oak_Barking_line">
+				<text x="345" y="155" class="end"><title>出站往拱門站換乘北綫</title>上賀洛威</text>
+				<text x="425" y="108" class="end">高治山</text>
+				<text x="742" y="142">禾潭斯都女王大道</text>
+				<text x="979" y="140"><title>出站往雷頓站換乘中央綫</title>雷頓斯通高路</text>
+				<text x="1024" y="185"><title>出站往森林門站換乘倫敦交通局鐵路</title>溫斯特公園</text>
+				<text x="1069" y="230"><title>出站往曼諾公園站換乘倫敦交通局鐵路</title>活格蘭治公園</text>
+				<g class="mid">
+					<text x="500" y="108">哈靈基公園巷</text>
+					<text x="580" y="142">南托定林</text>
+					<text x="685" y="142">黑馬路</text>
+					<text x="905" y="108">雷頓中原路</text>
+				</g>
+				<text x="1092" y="285">柏京<tspan class="en sten" font-weight="400"> Barking</tspan></text>
+				<text x="1092" y="340" class="x">倫尼克路</text>
+				<text x="1092" y="375" class="b">柏京河畔</text>
+			</g>
+			<g id="stname_zh_East_London_line">
+				<g class="end">
+					<text x="619" y="335" class="b">多斯頓交匯</text>
+					<text x="649" y="365">哈格斯頓</text>
+					<text x="679" y="395">賀斯頓</text>
+					<text x="709" y="425">修迪奇高街</text>
+				</g>
+				<text x="762" y="460">白教堂</text>
+				<text x="762" y="490"><title>站外換乘碼頭區輕便鐵路</title>沙特維</text>
+				<text x="762" y="520">威平</text>
+				<text x="762" y="550">洛特希</text>
+				<text x="762" y="580">加拿大塘</text>
+				<text x="762" y="610">素里碼頭</text>
+				
+				<text x="371" y="683">旺茲沃思路</text>
+				<g class="mid">
+					<text x="695" y="633" class="x">素里運河</text>
+					<text x="630" y="668">女王大道派克漢</text>
+					<text x="565" y="633">派克漢黑麥</text>
+					<text x="490" y="668">丹麥山</text>
+					<text x="425" y="633"><title>出站往克拉珀姆北站換乘北綫</title>克拉珀姆高街</text>
+					<text x="300" y="671">巴特西公園</text>
+				</g>
+				<text x="807" y="655"><tspan class="b">新十字</tspan><tspan class="en sten"> New Cross</tspan></text>
+				<text x="762" y="680">新十字門</text>
+				
+				<text x="762" y="710">布洛利</text>
+				<text x="762" y="740">貴橡園</text>
+				<text x="715" y="788">森林山</text>
+				<text x="545" y="730" class="end"><tspan class="en sten">Crystal Palace </tspan><tspan class="b">水晶宮</tspan></text>
+				<g class="mid">
+					<text x="660" y="788">薛登林</text>
+					<text x="560" y="788">賓治西</text>
+					<text x="490" y="788">安納利</text>
+					<text x="420" y="788">羅活交匯</text>
+				</g>
+				<text x="338" y="770" class="end b">西克洛頓</text>
+			</g>
+			<g id="stname_zh_Seven_Sisters_line">
+				<g class="end">
+					<text x="690" y="475" class="b">利物浦街</text>
+				</g>
+				<text x="751" y="400">貝思納爾綠地</text>
+				<text x="751" y="370">劍橋希思</text>
+				<text x="751" y="340">倫敦草地</text>
+				<g fill="#999">
+					<circle cx="815" cy="335" r="3" />
+					<circle cx="815" cy="365" r="3"/>
+					<circle cx="842" cy="395" r="3"/>
+				</g>
+				<path style="fill:none;stroke:#999;stroke-width:1" d="
+				M 815,335 H 870
+				V 395 H 842
+				M 815,365 H 850 V 335
+				"/>
+				<rect x="835" y="322" width="98" height="31" rx="5" fill="#eee" stroke="none"/>
+				<a xlink:href="http://www.tfl.gov.uk/modes/london-overground/london-overground-timetables" cursor="pointer">
+					<text x="840" y="335" font-size="11px" fill="#555">部分班次依時間表<tspan x="840" dy="12">不停這些車站。</tspan></text>
+					<title>所有地上鐵列車於星期日9時15分前不停此3站，星期六班次更複雜，出發前請查閱倫敦地上鐵時間表。</title>
+				</a>
+				<text x="744" y="264">克尼丘</text>
+				<g class="end">
+					<text x="689" y="230">神甫路</text>
+					<text x="659" y="200">斯托克紐因頓</text>
+					<text x="629" y="170">斯坦福德山</text>
+				</g>
+				<text x="592" y="101">七姊妹</text>
+				<text x="582" y="71">布魯斯灌林</text>
+				<text x="582" y="41">白牡鹿巷</text>
+				<text x="582" y="11">銀街</text>
+				<text x="582" y="-19">埃德蒙頓綠地</text>
+				
+				<text x="510" y="-68" class="mid">灌木山公園</text>
+				<text x="448" y="-51" class="end b">恩菲爾德鎮</text>
+				
+				<g class="mid">
+					<text x="630" y="-68">南貝利</text>
+					<text x="710" y="-68">土耳其街</text>
+					<text x="800" y="-68">西奧波斯灌林</text>
+				</g>
+				<text x="882" y="-51" class="b">切森特</text>
+				
+				<text x="741" y="212">克萊普頓</text>
+				<text x="741" y="177">聖詹姆斯街</text>
+				<text x="741" y="104">禾潭斯都中央</text>
+				<text x="741" y="55">活街</text>
+				<text x="741" y="25">亥安姆斯公園</text>
+				<text x="741" y="-5" class="b">清福德</text>
+			</g>
+			<g id="stname_zh_Romford_to_Upminster_line" class="end">
+				<text x="1078" y="-51" class="b">羅姆福德</text>
+				<text x="1120" y="-1">艾默生公園</text>
+				<text x="1158" y="41" class="b">上敏</text>
+			</g>
+		</g>
+		<g id="river_name" class="title rn" font-size="14px">
+			<text x="450" y="589">泰晤士河</text>
+			<text transform="translate(1020,480)rotate(-45)" class="en">River Thames</text>
+		</g>
+	</g>
+	<g id="title_header">
+		<path class="fog" style="stroke:none" d="M -10,-90 h 260 q 28,0 48,-20 20,-20 48,-20 H -10 z"/>
+		<text class="title" x="5" y="-98" style="font-size:30px;fill:#fff">倫敦地上鐵路綫圖</text>
+	</g>
+	<g id="legendbox_group" transform="translate(965,488)">
+		<rect id="legend_rim" x="0" y="0" width="235" height="310" rx="20" fill="#eee"/>
+		<path id="legend_rim_title" class="fog" d="M 0,30 v -10 a 20,20 0 0,1 20,-20 h 195 a 20,20 0 0,1 20,20 v 10"/>
+		<path id="legend_rim_bottom" fill="#fff" d="M 0,140 v 150 a 20,20 0 0,0 20,20 h 195 a 20,20 0 0,0 20,-20 v -150"/>
+		<use xlink:href="#legend_rim" style="stroke:#999;stroke-width:3;fill-opacity:0"/>
+		<text class="title mid" style="font-size:18px;fill:#fff" x="117.5" y="22">圖例</text>
+		<g transform="translate(20,50)">
+			<path class="sog" stroke-width="5" d="M 0,0 V 135"/>
+			<use xlink:href="#term" x="0" y="0"/>
+			<use xlink:href="#route_a" x="20" y="0"/>
+			<use xlink:href="#int" x="0" y="30"/>
+			<path class="osi" d="M 0,60 h 25"/>
+			<use xlink:href="#intosi" x="0" y="60"/>
+			<use xlink:href="#intosi" x="25" y="60"/>
+			<path class="doublezone" d="M 6,90 l 3,-3 v -7 h 190 v 10 v 10 h -190 v -7 l -3,-3 z"/>
+			<use xlink:href="#st" x="0" y="90"/>
+			<use xlink:href="#intnr" x="0" y="120"/>
+			<use xlink:href="#ug" x="0" y="149"/>
+			<use xlink:href="#ring" x="0" y="179" class="selizabeth"/>
+			<use xlink:href="#stripe" x="0" y="179"/>
+			<use xlink:href="#ring" x="0" y="209" class="sdlr"/>
+			<use xlink:href="#stripe" x="0" y="209"/>
+			<use xlink:href="#ring" x="0" y="239" class="stl"/>
+			<use xlink:href="#stripe" x="0" y="239"/>
+			<text class="zh" font-size="15px" transform="translate(12,4)">
+				<tspan x="25" y="0">路綫終點站</tspan>
+				<tspan x="0" dy="30">轉車站</tspan>
+				<tspan x="25" dy="30">站外轉車</tspan>
+				<tspan x="2" dy="31">處於兩個收費區之間的車站</tspan>
+				<tspan x="0" dy="30">英國國鐵（NR）</tspan>
+				<tspan x="0" dy="30">倫敦地鐵（Tube）</tspan>
+				<tspan x="0" dy="30">伊利莎伯綫（橫貫鐵路）</tspan>
+				<tspan x="0" dy="30">碼頭區輕便鐵路（DLR）</tspan>
+				<tspan x="0" dy="30">電車連綫（Tramlink）</tspan>
+			</text>
+		</g>
+	</g>
+	<path stroke="#aaa" stroke-width="2" d="M -100,810 H 1500"/>
+	<g transform="translate(80,810)">
+		<use xlink:href="#route_a" x="0" y="20"/>
+		<use xlink:href="#route_b" x="0" y="45"/>
+		<use xlink:href="#route_c" x="0" y="70"/>
+		<use xlink:href="#route_d" x="310" y="20"/>
+		<use xlink:href="#route_e" x="310" y="45"/>
+		<use xlink:href="#route_f" x="310" y="70"/>
+		<rect x="865" y="5" width="185" height="60" rx="10" stroke="none" fill="#eee"/>
+		<use xlink:href="#route_g" x="880" y="20"/>
+		<g font-size="16px" class="zh">
+			<text x="15" y="25">沃特福德交匯－尤斯頓</text>
+			<text x="15" y="50">列治文／克拉珀姆交匯－史特拉福</text>
+			<text x="15" y="75">衛斯頓交匯－克拉珀姆交匯</text>
+			<text x="325" y="25">福音橡－柏京</text>
+			<text x="325" y="50">多斯頓／高貝利及伊斯靈頓－克拉珀姆交匯／西克洛頓／水晶宮／新十字</text>
+			<text x="325" y="75">利物浦街－恩菲爾德鎮／切森特／清福德</text>
+			<text x="895" y="25">羅姆福德－上敏<tspan x="895" dy="17" font-size="11px" fill="#666">平日列車於晚上8時後停運；<tspan x="895" dy="15">星期日不提供服務。</tspan></tspan></text>
+		</g>
+	</g>
+</svg>

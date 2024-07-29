@@ -1,0 +1,38 @@
+def draw_span(li):
+	for i in li:
+		for j in i:
+			if j==0:
+				print('<span class="r">',end="")
+			elif j==1:
+				print('<span class="g">',end="")
+			print('&nbsp;&nbsp;</span>')
+		print('<br>')
+
+def draw_table(li):
+	print('<table border="0">')
+	for i in li:
+		print('<tr>')
+		for j in i:
+			if j==0:
+				print('<td class="r" ',end="")
+			elif j==1:
+				print('<td class="g" ',end="")
+			print('width="50" height="50"></td>')
+		print('</tr>')
+	print('</table>')
+
+function draw(li){
+	for(var i=0;i<li.lenth;i++){
+		var ii=li[i];
+		for(var j=0;j<ii.lenth;j++){
+			var jj=ii[j];
+			if(jj===0){
+				document.write('<span class="r">')
+			}else if(jj===1){
+				document.write('<span class="g">')
+			}
+			document.write('&nbsp;&nbsp;</span>')
+		document.write('<br>')
+		}
+	}
+}
