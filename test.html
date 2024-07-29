@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>test</title>
+<style>
+
+</style>
+</head>
+<body>
+<menu type="toolbar">
+	<li>
+		<menu label="檔案">
+			<button type="button" onclick="fnew()">開新檔案...</button>
+			<button type="button" onclick="fopen()">開啟舊檔...</button>
+			<button type="button" onclick="fsave()">儲存檔案...</button>
+			<button type="button" onclick="fsaveas()">另存新檔...</button>
+		</menu>
+	</li>
+	<li>
+		<menu label="編輯">
+			<button type="button" onclick="ecopy()">複製</button>
+			<button type="button" onclick="ecut()">剪下</button>
+			<button type="button" onclick="epaste()">貼上</button>
+		</menu>
+	</li>
+	<li>
+		<menu label="說明">
+			<li><a href="help.html">說明</a></li>
+			<li><a href="about.html">有關ANK Editor</a></li>
+		</menu>
+	</li>
+</menu>
+<form method="post" enctype="text/plain" action="test.php">
+<input required type="text" name="text"/>
+<input type="datetime-local" name="dtl"/>
+<input type="color" name="color"/>
+<input type="submit"/>
+</form>
+</body>
+</html>
