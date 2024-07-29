@@ -1,0 +1,4 @@
+Alt + Caps Lock		ア
+Ctrl + Caps Lock	あ
+Shift + Caps Lock	あ~_A
+Alt + ~			_A~Ａ
