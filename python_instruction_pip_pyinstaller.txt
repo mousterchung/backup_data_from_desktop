@@ -1,0 +1,12 @@
+PIP:
+ pip list
+ pip list --outdated
+ pip install <name>
+ pip show <name>
+
+PyInstaller:
+ cd "C:\Users\Dinsh\AppData\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages"
+ python pyinstaller -F "C:\Users\Dinsh\Desktop\pyinstaller\hello_test.py"
+  --distpath "C:\Users\Dinsh\Desktop\pyinstaller\dist"
+  --workpath "C:\Users\Dinsh\Desktop\pyinstaller\build"
+  --specpath "C:\Users\Dinsh\Desktop\pyinstaller"
