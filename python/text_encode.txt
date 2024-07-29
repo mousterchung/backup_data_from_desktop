@@ -1,0 +1,24 @@
+ascii		646,us-ascii										英文
+latin_1		iso-8859-1,iso8859-1,8859,p819,latin,latin1,L1						西歐
+cp1252		windows-1252										西歐
+cp437		437,IBM437										英文
+cp850		850,IBM850										西歐
+big5		big5-tw,csbig5										繁體中文
+cp950		950,ms950										繁體中文
+big5hkscs	big5-hkscs,hkscs									繁體中文
+gb2312		gb2312-1980,gb2312-80,eucgb2312-cn,euc-cn,edccn,iso-ir-58,csiso58gb231280,chinese	簡體中文
+hz		hzgb,hz-gb,hz-gn-2312									簡體中文
+gbk		936,cp936,ms936										中文
+gb18030		gb18030-2000										中文
+shift-jis	shiftjis,sjis,s_jis,csshiftjis								日文
+cp932		932,ms932,mskanji,ms-kanji								日文
+euc_jp		eucjp,ujis,u-jis									日文
+iso2022_jp	csiso2022jp,iso2022jp,iso-2022-jp							日文
+utf_8		utf8,U8,UTF										Unicode
+utf_8_sig												Unicode，加上BOM
+utf_16		U16,utf16										Unicode
+utf_16_be	UTF-16BE										Unicode，只有BMP
+utf_16_le	UTF-16LE										Unicode，只有BMP
+utf_32		utf32,U32										Unicode
+utf_32_be	UTF-32BE										Unicode
+utf_32_le	UTF-32LE										Unicode

@@ -1,0 +1,13 @@
+pip install -U pip			更新pip本身，Linux與Mac OS X
+python -u pip install -U pip		更新pip本身，Windows
+pip install <module name>		安裝模組
+pip install <module name>==X.Y.Z	指定版本
+pip install <module name>>=X.Y.Z	指定最低版本
+pip install <module name>.whl		安裝與下載的套件包(Wheel格式)
+pip install --upgrade <module name>	更新
+pip uninstall <module name>		解除安裝
+pip list				列出已安裝模組
+pip list --outdated			列出過舊的模組
+pip show <module name>			秀出模組詳細資訊
+pip search "keyword"			搜尋PyPI
+pip install --user <module name>	只安裝給單一使用者
