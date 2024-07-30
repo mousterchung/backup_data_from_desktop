@@ -33,6 +33,9 @@ mrt{
 	display: table;
 	border: solid 1px;
 	border-spacing: 2px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 line{
@@ -41,6 +44,7 @@ line{
 	background: var(--line-color-bg);
 	--line-color-fg: attr(line-color-fg color);
 	color: var(--line-color-fg);
+	text-align: left;
 }
 
 line-name-zhtw, line-name-en, line-name-ja, line-name-ko, sta-name-zhtw, sta-name-en, sta-name-ja, sta-name-ko, transfers{
@@ -49,34 +53,42 @@ line-name-zhtw, line-name-en, line-name-ja, line-name-ko, sta-name-zhtw, sta-nam
 	padding: 2px;
 }
 
+line-name-zhtw, line-name-en, line-name-ja, line-name-ko{
+	position: sticky;
+	z-index: 1;
+	top: 0px;
+	background: white;
+}
+
 line-name-zhtw, sta-name-zhtw{
-	
+	width: 12vw;
 }
 
 line-name-en, sta-name-en{
-	
+	width: 30vw;
 }
 
 line-name-ja, sta-name-ja{
-	
+	width: 12vw;
 }
 
 line-name-ko, sta-name-ko{
-	
+	width: 12vw;
 }
 
 transfer{
 	display: block;
+	width: 17vw;
 }
 
 station{
 	display: table-row;
 }
 
-line-name-zhtw, line-name-en, line-name-ja, line-name-ko{
+/*line-name-zhtw, line-name-en, line-name-ja, line-name-ko{
 	color: attr(line-color-fg);
 	background:attr(line-color-bg);
-}
+}*/
 
 [no-service="true"]{
 	color: var(--color-grey);
@@ -85,4 +97,12 @@ line-name-zhtw, line-name-en, line-name-ja, line-name-ko{
 [out-of-sta="true"]::after{
 	content: "（站外轉乘）";
 	color: var(--color-grey);
+}
+
+[href]{
+	text-decoration: none;
+}
+
+[href]:hover{
+	text-decoration: underline;
 }

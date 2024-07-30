@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet href="./xsl/mrt.xsl" type="text/xsl"?>
-<!--<?xml-stylesheet href="./../css/mrt.css" type="text/css"?>-->
+<!--<?xml-stylesheet href="./xsl/mrt.xsl" type="text/xsl"?>-->
+<?xml-stylesheet href="./../css/mrt.css" type="text/css"?>
 <!DOCTYPE mrt SYSTEM "./dtd/mrt.dtd">
-<mrt place-zhtw="台北" place-en="taipei">
+<mrt place-zhtw="台北" place-en="taipei" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+	<xhtml:script type="text/javascript" src="./../js/css_attr.js"></xhtml:script>
 	<line line-id="taipei-br" line-color-bg="#c48c31" line-color-fg="white">
 		<line-name-zhtw>文湖線</line-name-zhtw>
 		<line-name-en>Wenhu Line</line-name-en>

@@ -2,7 +2,8 @@
 <!--<?xml-stylesheet href="./xsl/mrt.xsl" type="text/xsl"?>-->
 <?xml-stylesheet href="./../css/mrt.css" type="text/css"?>
 <!DOCTYPE mrt SYSTEM "./dtd/mrt.dtd">
-<mrt place-zhtw="新北" place-en="newtaipei">
+<mrt place-zhtw="新北" place-en="newtaipei" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+	<xhtml:script type="text/javascript" src="./../js/css_attr.js"></xhtml:script>
 	<line line-id="newtaipei-y" line-color-bg="#ffdb00" line-color-fg="black">
 		<line-name-zhtw>環狀線</line-name-zhtw>
 		<line-name-en>Circular Line</line-name-en>
