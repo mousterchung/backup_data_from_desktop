@@ -153,7 +153,7 @@
 			<transfers>
 				<transfer no-service="true">
 					<transfer-line transfer-line="newtaipei-y">環狀線</transfer-line>
-					<transfer-line-sta transfer-line-sta="newtaipei-y29">劍南路（美麗華）</transfer-line-sta>
+					<transfer-line-sta transfer-line-sta="newtaipei-y30">劍南路（美麗華）</transfer-line-sta>
 				</transfer>
 			</transfers>
 		</station>
@@ -260,7 +260,7 @@
 			<transfers>
 				<transfer no-service="true" out-of-sta="true">
 					<transfer-line transfer-line="newtaipei-y">環狀線</transfer-line>
-					<transfer-line-sta transfer-line-sta="newtaipei-y38">象山</transfer-line-sta>
+					<transfer-line-sta transfer-line-sta="newtaipei-y39">象山</transfer-line-sta>
 				</transfer>
 			</transfers>
 		</station>
@@ -416,7 +416,7 @@
 			<transfers>
 				<transfer no-service="true">
 					<transfer-line transfer-line="newtaipei-y">環狀線</transfer-line>
-					<transfer-line-sta transfer-line-sta="newtaipei-y26">士林</transfer-line-sta>
+					<transfer-line-sta transfer-line-sta="newtaipei-y27">士林</transfer-line-sta>
 				</transfer>
 			</transfers>
 		</station>
@@ -743,7 +743,7 @@
 			<transfers>
 				<transfer no-service="true" out-of-sta="true">
 					<transfer-line transfer-line="newtaipei-y">環狀線</transfer-line>
-					<transfer-line-sta transfer-line-sta="newtaipei-y36">松山</transfer-line-sta>
+					<transfer-line-sta transfer-line-sta="newtaipei-y37">松山</transfer-line-sta>
 				</transfer>
 			</transfers>
 		</station>
@@ -998,7 +998,7 @@
 			<transfers>
 				<transfer no-service="true">
 					<transfer-line transfer-line="newtaipei-y">環狀線</transfer-line>
-					<transfer-line-sta transfer-line-sta="newtaipei-y21">徐匯中學</transfer-line-sta>
+					<transfer-line-sta transfer-line-sta="newtaipei-y22">徐匯中學</transfer-line-sta>
 				</transfer>
 			</transfers>
 		</station>
@@ -1225,7 +1225,7 @@
 			<transfers>
 				<transfer no-service="true">
 					<transfer-line transfer-line="newtaipei-y">環狀線</transfer-line>
-					<transfer-line-sta transfer-line-sta="newtaipei-y37">永春</transfer-line-sta>
+					<transfer-line-sta transfer-line-sta="newtaipei-y38">永春</transfer-line-sta>
 				</transfer>
 			</transfers>
 		</station>

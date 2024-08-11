@@ -25,15 +25,7 @@
 				</transfer>
 			</transfers>
 		</station>
-		<station sta-id="newtaipei-y01a" no-service="true">
-			<sta-name-zhtw>（站名未定）</sta-name-zhtw>
-			<sta-name-en>( Station Name Undecided )</sta-name-en>
-			<sta-name-ja>（駅名未定）</sta-name-ja>
-			<sta-name-ko>( 역명 미정 )</sta-name-ko>
-			<transfers>
-			</transfers>
-		</station>
-		<station sta-id="newtaipei-y02a" no-service="true">
+		<station sta-id="newtaipei-y02" no-service="true">
 			<sta-name-zhtw>（站名未定）</sta-name-zhtw>
 			<sta-name-en>( Station Name Undecided )</sta-name-en>
 			<sta-name-ja>（駅名未定）</sta-name-ja>
@@ -58,6 +50,14 @@
 			</transfers>
 		</station>
 		<station sta-id="newtaipei-y05" no-service="true">
+			<sta-name-zhtw>（站名未定）</sta-name-zhtw>
+			<sta-name-en>( Station Name Undecided )</sta-name-en>
+			<sta-name-ja>（駅名未定）</sta-name-ja>
+			<sta-name-ko>( 역명 미정 )</sta-name-ko>
+			<transfers>
+			</transfers>
+		</station>
+		<station sta-id="newtaipei-y06" no-service="true">
 			<sta-name-zhtw>（站名未定）</sta-name-zhtw>
 			<sta-name-en>( Station Name Undecided )</sta-name-en>
 			<sta-name-ja>（駅名未定）</sta-name-ja>
@@ -209,7 +209,7 @@
 				</transfer>
 			</transfers>
 		</station>
-		<station sta-id="newtaipei-y19a" no-service="true">
+		<station sta-id="newtaipei-y20a" no-service="true">
 			<sta-name-zhtw>（站名未定）</sta-name-zhtw>
 			<sta-name-en>( Station Name Undecided )</sta-name-en>
 			<sta-name-ja>（駅名未定）</sta-name-ja>
@@ -217,15 +217,7 @@
 			<transfers>
 			</transfers>
 		</station>
-		<station sta-id="newtaipei-y19b" no-service="true">
-			<sta-name-zhtw>（站名未定）</sta-name-zhtw>
-			<sta-name-en>( Station Name Undecided )</sta-name-en>
-			<sta-name-ja>（駅名未定）</sta-name-ja>
-			<sta-name-ko>( 역명 미정 )</sta-name-ko>
-			<transfers>
-			</transfers>
-		</station>
-		<station sta-id="newtaipei-y20" no-service="true">
+		<station sta-id="newtaipei-y20b" no-service="true">
 			<sta-name-zhtw>（站名未定）</sta-name-zhtw>
 			<sta-name-en>( Station Name Undecided )</sta-name-en>
 			<sta-name-ja>（駅名未定）</sta-name-ja>
@@ -234,6 +226,14 @@
 			</transfers>
 		</station>
 		<station sta-id="newtaipei-y21" no-service="true">
+			<sta-name-zhtw>（站名未定）</sta-name-zhtw>
+			<sta-name-en>( Station Name Undecided )</sta-name-en>
+			<sta-name-ja>（駅名未定）</sta-name-ja>
+			<sta-name-ko>( 역명 미정 )</sta-name-ko>
+			<transfers>
+			</transfers>
+		</station>
+		<station sta-id="newtaipei-y22" no-service="true">
 			<sta-name-zhtw>徐匯中學</sta-name-zhtw>
 			<sta-name-en>Saint Ignatius High School</sta-name-en>
 			<sta-name-ja>徐匯高校</sta-name-ja>
@@ -245,7 +245,7 @@
 				</transfer>
 			</transfers>
 		</station>
-		<station sta-id="newtaipei-y22" no-service="true">
+		<station sta-id="newtaipei-y23" no-service="true">
 			<sta-name-zhtw>（站名未定）</sta-name-zhtw>
 			<sta-name-en>( Station Name Undecided )</sta-name-en>
 			<sta-name-ja>（駅名未定）</sta-name-ja>
@@ -255,14 +255,6 @@
 					<transfer-line transfer-line="newtaipei-f">五股板橋輕軌</transfer-line>
 					<transfer-line-sta transfer-line-sta="newtaipei-f*">（站名未定）</transfer-line-sta>
 				</transfer>
-			</transfers>
-		</station>
-		<station sta-id="newtaipei-y23" no-service="true">
-			<sta-name-zhtw>（站名未定）</sta-name-zhtw>
-			<sta-name-en>( Station Name Undecided )</sta-name-en>
-			<sta-name-ja>（駅名未定）</sta-name-ja>
-			<sta-name-ko>( 역명 미정 )</sta-name-ko>
-			<transfers>
 			</transfers>
 		</station>
 		<station sta-id="newtaipei-y24" no-service="true">
@@ -282,6 +274,14 @@
 			</transfers>
 		</station>
 		<station sta-id="newtaipei-y26" no-service="true">
+			<sta-name-zhtw>（站名未定）</sta-name-zhtw>
+			<sta-name-en>( Station Name Undecided )</sta-name-en>
+			<sta-name-ja>（駅名未定）</sta-name-ja>
+			<sta-name-ko>( 역명 미정 )</sta-name-ko>
+			<transfers>
+			</transfers>
+		</station>
+		<station sta-id="newtaipei-y27" no-service="true">
 			<sta-name-zhtw>士林</sta-name-zhtw>
 			<sta-name-en>Shilin</sta-name-en>
 			<sta-name-ja>士林</sta-name-ja>
@@ -293,14 +293,6 @@
 				</transfer>
 			</transfers>
 		</station>
-		<station sta-id="newtaipei-y27" no-service="true">
-			<sta-name-zhtw>（站名未定）</sta-name-zhtw>
-			<sta-name-en>( Station Name Undecided )</sta-name-en>
-			<sta-name-ja>（駅名未定）</sta-name-ja>
-			<sta-name-ko>( 역명 미정 )</sta-name-ko>
-			<transfers>
-			</transfers>
-		</station>
 		<station sta-id="newtaipei-y28" no-service="true">
 			<sta-name-zhtw>（站名未定）</sta-name-zhtw>
 			<sta-name-en>( Station Name Undecided )</sta-name-en>
@@ -310,6 +302,14 @@
 			</transfers>
 		</station>
 		<station sta-id="newtaipei-y29" no-service="true">
+			<sta-name-zhtw>（站名未定）</sta-name-zhtw>
+			<sta-name-en>( Station Name Undecided )</sta-name-en>
+			<sta-name-ja>（駅名未定）</sta-name-ja>
+			<sta-name-ko>( 역명 미정 )</sta-name-ko>
+			<transfers>
+			</transfers>
+		</station>
+		<station sta-id="newtaipei-y30" no-service="true">
 			<sta-name-zhtw>劍南路（美麗華）</sta-name-zhtw>
 			<sta-name-en>Jiannan Road ( Miramar )</sta-name-en>
 			<sta-name-ja>剣南路</sta-name-ja>
@@ -319,14 +319,6 @@
 					<transfer-line transfer-line="taipei-br">文湖線</transfer-line>
 					<transfer-line-sta transfer-line-sta="taipei-br15">劍南路（美麗華）</transfer-line-sta>
 				</transfer>
-			</transfers>
-		</station>
-		<station sta-id="newtaipei-y30" no-service="true">
-			<sta-name-zhtw>（站名未定）</sta-name-zhtw>
-			<sta-name-en>( Station Name Undecided )</sta-name-en>
-			<sta-name-ja>（駅名未定）</sta-name-ja>
-			<sta-name-ko>( 역명 미정 )</sta-name-ko>
-			<transfers>
 			</transfers>
 		</station>
 		<station sta-id="newtaipei-y31" no-service="true">
@@ -367,13 +359,21 @@
 			<sta-name-ja>（駅名未定）</sta-name-ja>
 			<sta-name-ko>( 역명 미정 )</sta-name-ko>
 			<transfers>
+			</transfers>
+		</station>
+		<station sta-id="newtaipei-y36" no-service="true">
+			<sta-name-zhtw>（站名未定）</sta-name-zhtw>
+			<sta-name-en>( Station Name Undecided )</sta-name-en>
+			<sta-name-ja>（駅名未定）</sta-name-ja>
+			<sta-name-ko>( 역명 미정 )</sta-name-ko>
+			<transfers>
 				<transfer no-service="true">
 					<transfer-line transfer-line="keelung-sb">民生汐止線</transfer-line>
 					<transfer-line-sta transfer-line-sta="keelung-sb07">（站名未定）</transfer-line-sta>
 				</transfer>
 			</transfers>
 		</station>
-		<station sta-id="newtaipei-y36" no-service="true">
+		<station sta-id="newtaipei-y37" no-service="true">
 			<sta-name-zhtw>松山</sta-name-zhtw>
 			<sta-name-en>Songshan</sta-name-en>
 			<sta-name-ja>松山</sta-name-ja>
@@ -385,7 +385,7 @@
 				</transfer>
 			</transfers>
 		</station>
-		<station sta-id="newtaipei-y37" no-service="true">
+		<station sta-id="newtaipei-y38" no-service="true">
 			<sta-name-zhtw>永春</sta-name-zhtw>
 			<sta-name-en>Yongchun</sta-name-en>
 			<sta-name-ja>永春</sta-name-ja>
@@ -397,7 +397,7 @@
 				</transfer>
 			</transfers>
 		</station>
-		<station sta-id="newtaipei-y38" no-service="true">
+		<station sta-id="newtaipei-y39" no-service="true">
 			<sta-name-zhtw>象山</sta-name-zhtw>
 			<sta-name-en>Xiangshan</sta-name-en>
 			<sta-name-ja>象山</sta-name-ja>
@@ -409,7 +409,7 @@
 				</transfer>
 			</transfers>
 		</station>
-		<station sta-id="newtaipei-y39" no-service="true">
+		<station sta-id="newtaipei-y40" no-service="true">
 			<sta-name-zhtw>（站名未定）</sta-name-zhtw>
 			<sta-name-en>( Station Name Undecided )</sta-name-en>
 			<sta-name-ja>（駅名未定）</sta-name-ja>
