@@ -1,0 +1,11 @@
+<!ELEMENT mrt-stalist (group*)>							<!--root-->
+	<!ELEMENT group (sta*)>
+		<!ATTLIST group letter CDATA>
+		
+		<!ELEMENT sta (sta-name-zhtw, sta-name-en, sta-number*)>
+			<!ELEMENT sta-name-zhtw #PCDATA>
+			<!ELEMENT sta-name-en   #PCDATA>
+			<!ELEMENT sta-number    EMPTY>
+				<!ATTLIST sta-number
+				<!ATTLIST sta-number
+				<!ATTLIST sta-number

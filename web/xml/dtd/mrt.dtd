@@ -1,6 +1,6 @@
 <!ELEMENT mrt (xhtml:script, line*)>					<!--root-->
-	<!ATTLIST mrt place-zhtw  #PCDATA>
-	<!ATTLIST mrt place-en    #PCDATA>
+	<!ATTLIST mrt place-zhtw  CDATA>
+	<!ATTLIST mrt place-en    CDATA>
 	<!ATTLIST mrt xmlns:xhtml #FIXED http://www.w3.org/1999/xhtml>
 	
 	<!ELEMENT line (line-name-zhtw, line-name-en, line-name-ja, line-name-ko, station*)>
