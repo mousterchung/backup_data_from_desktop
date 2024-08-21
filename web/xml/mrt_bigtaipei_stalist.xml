@@ -4,4 +4,87 @@
 	<group letter="A">
 		
 	</group>
+	<group letter="B">
+		
+	</group>
+	<group letter="C">
+		
+	</group>
+	<group letter="D">
+		
+	</group>
+	<group letter="E">
+		
+	</group>
+	<group letter="F">
+		
+	</group>
+	<group letter="G">
+		
+	</group>
+	<group letter="H">
+		
+	</group>
+	<group letter="I">
+		
+	</group>
+	<group letter="J">
+		
+	</group>
+	<group letter="K">
+		
+	</group>
+	<group letter="L">
+		
+	</group>
+	<group letter="M">
+		
+	</group>
+	<group letter="N">
+		
+	</group>
+	<group letter="O">
+		
+	</group>
+	<group letter="P">
+		
+	</group>
+	<group letter="Q">
+		
+	</group>
+	<group letter="R">
+		
+	</group>
+	<group letter="S">
+		
+	</group>
+	<group letter="T">
+		<sta>
+			<sta-name-zhtw>台北車站</sta-name-zhtw>
+			<sta-name-en>Taipei Main Station</sta-name-en>
+			<sta-numbers>
+				<sta-number place="TP" route="R" stano="10"/>
+				<sta-number place="TP" route="BL" stano="12"/>
+				<sta-number place="TY" route="A" stano="1"/>
+			</sta-numbers>
+		</sta>
+	</group>
+	<group letter="U">
+		
+	</group>
+	<group letter="V">
+		
+	</group>
+	<group letter="W">
+		
+	</group>
+	<group letter="X">
+		
+	</group>
+	<group letter="Y">
+		
+	</group>
+	<group letter="Z">
+		
+	</group>
 </mrt-stalist>
