@@ -29,7 +29,7 @@ group::before{
 	display: block; 
 	position: sticky; 
 	top: 0; 
-	background: #AAA; 
+	background: #DDD; 
 	content: attr(letter); 
 	text-align: center; 
 	font-size: 2em; 
@@ -39,6 +39,11 @@ sta{
 	display: block; 
 }
 
+[no-service="true"]{
+	background-color: #AAA; 
+	color: white; 
+}
+
 sta-name-zhtw, sta-name-en, route-and-stanos{
 	display: inline; 
 }
@@ -46,8 +51,8 @@ sta-name-zhtw, sta-name-en, route-and-stanos{
 route-and-stano{
 	display: inline-block; 
 	border-style: solid; 
-	border-radius: 7px / 10px; 
-	width: 1.4rem; 
+	border-radius: 10px; 
+	width: 1.7rem; 
 }
 
 route-and-stano::before{
@@ -55,7 +60,7 @@ route-and-stano::before{
 	white-space: pre; 
 	font-size: 0.5em; 
 	display: inline-block; 
-	width: 1.4rem; 
+	width: 1.7rem; 
 	text-align: center; 
 }
 
@@ -64,7 +69,7 @@ route-and-stano::after{
 	white-space: pre; 
 	font-size: 0.5em; 
 	display: inline-block; 
-	width: 1.4rem; 
+	width: 1.7rem; 
 	text-align: center; 
 }
 
@@ -88,6 +93,18 @@ route-and-stano[place="TP"][route="BL"]{
 	border-color: #0070bd; 
 }
 
+route-and-stano[place="TP"][route="LG"]{
+	border-color: #a1d884; 
+}
+
+route-and-stano[place="TP"][route="SB"]{
+	border-color: #25aae1; 
+}
+
+route-and-stano[place="TP"][route="LR"]{
+	border-color: #e40078; 
+}
+
 route-and-stano[place="NT"][route="Y"]{
 	border-color: #ffdb00; 
 }
@@ -100,6 +117,38 @@ route-and-stano[place="NT"][route="K"]{
 	border-color: #a28d5b; 
 }
 
+route-and-stano[place="NT"][route="LB"]{
+	border-color: #79bce8; 
+}
+
+route-and-stano[place="NT"][route="S"]{
+	border-color: #cc7722; 
+}
+
+route-and-stano[place="NT"][route="F"]{
+	border-color: #e5007f; 
+}
+
 route-and-stano[place="TY"][route="A"]{
 	border-color: #8246af; 
+}
+
+route-and-stano[place="TY"][route="G"]{
+	border-color: #62A033; 
+}
+
+route-and-stano[place="TY"][route="BRH"]{
+	border-color: #824729; 
+}
+
+route-and-stano[place="TP"][route="R"][stano="22A"]{
+	border-color: fd92a3; 
+}
+
+route-and-stano[place="TP"][route="G"][stano="03A"]{
+	border-color: cfdb00; 
+}
+
+route-and-stano[place="TP"][route="SB"]:is([stano="11A"], [stano="11B"], [stano="11C"]){
+	border-color: #a1d884; 
 }
