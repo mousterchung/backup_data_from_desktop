@@ -62,6 +62,13 @@
 			</route-and-stanos>
 		</sta>
 		<sta>
+			<sta-name-zhtw>丹鳳</sta-name-zhtw>
+			<sta-name-en>Danfeng</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TP" route="O" stano="20"/>
+			</route-and-stanos>
+		</sta>
+		<sta>
 			<sta-name-zhtw>大坪林</sta-name-zhtw>
 			<sta-name-en>Dapinglin</sta-name-en>
 			<route-and-stanos>
@@ -112,6 +119,13 @@
 		
 	</group>
 	<group letter="F">
+		<sta>
+			<sta-name-zhtw>輔大</sta-name-zhtw>
+			<sta-name-en>Fu Jen University</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TP" route="O" stano="19"/>
+			</route-and-stanos>
+		</sta>
 		<sta>
 			<sta-name-zhtw>復興崗</sta-name-zhtw>
 			<sta-name-en>Fuxinggang</sta-name-en>
@@ -165,6 +179,15 @@
 			<route-and-stanos>
 				<route-and-stano place="TP" route="R" stano="27"/>
 				<route-and-stano place="NT" route="V" stano="01"/>
+			</route-and-stanos>
+		</sta>
+		<sta>
+			<sta-name-zhtw>迴龍／樂生</sta-name-zhtw>
+			<sta-name-en>Huilong / Lo-sheng</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TP" route="O" stano="21"/>
+				<route-and-stano place="TP" route="LG" stano="21" no-service="true"/>
+				<route-and-stano place="TY" route="BRH" stano="01" no-service="true"/>
 			</route-and-stanos>
 		</sta>
 		<sta>
@@ -456,6 +479,14 @@
 				<route-and-stano place="TP" route="BR" stano="08"/>
 			</route-and-stanos>
 		</sta>
+		<sta>
+			<sta-name-zhtw>頭前庄（台北醫院）</sta-name-zhtw>
+			<sta-name-en>Touqianzhuang ( Taipei Hospital )</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TP" route="O" stano="17"/>
+				<route-and-stano place="NT" route="Y" stano="18"/>
+			</route-and-stanos>
+		</sta>
 	</group>
 	<group letter="U">
 		
@@ -500,6 +531,13 @@
 			<route-and-stanos>
 				<route-and-stano place="TP" route="R" stano="02"/>
 				<route-and-stano place="NT" route="Y" stano="39" no-service="true"/>
+			</route-and-stanos>
+		</sta>
+		<sta>
+			<sta-name-zhtw>先嗇宮</sta-name-zhtw>
+			<sta-name-en>Xianse Temple</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TP" route="O" stano="16"/>
 			</route-and-stanos>
 		</sta>
 		<sta>
@@ -572,6 +610,13 @@
 			<sta-name-en>Xinyi Anhe</sta-name-en>
 			<route-and-stanos>
 				<route-and-stano place="TP" route="R" stano="04"/>
+			</route-and-stanos>
+		</sta>
+		<sta>
+			<sta-name-zhtw>新莊（新莊廟街）</sta-name-zhtw>
+			<sta-name-en>Xinzhuang ( Xinzhuang Temple Street )</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TP" route="O" stano="18"/>
 			</route-and-stanos>
 		</sta>
 	</group>
