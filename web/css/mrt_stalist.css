@@ -1,0 +1,96 @@
+:root{
+	font-family: sans-serif; 
+}
+
+mrt-stalist{
+	width: 70vw; 
+	margin-left: auto; 
+	margin-right: auto; 
+}
+
+group::before{
+	display: block; 
+	position: sticky; 
+	top: 0; 
+	background: #AAA; 
+	content: attr(letter); 
+	text-align: center; 
+	font-size: 2em; 
+}
+
+sta{
+	display: block; 
+}
+
+sta-name-zhtw, sta-name-en, route-and-stanos{
+	display: inline; 
+}
+
+route-and-stano{
+	display: inline-block; 
+	border-style: solid; 
+	border-radius: 7px / 10px; 
+	width: 1.3em; 
+}
+
+/*route-and-stano::before{
+	content: /*attr(place) "\A" *attr(route) "\A" attr(stano); 
+	white-space: pre; 
+	font-size: 0.5em; 
+}*/
+
+route-and-stano::before{
+	content: attr(route); 
+	white-space: pre; 
+	font-size: 0.5em; 
+	display: inline-block; 
+	width: 1.3em; 
+	text-align: center; 
+	margin-left: auto; 
+	margin-right: auto; 
+}
+
+route-and-stano::after{
+	content: "\A" attr(stano); 
+	white-space: pre; 
+	font-size: 0.5em; 
+	/*display: inline-block; 
+	width: 1.3em; 
+	text-align: center; */
+}
+
+route-and-stano[place="TP"][route="BR"]{
+	border-color: #c48c31; 
+}
+
+route-and-stano[place="TP"][route="R"]{
+	border-color: #e3002c; 
+}
+
+route-and-stano[place="TP"][route="G"]{
+	border-color: #008659; 
+}
+
+route-and-stano[place="TP"][route="O"]{
+	border-color: #f8b61c; 
+}
+
+route-and-stano[place="TP"][route="BL"]{
+	border-color: #0070bd; 
+}
+
+route-and-stano[place="NT"][route="Y"]{
+	border-color: #ffdb00; 
+}
+
+route-and-stano[place="NT"][route="V"]{
+	border-color: #e5554f; 
+}
+
+route-and-stano[place="NT"][route="K"]{
+	border-color: #a28d5b; 
+}
+
+route-and-stano[place="TY"][route="A"]{
+	border-color: #8246af; 
+}
