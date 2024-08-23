@@ -41,9 +41,9 @@
 		<sta>
 			<sta-name-zhtw>木柵</sta-name-zhtw>
 			<sta-name-en>Muzha</sta-name-en>
-			<sta-numbers>
-				<sta-number place="TP" route="BR" route-stano="02"/>
-			</sta-numbers>
+			<route-and-stanos>
+				<route-and-stano place="TP" route="BR" stano="02"/>
+			</route-and-stanos>
 		</sta>
 	</group>
 	<group letter="N">
@@ -68,20 +68,20 @@
 		<sta>
 			<sta-name-zhtw>台北車站</sta-name-zhtw>
 			<sta-name-en>Taipei Main Station</sta-name-en>
-			<sta-numbers>
-				<sta-number place="TP" route="R" route-stano="10"/>
-				<sta-number place="TP" route="BL" route-stano="12"/>
-				<sta-number place="TY" route="A" route-stano="1"/>
-			</sta-numbers>
+			<route-and-stanos>
+				<route-and-stano place="TP" route="R" stano="10"/>
+				<route-and-stano place="TP" route="BL" stano="12"/>
+				<route-and-stano place="TY" route="A" stano="1"/>
+			</route-and-stanos>
 		</sta>
 		<sta>
 			<sta-name-zhtw>動物園</sta-name-zhtw>
 			<sta-name-en>Taipei Zoo</sta-name-en>
-			<sta-numbers>
-				<sta-number place="TP" route="BR" route-stano="01"/>
-				<sta-number place="NT" route="Y" route-stano="01" no-service="true"/>
-				<sta-number place="NT" route="S" route-stano="01" no-service="true"/>
-			</sta-numbers>
+			<route-and-stanos>
+				<route-and-stano place="TP" route="BR" stano="01"/>
+				<route-and-stano place="NT" route="Y" stano="01" no-service="true"/>
+				<route-and-stano place="NT" route="S" stano="01" no-service="true"/>
+			</route-and-stanos>
 		</sta>
 	</group>
 	<group letter="U">
