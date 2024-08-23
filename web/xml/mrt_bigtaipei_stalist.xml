@@ -11,7 +11,14 @@
 		
 	</group>
 	<group letter="D">
-		
+		<sta>
+			<sta-name-zhtw>大安</sta-name-zhtw>
+			<sta-name-en>Daan</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TP" route="BR" stano="09"/>
+				<route-and-stano place="TP" route="R" stano="05"/>
+			</route-and-stanos>
+		</sta>
 	</group>
 	<group letter="E">
 		
@@ -35,7 +42,20 @@
 		
 	</group>
 	<group letter="L">
-		
+		<sta>
+			<sta-name-zhtw>麟光</sta-name-zhtw>
+			<sta-name-en>Linguang</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TP" route="BR" stano="06"/>
+			</route-and-stanos>
+		</sta>
+		<sta>
+			<sta-name-zhtw>六張犁</sta-name-zhtw>
+			<sta-name-en>Liuzhangli</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TP" route="BR" stano="07"/>
+			</route-and-stanos>
+		</sta>
 	</group>
 	<group letter="M">
 		<sta>
@@ -47,7 +67,14 @@
 		</sta>
 	</group>
 	<group letter="N">
-		
+		<sta>
+			<sta-name-zhtw>南京復興</sta-name-zhtw>
+			<sta-name-en>Nanjing Fuxing</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TP" route="BR" stano="11"/>
+				<route-and-stano place="TP" route="G" stano="16"/>
+			</route-and-stanos>
+		</sta>
 	</group>
 	<group letter="O">
 		
@@ -83,6 +110,13 @@
 				<route-and-stano place="NT" route="S" stano="01" no-service="true"/>
 			</route-and-stanos>
 		</sta>
+		<sta>
+			<sta-name-zhtw>科技大樓</sta-name-zhtw>
+			<sta-name-en>Technology Building</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TP" route="BR" stano="08"/>
+			</route-and-stanos>
+		</sta>
 	</group>
 	<group letter="U">
 		
@@ -98,14 +132,41 @@
 				<route-and-stano place="TP" route="BR" stano="03"/>
 			</route-and-stanos>
 		</sta>
+		<sta>
+			<sta-name-zhtw>萬芳醫院</sta-name-zhtw>
+			<sta-name-en>Wanfang Hospital</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TP" route="BR" stano="04"/>
+			</route-and-stanos>
+		</sta>
 	</group>
 	<group letter="X">
-		
+		<sta>
+			<sta-name-zhtw>辛亥</sta-name-zhtw>
+			<sta-name-en>Xinhai</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TP" route="BR" stano="05"/>
+			</route-and-stanos>
+		</sta>
 	</group>
 	<group letter="Y">
 		
 	</group>
 	<group letter="Z">
-		
+		<sta>
+			<sta-name-zhtw>中山國中</sta-name-zhtw>
+			<sta-name-en>Zhongshan Junior High School</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TP" route="BR" stano="12"/>
+			</route-and-stanos>
+		</sta>
+		<sta>
+			<sta-name-zhtw>忠孝復興</sta-name-zhtw>
+			<sta-name-en>Zhongxiao Fuxing</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TP" route="BR" stano="10"/>
+				<route-and-stano place="TP" route="BL" stano="15"/>
+			</route-and-stanos>
+		</sta>
 	</group>
 </mrt-stalist>
