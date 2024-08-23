@@ -3,10 +3,13 @@
 		<!ATTLIST group letter CDATA>
 		
 		<!ELEMENT sta (sta-name-zhtw, sta-name-en, sta-numbers)>
+			<!ATTLIST sta no-service (true|false) false>
+			
 			<!ELEMENT sta-name-zhtw #PCDATA>
 			<!ELEMENT sta-name-en   #PCDATA>
 			<!ELEMENT sta-numbers   (sta-number*)>
 				<!ELEMENT sta-number EMPTY>
-					<!ATTLIST sta-number place   CDATA #REQUIRED>
-					<!ATTLIST sta-number route CDATA #REQUIRED>
-					<!ATTLIST sta-number stano   CDATA #REQUIRED>
+					<!ATTLIST sta-number place       CDATA        #REQUIRED>
+					<!ATTLIST sta-number route       CDATA        #REQUIRED>
+					<!ATTLIST sta-number route-stano CDATA        #REQUIRED>
+					<!ATTLIST sta-number no-service  (true|false) false>
