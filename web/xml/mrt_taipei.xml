@@ -841,7 +841,7 @@
 		<station sta-id="taipei-o09">
 			<sta-name-zhtw>行天宮</sta-name-zhtw>
 			<sta-name-en>Xingtian Temple</sta-name-en>
-			<sta-name-ja>象山行天宮</sta-name-ja>
+			<sta-name-ja>行天宮</sta-name-ja>
 			<sta-name-ko>싱톈궁</sta-name-ko>
 			<transfers>
 				<transfer no-service="true">
