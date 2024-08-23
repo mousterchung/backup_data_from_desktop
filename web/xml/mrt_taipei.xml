@@ -959,8 +959,8 @@
 			</transfers>
 		</station>
 		<station sta-id="taipei-o21">
-			<sta-name-zhtw>迴龍（樂生）</sta-name-zhtw>
-			<sta-name-en>Huilong ( Lo-sheng )</sta-name-en>
+			<sta-name-zhtw>迴龍／樂生</sta-name-zhtw>
+			<sta-name-en>Huilong / Lo-sheng </sta-name-en>
 			<sta-name-ja>迴龍</sta-name-ja>
 			<sta-name-ko>후이룽</sta-name-ko>
 			<transfers>
