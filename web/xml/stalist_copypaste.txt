@@ -2,7 +2,7 @@
 			<sta-name-zhtw>木柵</sta-name-zhtw>
 			<sta-name-en>Muzha</sta-name-en>
 			<route-and-stanos>
-				<route-and-stano place="TP" route="G" stano="02"/>
+				<route-and-stano place="TP" route="O" stano="02"/>
 			</route-and-stanos>
 		</sta>
 
