@@ -91,7 +91,13 @@
 		
 	</group>
 	<group letter="W">
-		
+		<sta>
+			<sta-name-zhtw>萬芳社區</sta-name-zhtw>
+			<sta-name-en>Wanfang Community</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TP" route="BR" stano="03"/>
+			</route-and-stanos>
+		</sta>
 	</group>
 	<group letter="X">
 		
