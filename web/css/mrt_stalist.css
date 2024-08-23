@@ -2,8 +2,25 @@
 	font-family: sans-serif; 
 }
 
+@media (width > 768px){
+	mrt-stalist{
+		width: 70vw; 
+	}
+}
+
+@media (768px >= width > 425px){
+	mrt-stalist{
+		width: 80vw; 
+	}
+}
+
+@media (width <= 425px){
+	mrt-stalist{
+		width: 100vw; 
+	}
+}
+
 mrt-stalist{
-	width: 70vw; 
 	margin-left: auto; 
 	margin-right: auto; 
 }
@@ -30,33 +47,25 @@ route-and-stano{
 	display: inline-block; 
 	border-style: solid; 
 	border-radius: 7px / 10px; 
-	width: 1.3em; 
+	width: 1.4rem; 
 }
-
-/*route-and-stano::before{
-	content: /*attr(place) "\A" *attr(route) "\A" attr(stano); 
-	white-space: pre; 
-	font-size: 0.5em; 
-}*/
 
 route-and-stano::before{
 	content: attr(route); 
 	white-space: pre; 
 	font-size: 0.5em; 
 	display: inline-block; 
-	width: 1.3em; 
+	width: 1.4rem; 
 	text-align: center; 
-	margin-left: auto; 
-	margin-right: auto; 
 }
 
 route-and-stano::after{
-	content: "\A" attr(stano); 
+	content: attr(stano); 
 	white-space: pre; 
 	font-size: 0.5em; 
-	/*display: inline-block; 
-	width: 1.3em; 
-	text-align: center; */
+	display: inline-block; 
+	width: 1.4rem; 
+	text-align: center; 
 }
 
 route-and-stano[place="TP"][route="BR"]{
