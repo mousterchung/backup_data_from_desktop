@@ -142,11 +142,11 @@ route-and-stano[place="TY"][route="BRH"]{
 }
 
 route-and-stano[place="TP"][route="R"][stano="22A"]{
-	border-color: fd92a3; 
+	border-color: #fd92a3; 
 }
 
 route-and-stano[place="TP"][route="G"][stano="03A"]{
-	border-color: cfdb00; 
+	border-color: #cfdb00; 
 }
 
 route-and-stano[place="TP"][route="SB"]:is([stano="11A"], [stano="11B"], [stano="11C"]){
