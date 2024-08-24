@@ -179,6 +179,13 @@
 			</route-and-stanos>
 		</sta>
 		<sta no-service="true">
+			<sta-name-zhtw>巧克力</sta-name-zhtw>
+			<sta-name-en>Chocolate</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TY" route="G" stano="03"/>
+			</route-and-stanos>
+		</sta>
+		<sta no-service="true">
 			<sta-name-zhtw>重建街</sta-name-zhtw>
 			<sta-name-en>Chongjian Street</sta-name-en>
 			<route-and-stanos>
@@ -496,6 +503,13 @@
 				<route-and-stano place="NT" route="LB" stano="10"/>
 			</route-and-stanos>
 		</sta>
+		<sta no-service="true">
+			<sta-name-zhtw>菓林</sta-name-zhtw>
+			<sta-name-en>Guolin</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TY" route="G" stano="15a"/>
+			</route-and-stanos>
+		</sta>
 		<sta>
 			<sta-name-zhtw>古亭</sta-name-zhtw>
 			<sta-name-en>Guting</sta-name-en>
@@ -620,6 +634,13 @@
 				<route-and-stano place="TP" route="LG" stano="03"/>
 			</route-and-stanos>
 		</sta>
+		<sta no-service="true">
+			<sta-name-zhtw>建德興豐（八德國小）</sta-name-zhtw>
+			<sta-name-en>Jiande Xingfeng ( Bade Elementary School )</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TY" route="G" stano="01"/>
+			</route-and-stanos>
+		</sta>
 		<sta>
 			<sta-name-zhtw>江子翠</sta-name-zhtw>
 			<sta-name-en>Jiangzicui</sta-name-en>
@@ -648,6 +669,13 @@
 			<route-and-stanos>
 				<route-and-stano place="TP" route="O" stano="02"/>
 				<route-and-stano place="NT" route="Y" stano="11"/>
+			</route-and-stanos>
+		</sta>
+		<sta no-service="true">
+			<sta-name-zhtw>景福宮</sta-name-zhtw>
+			<sta-name-en>Jingfu Temple</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TY" route="G" stano="08"/>
 			</route-and-stanos>
 		</sta>
 		<sta>
@@ -789,12 +817,26 @@
 				<route-and-stano place="NT" route="F" stano="02"/>
 			</route-and-stanos>
 		</sta>
+		<sta no-service="true">
+			<sta-name-zhtw>蘆興埤</sta-name-zhtw>
+			<sta-name-en>Luxingpi</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TY" route="G" stano="12"/>
+			</route-and-stanos>
+		</sta>
 		<sta>
 			<sta-name-zhtw>蘆洲（蘆洲李宅）</sta-name-zhtw>
 			<sta-name-en>Luzhou ( Luzhou Lee Family Historic Estate )</sta-name-en>
 			<route-and-stanos>
 				<route-and-stano place="TP" route="O" stano="54"/>
 				<route-and-stano place="NT" route="F" stano="05" no-service="true"/>
+			</route-and-stanos>
+		</sta>
+		<sta no-service="true">
+			<sta-name-zhtw>蘆竹中正北</sta-name-zhtw>
+			<sta-name-en>Luzhu Zhongzheng North</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TY" route="G" stano="14"/>
 			</route-and-stanos>
 		</sta>
 	</group>
@@ -878,6 +920,13 @@
 			<sta-name-en>Nanshijiao</sta-name-en>
 			<route-and-stanos>
 				<route-and-stano place="TP" route="O" stano="01"/>
+			</route-and-stanos>
+		</sta>
+		<sta no-service="true">
+			<sta-name-zhtw>南竹中正北（河底）</sta-name-zhtw>
+			<sta-name-en>Nanzhu Zhongzheng North ( Hedi )</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TY" route="G" stano="13"/>
 			</route-and-stanos>
 		</sta>
 		<sta no-service="true">
@@ -1037,6 +1086,13 @@
 		</sta>
 	</group>
 	<group letter="R">
+		<sta no-service="true">
+			<sta-name-zhtw>仁德公園</sta-name-zhtw>
+			<sta-name-en>Rende Park</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TY" route="G" stano="02"/>
+			</route-and-stanos>
+		</sta>
 		<sta>
 			<sta-name-zhtw>玫瑰中國城</sta-name-zhtw>
 			<sta-name-en>Rose China Town</sta-name-en>
@@ -1249,6 +1305,13 @@
 			</route-and-stanos>
 		</sta>
 		<sta no-service="true">
+			<sta-name-zhtw>水尾</sta-name-zhtw>
+			<sta-name-en>Shuiwei</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TY" route="G" stano="15"/>
+			</route-and-stanos>
+		</sta>
+		<sta no-service="true">
 			<sta-name-zhtw>樹林</sta-name-zhtw>
 			<sta-name-en>Shulin</sta-name-en>
 			<route-and-stanos>
@@ -1454,11 +1517,26 @@
 				<route-and-stano place="TP" route="LG" stano="18"/>
 			</route-and-stanos>
 		</sta>
+		<sta no-service="true">
+			<sta-name-zhtw>藝文特區（展演中心）</sta-name-zhtw>
+			<sta-name-en>Taoyuan Arts and Cultural Business District ( Taoyuan Arts Center )</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TY" route="G" stano="11"/>
+			</route-and-stanos>
+		</sta>
 		<sta>
 			<sta-name-zhtw>高鐵桃園站</sta-name-zhtw>
 			<sta-name-en>Taoyuan High Speed Rail Station</sta-name-en>
 			<route-and-stanos>
 				<route-and-stano place="TY" route="A" stano="18"/>
+			</route-and-stanos>
+		</sta>
+		<sta no-service="true">
+			<sta-name-zhtw>桃園車站</sta-name-zhtw>
+			<sta-name-en>Taoyuan Main Station</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TY" route="G" stano="07"/>
+				<route-and-stano place="TY" route="BRH" stano="01"/>
 			</route-and-stanos>
 		</sta>
 		<sta>
@@ -1639,6 +1717,13 @@
 			<sta-name-en>Xiaobitan ( Xindian Senior High School )</sta-name-en>
 			<route-and-stanos>
 				<route-and-stano place="TP" route="G" stano="03A"/>
+			</route-and-stanos>
+		</sta>
+		<sta no-service="true">
+			<sta-name-zhtw>小大湳</sta-name-zhtw>
+			<sta-name-en>Xiaodanan</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TY" route="G" stano="05"/>
 			</route-and-stanos>
 		</sta>
 		<sta>
@@ -1828,6 +1913,13 @@
 	</group>
 	<group letter="Y">
 		<sta no-service="true">
+			<sta-name-zhtw>陽明運動公園（陽明高中）</sta-name-zhtw>
+			<sta-name-en>Yangming Sports Park ( Yangming Senior High School )</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TY" route="G" stano="06"/>
+			</route-and-stanos>
+		</sta>
+		<sta no-service="true">
 			<sta-name-zhtw>鶯歌車站</sta-name-zhtw>
 			<sta-name-en>Yingge Station</sta-name-en>
 			<route-and-stanos>
@@ -2002,6 +2094,20 @@
 			<sta-name-en>Zhongyuan</sta-name-en>
 			<route-and-stanos>
 				<route-and-stano place="NT" route="Y" stano="14"/>
+			</route-and-stanos>
+		</sta>
+		<sta no-service="true">
+			<sta-name-zhtw>中正大興</sta-name-zhtw>
+			<sta-name-en>Zhongzheng Daxing</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TY" route="G" stano="10"/>
+			</route-and-stanos>
+		</sta>
+		<sta no-service="true">
+			<sta-name-zhtw>中正力行（桃園夜市）</sta-name-zhtw>
+			<sta-name-en>Zhongzheng Lixing ( Taoyuan Night Market )</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TY" route="G" stano="09"/>
 			</route-and-stanos>
 		</sta>
 		<sta no-service="true">
