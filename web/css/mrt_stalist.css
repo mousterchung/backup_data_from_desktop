@@ -29,10 +29,11 @@ group::before{
 	display: block; 
 	position: sticky; 
 	top: 0; 
-	background: #DDD; 
+	background: #666; 
 	content: attr(letter); 
 	text-align: center; 
 	font-size: 2em; 
+	color: white; 
 }
 
 sta{
@@ -40,8 +41,7 @@ sta{
 }
 
 [no-service="true"]{
-	background-color: #AAA; 
-	color: white; 
+	background-color: #BBB; 
 }
 
 sta-name-zhtw, sta-name-en, route-and-stanos{
@@ -134,7 +134,15 @@ route-and-stano[place="TY"][route="A"]{
 }
 
 route-and-stano[place="TY"][route="G"]{
-	border-color: #62A033; 
+	border-color: #62a033; 
+}
+
+route-and-stano[place="TY"][route="GE"]{
+	border-color: #006835; 
+}
+
+route-and-stano[place="TY"][route="GA"]{
+	border-color: #006835; 
 }
 
 route-and-stano[place="TY"][route="BRH"]{
@@ -150,5 +158,5 @@ route-and-stano[place="TP"][route="G"][stano="03A"]{
 }
 
 route-and-stano[place="TP"][route="SB"]:is([stano="11A"], [stano="11B"], [stano="11C"]){
-	border-color: #a1d884; 
+	border-color: #283991; 
 }
