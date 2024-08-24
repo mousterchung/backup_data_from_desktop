@@ -38,6 +38,9 @@ group::before{
 
 sta{
 	display: block; 
+	border-bottom-style: solid; 
+	border-bottom-color: #CCC; 
+	border-bottom-width: 1px; 
 }
 
 [no-service="true"]{
