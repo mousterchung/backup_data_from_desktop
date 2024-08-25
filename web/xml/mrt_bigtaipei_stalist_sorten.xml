@@ -1261,8 +1261,8 @@
 			</route-and-stanos>
 		</sta>
 		<sta>
-			<sta-name-zhtw>十四張</sta-name-zhtw>
-			<sta-name-en>Shisizhang</sta-name-en>
+			<sta-name-zhtw>十四張（莊敬高職）</sta-name-zhtw>
+			<sta-name-en>Shisizhang ( Juang Jing Vocational High School )</sta-name-en>
 			<route-and-stanos>
 				<route-and-stano place="NT" route="Y" stano="08"/>
 				<route-and-stano place="NT" route="K" stano="09"/>
@@ -2144,6 +2144,30 @@
 			<sta-name-en>Zhuwei</sta-name-en>
 			<route-and-stanos>
 				<route-and-stano place="TP" route="R" stano="26"/>
+			</route-and-stanos>
+		</sta>
+	</group>
+	<group letter="＊">
+		<sta no-service="true">
+			<sta-name-zhtw>（站名未定）</sta-name-zhtw>
+			<sta-name-en>( Station Name Undecided )</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TY" route="G" stano="16"/>
+				<route-and-stano place="TY" route="G" stano="17"/>
+				<route-and-stano place="TY" route="G" stano="18"/>
+				<route-and-stano place="TY" route="GE" stano="01"/>
+				<route-and-stano place="TY" route="GE" stano="02"/>
+				<route-and-stano place="TY" route="GE" stano="03"/>
+				<route-and-stano place="TY" route="GE" stano="04"/>
+				<route-and-stano place="TY" route="GE" stano="05"/>
+				<route-and-stano place="TY" route="GA" stano="01"/>
+				<route-and-stano place="TY" route="GA" stano="02"/>
+				<route-and-stano place="TY" route="GA" stano="03"/>
+				<route-and-stano place="TY" route="BRH" stano="02"/>
+				<route-and-stano place="TY" route="BRH" stano="03"/>
+				<route-and-stano place="TY" route="BRH" stano="04"/>
+				<route-and-stano place="TY" route="BRH" stano="05"/>
+				<route-and-stano place="TY" route="BRH" stano="06"/>
 			</route-and-stanos>
 		</sta>
 	</group>
