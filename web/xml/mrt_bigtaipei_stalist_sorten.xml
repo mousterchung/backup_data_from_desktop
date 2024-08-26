@@ -2,7 +2,7 @@
 <?xml-stylesheet href="./../css/mrt_stalist.css" type="text/css"?>
 <!DOCTYPE mrt-stalist SYSTEM "./dtd/mrt_stalist.dtd">
 <mrt-stalist>
-	<group letter="A">
+	<group letter="Ａ">
 		<sta>
 			<sta-name-zhtw>機場旅館</sta-name-zhtw>
 			<sta-name-en>Airport Hotel</sta-name-en>
@@ -46,7 +46,7 @@
 			</route-and-stanos>
 		</sta>
 	</group>
-	<group letter="B">
+	<group letter="Ｂ">
 		<sta>
 			<sta-name-zhtw>板橋</sta-name-zhtw>
 			<sta-name-en>Banqiao</sta-name-en>
@@ -112,7 +112,7 @@
 			</route-and-stanos>
 		</sta>
 	</group>
-	<group letter="C">
+	<group letter="Ｃ">
 		<sta>
 			<sta-name-zhtw>菜寮</sta-name-zhtw>
 			<sta-name-en>Cailiao</sta-name-en>
@@ -200,7 +200,7 @@
 			</route-and-stanos>
 		</sta>
 	</group>
-	<group letter="D">
+	<group letter="Ｄ">
 		<sta>
 			<sta-name-zhtw>大安</sta-name-zhtw>
 			<sta-name-en>Daan</sta-name-en>
@@ -356,7 +356,7 @@
 			</route-and-stanos>
 		</sta>
 	</group>
-	<group letter="E">
+	<group letter="Ｅ">
 		<sta no-service="true">
 			<sta-name-zhtw>二重</sta-name-zhtw>
 			<sta-name-en>Erchong</sta-name-en>
@@ -365,7 +365,7 @@
 			</route-and-stanos>
 		</sta>
 	</group>
-	<group letter="F">
+	<group letter="Ｆ">
 		<sta>
 			<sta-name-zhtw>亞東醫院</sta-name-zhtw>
 			<sta-name-en>Far Eastern Hospital</sta-name-en>
@@ -446,7 +446,7 @@
 			</route-and-stanos>
 		</sta>
 	</group>
-	<group letter="G">
+	<group letter="Ｇ">
 		<sta>
 			<sta-name-zhtw>港墘</sta-name-zhtw>
 			<sta-name-en>Gangqian</sta-name-en>
@@ -519,7 +519,7 @@
 			</route-and-stanos>
 		</sta>
 	</group>
-	<group letter="H">
+	<group letter="Ｈ">
 		<sta>
 			<sta-name-zhtw>海山</sta-name-zhtw>
 			<sta-name-en>Haishan</sta-name-en>
@@ -623,10 +623,10 @@
 			</route-and-stanos>
 		</sta>
 	</group>
-	<group letter="I">
+	<group letter="Ｉ">
 		
 	</group>
-	<group letter="J">
+	<group letter="Ｊ">
 		<sta no-service="true">
 			<sta-name-zhtw>加蚋</sta-name-zhtw>
 			<sta-name-en>Jiala</sta-name-en>
@@ -715,7 +715,7 @@
 			</route-and-stanos>
 		</sta>
 	</group>
-	<group letter="K">
+	<group letter="Ｋ">
 		<sta>
 			<sta-name-zhtw>崁頂</sta-name-zhtw>
 			<sta-name-en>Kanding</sta-name-en>
@@ -739,7 +739,7 @@
 			</route-and-stanos>
 		</sta>
 	</group>
-	<group letter="L">
+	<group letter="Ｌ">
 		<sta no-service="true">
 			<sta-name-zhtw>蘭雅</sta-name-zhtw>
 			<sta-name-en>Lanya</sta-name-en>
@@ -840,7 +840,7 @@
 			</route-and-stanos>
 		</sta>
 	</group>
-	<group letter="M">
+	<group letter="Ｍ">
 		<sta no-service="true">
 			<sta-name-zhtw>馬明潭</sta-name-zhtw>
 			<sta-name-en>Mamingtan</sta-name-en>
@@ -885,7 +885,7 @@
 			</route-and-stanos>
 		</sta>
 	</group>
-	<group letter="N">
+	<group letter="Ｎ">
 		<sta>
 			<sta-name-zhtw>南港</sta-name-zhtw>
 			<sta-name-en>Nangang</sta-name-en>
@@ -1015,10 +1015,10 @@
 			</route-and-stanos>
 		</sta>
 	</group>
-	<group letter="O">
+	<group letter="Ｏ">
 		
 	</group>
-	<group letter="P">
+	<group letter="Ｐ">
 		<sta no-service="true">
 			<sta-name-zhtw>彭福</sta-name-zhtw>
 			<sta-name-en>Pengfu</sta-name-en>
@@ -1041,7 +1041,7 @@
 			</route-and-stanos>
 		</sta>
 	</group>
-	<group letter="Q">
+	<group letter="Ｑ">
 		<sta no-service="true">
 			<sta-name-zhtw>前洲子</sta-name-zhtw>
 			<sta-name-en>Qianzhouzi</sta-name-en>
@@ -1085,7 +1085,7 @@
 			</route-and-stanos>
 		</sta>
 	</group>
-	<group letter="R">
+	<group letter="Ｒ">
 		<sta no-service="true">
 			<sta-name-zhtw>仁德公園</sta-name-zhtw>
 			<sta-name-en>Rende Park</sta-name-en>
@@ -1115,7 +1115,7 @@
 			</route-and-stanos>
 		</sta>
 	</group>
-	<group letter="S">
+	<group letter="Ｓ">
 		<sta>
 			<sta-name-zhtw>徐匯中學</sta-name-zhtw>
 			<sta-name-en>Saint Ignatius High School</sta-name-en>
@@ -1363,7 +1363,7 @@
 			</route-and-stanos>
 		</sta>
 	</group>
-	<group letter="T">
+	<group letter="Ｔ">
 		<sta>
 			<sta-name-zhtw>台北１０１／世貿</sta-name-zhtw>
 			<sta-name-en>Taipei 101 / World Trade Center</sta-name-en>
@@ -1590,13 +1590,13 @@
 			</route-and-stanos>
 		</sta>
 	</group>
-	<group letter="U">
+	<group letter="Ｕ">
 		
 	</group>
-	<group letter="V">
+	<group letter="Ｖ">
 		
 	</group>
-	<group letter="W">
+	<group letter="Ｗ">
 		<sta>
 			<sta-name-zhtw>萬芳社區</sta-name-zhtw>
 			<sta-name-en>Wanfang Community</sta-name-en>
@@ -1675,7 +1675,7 @@
 			</route-and-stanos>
 		</sta>
 	</group>
-	<group letter="X">
+	<group letter="Ｘ">
 		<sta no-service="true">
 			<sta-name-zhtw>廈店子</sta-name-zhtw>
 			<sta-name-en>Xiadianzi</sta-name-en>
@@ -1911,7 +1911,7 @@
 			</route-and-stanos>
 		</sta>
 	</group>
-	<group letter="Y">
+	<group letter="Ｙ">
 		<sta no-service="true">
 			<sta-name-zhtw>陽明運動公園（陽明高中）</sta-name-zhtw>
 			<sta-name-en>Yangming Sports Park ( Yangming Senior High School )</sta-name-en>
@@ -1991,7 +1991,7 @@
 			</route-and-stanos>
 		</sta>
 	</group>
-	<group letter="Z">
+	<group letter="Ｚ">
 		<sta no-service="true">
 			<sta-name-zhtw>樟樹灣</sta-name-zhtw>
 			<sta-name-en>Zhangshuwan</sta-name-en>
