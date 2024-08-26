@@ -72,7 +72,49 @@
 		
 	</group>
 	<group letter="ㄇ">
-		
+		<sta>
+			<sta-name-zhtw>民權西路</sta-name-zhtw>
+			<sta-name-en>Minquan West Road</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TP" route="R" stano="13"/>
+				<route-and-stano place="TP" route="O" stano="11"/>
+			</route-and-stanos>
+		</sta>
+		<sta no-service="true">
+			<sta-name-zhtw>民生社區</sta-name-zhtw>
+			<sta-name-en>Minsheng Community</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TP" route="SB" stano="06"/>
+			</route-and-stanos>
+		</sta>
+		<sta>
+			<sta-name-zhtw>明德</sta-name-zhtw>
+			<sta-name-en>Mingde</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TP" route="R" stano="18"/>
+			</route-and-stanos>
+		</sta>
+		<sta>
+			<sta-name-zhtw>木柵</sta-name-zhtw>
+			<sta-name-en>Muzha</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TP" route="BR" stano="02"/>
+			</route-and-stanos>
+		</sta>
+		<sta no-service="true">
+			<sta-name-zhtw>馬明潭</sta-name-zhtw>
+			<sta-name-en>Mamingtan</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="NT" route="Y" stano="04"/>
+			</route-and-stanos>
+		</sta>
+		<sta no-service="true">
+			<sta-name-zhtw>媽祖田</sta-name-zhtw>
+			<sta-name-en>Mazutian</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="NT" route="LB" stano="02"/>
+			</route-and-stanos>
+		</sta>
 	</group>
 	<group letter="ㄈ">
 		<sta>
