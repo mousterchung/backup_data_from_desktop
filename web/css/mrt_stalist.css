@@ -54,13 +54,30 @@ sta-name-zhtw, sta-name-en, route-and-stanos{
 route-and-stano{
 	display: inline-block; 
 	border-style: solid; 
+	
+}
+
+route-and-stano[place="TP"], route-and-stano[place="NT"], route-and-stano[place="TY"]{
 	border-radius: 10px; 
 	width: 1.7rem; 
 }
 
+route-and-stano[place="KH"]{
+	border-radius: 50%; 
+}
+
+route-and-stano[place="KH"]::before{
+	content: attr(route) attr(stano); 
+	text-align: center; 
+	width: 2rem; 
+}
+
+route-and-stano[place="KH"]::after{
+	content: none; 
+}
+
 route-and-stano::before{
 	content: attr(route); 
-	white-space: pre; 
 	font-size: 0.5em; 
 	display: inline-block; 
 	width: 1.7rem; 
@@ -69,7 +86,6 @@ route-and-stano::before{
 
 route-and-stano::after{
 	content: attr(stano); 
-	white-space: pre; 
 	font-size: 0.5em; 
 	display: inline-block; 
 	width: 1.7rem; 
@@ -84,8 +100,16 @@ route-and-stano[place="TP"][route="R"]{
 	border-color: #e3002c; 
 }
 
+route-and-stano[place="TP"][route="R"][stano="22A"]{
+	border-color: #fd92a3; 
+}
+
 route-and-stano[place="TP"][route="G"]{
 	border-color: #008659; 
+}
+
+route-and-stano[place="TP"][route="G"][stano="03A"]{
+	border-color: #cfdb00; 
 }
 
 route-and-stano[place="TP"][route="O"]{
@@ -102,6 +126,10 @@ route-and-stano[place="TP"][route="LG"]{
 
 route-and-stano[place="TP"][route="SB"]{
 	border-color: #25aae1; 
+}
+
+route-and-stano[place="TP"][route="SB"]:is([stano="11A"], [stano="11B"], [stano="11C"]){
+	border-color: #283991; 
 }
 
 route-and-stano[place="TP"][route="LR"]{
@@ -140,11 +168,7 @@ route-and-stano[place="TY"][route="G"]{
 	border-color: #62a033; 
 }
 
-route-and-stano[place="TY"][route="GE"]{
-	border-color: #006835; 
-}
-
-route-and-stano[place="TY"][route="GA"]{
+route-and-stano[place="TY"][route="GE"], route-and-stano[place="TY"][route="GA"]{
 	border-color: #006835; 
 }
 
@@ -152,14 +176,30 @@ route-and-stano[place="TY"][route="BRH"]{
 	border-color: #824729; 
 }
 
-route-and-stano[place="TP"][route="R"][stano="22A"]{
-	border-color: #fd92a3; 
+route-and-stano[place="KH"][route="R"], route-and-stano[place="KH"][route="RL"], route-and-stano[place="KH"][route="RK"]{
+	border-color: #e20b65; 
 }
 
-route-and-stano[place="TP"][route="G"][stano="03A"]{
-	border-color: #cfdb00; 
+route-and-stano[place="KH"][route="O"]{
+	border-color: #faa73f; 
 }
 
-route-and-stano[place="TP"][route="SB"]:is([stano="11A"], [stano="11B"], [stano="11C"]){
-	border-color: #283991; 
+route-and-stano[place="KH"][route="C"]{
+	border-color: #7cbd52; 
+}
+
+route-and-stano[place="KH"][route="Y"]{
+	border-color: #ffc100; 
+}
+
+route-and-stano[place="KH"][route="P"]{
+	border-color: #c100ff; 
+}
+
+route-and-stano[place="KH"][route="QJ"]{
+	border-color: #e20b65; 
+}
+
+route-and-stano[place="KH"][route="LD"]{
+	border-color: #524fff; 
 }
