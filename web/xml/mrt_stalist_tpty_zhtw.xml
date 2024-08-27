@@ -76,7 +76,27 @@
 		</sta>
 	</group>
 	<group letter="ㄆ">
-		
+		<sta no-service="true">
+			<sta-name-zhtw>埤塘</sta-name-zhtw>
+			<sta-name-en>Pitang</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TP" route="LG" stano="12"/>
+			</route-and-stanos>
+		</sta>
+		<sta no-service="true">
+			<sta-name-zhtw>平埔</sta-name-zhtw>
+			<sta-name-en>Pingpu</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="NT" route="S" stano="04"/>
+			</route-and-stanos>
+		</sta>
+		<sta no-service="true">
+			<sta-name-zhtw>彭福</sta-name-zhtw>
+			<sta-name-en>Pengfu</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TP" route="LG" stano="15"/>
+			</route-and-stanos>
+		</sta>
 	</group>
 	<group letter="ㄇ">
 		<sta>
@@ -120,6 +140,13 @@
 			<sta-name-en>Mazutian</sta-name-en>
 			<route-and-stanos>
 				<route-and-stano place="NT" route="LB" stano="02"/>
+			</route-and-stanos>
+		</sta>
+		<sta>
+			<sta-name-zhtw>玫瑰中國城</sta-name-zhtw>
+			<sta-name-en>Rose China Town</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="NT" route="K" stano="02"/>
 			</route-and-stanos>
 		</sta>
 	</group>
@@ -220,6 +247,38 @@
 				<route-and-stano place="TP" route="O" stano="04"/>
 			</route-and-stanos>
 		</sta>
+		<sta>
+			<sta-name-zhtw>東門</sta-name-zhtw>
+			<sta-name-en>Dongmen</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TP" route="R" stano="07"/>
+				<route-and-stano place="TP" route="O" stano="06"/>
+			</route-and-stanos>
+		</sta>
+		<sta>
+			<sta-name-zhtw>東湖</sta-name-zhtw>
+			<sta-name-en>Donghu</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TP" route="BR" stano="22"/>
+				<route-and-stano place="TP" route="SB" stano="10" no-service="true"/>
+			</route-and-stanos>
+		</sta>
+		<sta no-service="true">
+			<sta-name-zhtw>東社</sta-name-zhtw>
+			<sta-name-en>Dongshe</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TP" route="SB" stano="05"/>
+			</route-and-stanos>
+		</sta>
+		<sta>
+			<sta-name-zhtw>動物園</sta-name-zhtw>
+			<sta-name-en>Taipei Zoo</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TP" route="BR" stano="01"/>
+				<route-and-stano place="NT" route="Y" stano="01" no-service="true"/>
+				<route-and-stano place="NT" route="S" stano="01" no-service="true"/>
+			</route-and-stanos>
+		</sta>
 		<sta no-service="true">
 			<sta-name-zhtw>大稻埕</sta-name-zhtw>
 			<sta-name-en>Dadaocheng</sta-name-en>
@@ -280,29 +339,6 @@
 			</route-and-stanos>
 		</sta>
 		<sta>
-			<sta-name-zhtw>東門</sta-name-zhtw>
-			<sta-name-en>Dongmen</sta-name-en>
-			<route-and-stanos>
-				<route-and-stano place="TP" route="R" stano="07"/>
-				<route-and-stano place="TP" route="O" stano="06"/>
-			</route-and-stanos>
-		</sta>
-		<sta>
-			<sta-name-zhtw>東湖</sta-name-zhtw>
-			<sta-name-en>Donghu</sta-name-en>
-			<route-and-stanos>
-				<route-and-stano place="TP" route="BR" stano="22"/>
-				<route-and-stano place="TP" route="SB" stano="10" no-service="true"/>
-			</route-and-stanos>
-		</sta>
-		<sta no-service="true">
-			<sta-name-zhtw>東社</sta-name-zhtw>
-			<sta-name-en>Dongshe</sta-name-en>
-			<route-and-stanos>
-				<route-and-stano place="TP" route="SB" stano="05"/>
-			</route-and-stanos>
-		</sta>
-		<sta>
 			<sta-name-zhtw>大安</sta-name-zhtw>
 			<sta-name-en>Daan</sta-name-en>
 			<route-and-stanos>
@@ -345,6 +381,42 @@
 				<route-and-stano place="NT" route="V" stano="03"/>
 			</route-and-stanos>
 		</sta>
+		<sta>
+			<sta-name-zhtw>淡江大學</sta-name-zhtw>
+			<sta-name-en>Tamkang University</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="NT" route="V" stano="04"/>
+			</route-and-stanos>
+		</sta>
+		<sta>
+			<sta-name-zhtw>淡水</sta-name-zhtw>
+			<sta-name-en>Tamsui</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TP" route="R" stano="28"/>
+				<route-and-stano place="NT" route="V" stano="21" no-service="true"/>
+			</route-and-stanos>
+		</sta>
+		<sta no-service="true">
+			<sta-name-zhtw>淡水老街</sta-name-zhtw>
+			<sta-name-en>Tamsui Old Street</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="NT" route="V" stano="22L"/>
+			</route-and-stanos>
+		</sta>
+		<sta>
+			<sta-name-zhtw>淡水行政中心</sta-name-zhtw>
+			<sta-name-en>Tamsui District Office</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="NT" route="V" stano="07"/>
+			</route-and-stanos>
+		</sta>
+		<sta>
+			<sta-name-zhtw>淡水漁人碼頭</sta-name-zhtw>
+			<sta-name-en>Tamsui Fisherman's Wharf</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="NT" route="V" stano="26"/>
+			</route-and-stanos>
+		</sta>
 	</group>
 	<group letter="ㄊ">
 		<sta>
@@ -355,10 +427,90 @@
 			</route-and-stanos>
 		</sta>
 		<sta no-service="true">
+			<sta-name-zhtw>天母</sta-name-zhtw>
+			<sta-name-en>Tianmu</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TP" route="LR" stano="60"/>
+			</route-and-stanos>
+		</sta><sta no-service="true">
+			<sta-name-zhtw>天母棒球場</sta-name-zhtw>
+			<sta-name-en>Tianmu Baseball Stadium</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TP" route="LR" stano="59"/>
+			</route-and-stanos>
+		</sta>
+		<sta no-service="true">
+			<sta-name-zhtw>廷寮</sta-name-zhtw>
+			<sta-name-en>Tingliao</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TP" route="LG" stano="09"/>
+			</route-and-stanos>
+		</sta>
+		<sta>
+			<sta-name-zhtw>土城</sta-name-zhtw>
+			<sta-name-en>Tucheng</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TP" route="BL" stano="03"/>
+				<route-and-stano place="TP" route="LG" stano="11" no-service="true"/>
+			</route-and-stanos>
+		</sta>
+		<sta>
+			<sta-name-zhtw>台北１０１／世貿</sta-name-zhtw>
+			<sta-name-en>Taipei 101 / World Trade Center</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TP" route="R" stano="03"/>
+			</route-and-stanos>
+		</sta>
+		<sta no-service="true">
 			<sta-name-zhtw>台北大學</sta-name-zhtw>
 			<sta-name-en>National Taipei University</sta-name-en>
 			<route-and-stanos>
 				<route-and-stano place="NT" route="LB" stano="07"/>
+			</route-and-stanos>
+		</sta>
+		<sta>
+			<sta-name-zhtw>台北海洋大學</sta-name-zhtw>
+			<sta-name-en>Taipei University of Marine Technology</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="NT" route="V" stano="28"/>
+			</route-and-stanos>
+		</sta>
+		<sta>
+			<sta-name-zhtw>台北橋</sta-name-zhtw>
+			<sta-name-en>Taipei Bridge</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TP" route="O" stano="13"/>
+			</route-and-stanos>
+		</sta>
+		<sta>
+			<sta-name-zhtw>台北小巨蛋</sta-name-zhtw>
+			<sta-name-en>Taipei Arena</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TP" route="G" stano="17"/>
+			</route-and-stanos>
+		</sta>
+		
+		<sta>
+			<sta-name-zhtw>台北小城</sta-name-zhtw>
+			<sta-name-en>Taipei Xiaocheng</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="NT" route="K" stano="03"/>
+			</route-and-stanos>
+		</sta>
+		<sta>
+			<sta-name-zhtw>台北車站</sta-name-zhtw>
+			<sta-name-en>Taipei Main Station</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TP" route="R" stano="10"/>
+				<route-and-stano place="TP" route="BL" stano="12"/>
+				<route-and-stano place="TY" route="A" stano="1"/>
+			</route-and-stanos>
+		</sta>
+		<sta>
+			<sta-name-zhtw>台電大樓</sta-name-zhtw>
+			<sta-name-en>Taipower Building</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TP" route="G" stano="08"/>
 			</route-and-stanos>
 		</sta>
 		<sta>
@@ -368,11 +520,55 @@
 				<route-and-stano place="TP" route="R" stano="09"/>
 			</route-and-stanos>
 		</sta>
+		<sta>
+			<sta-name-zhtw>泰山</sta-name-zhtw>
+			<sta-name-en>Taishan</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TY" route="A" stano="5"/>
+			</route-and-stanos>
+		</sta>
+		<sta>
+			<sta-name-zhtw>泰山貴和</sta-name-zhtw>
+			<sta-name-en>Taishan Guihe</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TY" route="A" stano="6"/>
+			</route-and-stanos>
+		</sta>
 		<sta no-service="true">
 			<sta-name-zhtw>陶瓷老街</sta-name-zhtw>
 			<sta-name-en>Ceramics Old Street</sta-name-en>
 			<route-and-stanos>
 				<route-and-stano place="NT" route="LB" stano="09"/>
+			</route-and-stanos>
+		</sta>
+		<sta>
+			<sta-name-zhtw>桃園體育園區</sta-name-zhtw>
+			<sta-name-en>Taoyuan Sports Park</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TY" route="A" stano="19"/>
+			</route-and-stanos>
+		</sta>
+		<sta no-service="true">
+			<sta-name-zhtw>桃園車站</sta-name-zhtw>
+			<sta-name-en>Taoyuan Main Station</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TY" route="G" stano="07"/>
+				<route-and-stano place="TY" route="BRH" stano="01"/>
+			</route-and-stanos>
+		</sta>
+		<sta>
+			<sta-name-zhtw>頭前庄（台北醫院）</sta-name-zhtw>
+			<sta-name-en>Touqianzhuang ( Taipei Hospital )</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TP" route="O" stano="17"/>
+				<route-and-stano place="NT" route="Y" stano="18"/>
+			</route-and-stanos>
+		</sta>
+		<sta no-service="true">
+			<sta-name-zhtw>潭底</sta-name-zhtw>
+			<sta-name-en>Tandi</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TP" route="LG" stano="18"/>
 			</route-and-stanos>
 		</sta>
 	</group>
@@ -418,6 +614,14 @@
 			<sta-name-en>Nangang</sta-name-en>
 			<route-and-stanos>
 				<route-and-stano place="TP" route="BL" stano="22"/>
+			</route-and-stanos>
+		</sta>
+		<sta>
+			<sta-name-zhtw>南港展覽館</sta-name-zhtw>
+			<sta-name-en>Taipei Nangang Exhibition Center</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TP" route="BR" stano="24"/>
+				<route-and-stano place="TP" route="BL" stano="23"/>
 			</route-and-stanos>
 		</sta>
 		<sta>
@@ -566,6 +770,13 @@
 				<route-and-stano place="NT" route="Y" stano="29"/>
 			</route-and-stanos>
 		</sta>
+		<sta>
+			<sta-name-zhtw>國父紀念館</sta-name-zhtw>
+			<sta-name-en>Sun Yat-Sen Memorial Hall</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TP" route="BL" stano="17"/>
+			</route-and-stanos>
+		</sta>
 		<sta no-service="true">
 			<sta-name-zhtw>菓林</sta-name-zhtw>
 			<sta-name-en>Guolin</sta-name-en>
@@ -615,6 +826,13 @@
 				<route-and-stano place="TP" route="LR" stano="10"/>
 			</route-and-stanos>
 		</sta>
+		<sta>
+			<sta-name-zhtw>高鐵桃園站</sta-name-zhtw>
+			<sta-name-en>Taoyuan High Speed Rail Station</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TY" route="A" stano="18"/>
+			</route-and-stanos>
+		</sta>
 		<sta no-service="true">
 			<sta-name-zhtw>溝子口</sta-name-zhtw>
 			<sta-name-en>Gouzikou</sta-name-en>
@@ -657,6 +875,13 @@
 			<sta-name-en>Kunyang</sta-name-en>
 			<route-and-stanos>
 				<route-and-stano place="TP" route="BL" stano="21"/>
+			</route-and-stanos>
+		</sta>
+		<sta>
+			<sta-name-zhtw>科技大樓</sta-name-zhtw>
+			<sta-name-en>Technology Building</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TP" route="BR" stano="08"/>
 			</route-and-stanos>
 		</sta>
 		<sta>
@@ -845,6 +1070,13 @@
 				<route-and-stano place="NT" route="Y" stano="30" no-service="true"/>
 			</route-and-stanos>
 		</sta>
+		<sta no-service="true">
+			<sta-name-zhtw>監理所</sta-name-zhtw>
+			<sta-name-en>Taipei Motor Vehicle Supervision Office</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TP" route="LG" stano="19"/>
+			</route-and-stanos>
+		</sta>
 		<sta>
 			<sta-name-zhtw>江子翠</sta-name-zhtw>
 			<sta-name-en>Jiangzicui</sta-name-en>
@@ -897,6 +1129,34 @@
 		</sta>
 	</group>
 	<group letter="ㄑ">
+		<sta>
+			<sta-name-zhtw>唭哩岸（陽明交通大學）</sta-name-zhtw>
+			<sta-name-en>Qilian ( National Yang Ming Chiao Tung University )</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TP" route="R" stano="20"/>
+			</route-and-stanos>
+		</sta>
+		<sta>
+			<sta-name-zhtw>七張</sta-name-zhtw>
+			<sta-name-en>Qizhang</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TP" route="G" stano="03"/>
+			</route-and-stanos>
+		</sta>
+		<sta>
+			<sta-name-zhtw>奇岩</sta-name-zhtw>
+			<sta-name-en>Qiyan</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TP" route="R" stano="21"/>
+			</route-and-stanos>
+		</sta>
+		<sta no-service="true">
+			<sta-name-zhtw>前洲子</sta-name-zhtw>
+			<sta-name-en>Qianzhouzi</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="NT" route="V" stano="13"/>
+			</route-and-stanos>
+		</sta>
 		<sta no-service="true">
 			<sta-name-zhtw>巧克力</sta-name-zhtw>
 			<sta-name-en>Chocolate</sta-name-en>
@@ -904,8 +1164,156 @@
 				<route-and-stano place="TY" route="G" stano="03"/>
 			</route-and-stanos>
 		</sta>
+		<sta>
+			<sta-name-zhtw>橋和</sta-name-zhtw>
+			<sta-name-en>Qiaohe</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="NT" route="Y" stano="13"/>
+			</route-and-stanos>
+		</sta>
+		<sta no-service="true">
+			<sta-name-zhtw>清水</sta-name-zhtw>
+			<sta-name-en>Qingshui</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TP" route="LG" stano="10"/>
+			</route-and-stanos>
+		</sta>
 	</group>
 	<group letter="ㄒ">
+		<sta>
+			<sta-name-zhtw>西門</sta-name-zhtw>
+			<sta-name-en>Ximen</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TP" route="G" stano="12"/>
+				<route-and-stano place="TP" route="BL" stano="11"/>
+			</route-and-stanos>
+		</sta>
+		<sta>
+			<sta-name-zhtw>西湖（德明科大）</sta-name-zhtw>
+			<sta-name-en>Xihu ( Takming University )</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TP" route="BR" stano="16"/>
+			</route-and-stanos>
+		</sta>
+		<sta no-service="true">
+			<sta-name-zhtw>汐止科學園區</sta-name-zhtw>
+			<sta-name-en>Xizhi Technology Park</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TP" route="SB" stano="14"/>
+			</route-and-stanos>
+		</sta>
+		<sta no-service="true">
+			<sta-name-zhtw>汐止區公所</sta-name-zhtw>
+			<sta-name-en>Xizhi District Office</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TP" route="SB" stano="15"/>
+			</route-and-stanos>
+		</sta>
+		<sta no-service="true">
+			<sta-name-zhtw>溪洲</sta-name-zhtw>
+			<sta-name-en>Xizhou</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TP" route="LG" stano="14"/>
+			</route-and-stanos>
+		</sta>
+		<sta no-service="true">
+			<sta-name-zhtw>溪洲底</sta-name-zhtw>
+			<sta-name-en>Xizhoudi</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TP" route="LR" stano="54"/>
+			</route-and-stanos>
+		</sta>
+		<sta no-service="true">
+			<sta-name-zhtw>溪沙尾</sta-name-zhtw>
+			<sta-name-en>Xishawei</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TP" route="LR" stano="52"/>
+			</route-and-stanos>
+		</sta>
+		<sta no-service="true">
+			<sta-name-zhtw>下福州</sta-name-zhtw>
+			<sta-name-en>Xiafuzhou</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TP" route="LR" stano="51"/>
+			</route-and-stanos>
+		</sta>
+		<sta no-service="true">
+			<sta-name-zhtw>廈店子</sta-name-zhtw>
+			<sta-name-en>Xiadianzi</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="NT" route="V" stano="32"/>
+			</route-and-stanos>
+		</sta>
+		<sta no-service="true">
+			<sta-name-zhtw>下塔悠</sta-name-zhtw>
+			<sta-name-en>Xiatayou</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="NT" route="Y" stano="31"/>
+			</route-and-stanos>
+		</sta>
+		<sta no-service="true">
+			<sta-name-zhtw>下圭柔山</sta-name-zhtw>
+			<sta-name-en>Xiaguiroushan</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="NT" route="V" stano="12"/>
+			</route-and-stanos>
+		</sta>
+		<sta no-service="true">
+			<sta-name-zhtw>廈竹圍</sta-name-zhtw>
+			<sta-name-en>Xiazhuwei</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="NT" route="V" stano="31"/>
+			</route-and-stanos>
+		</sta>
+		<sta no-service="true">
+			<sta-name-zhtw>下社后</sta-name-zhtw>
+			<sta-name-en>Xiashehou</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TP" route="SB" stano="11"/>
+			</route-and-stanos>
+		</sta>
+		<sta>
+			<sta-name-zhtw>小碧潭（新店高中）</sta-name-zhtw>
+			<sta-name-en>Xiaobitan ( Xindian Senior High School )</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TP" route="G" stano="03A"/>
+			</route-and-stanos>
+		</sta>
+		<sta no-service="true">
+			<sta-name-zhtw>小大湳</sta-name-zhtw>
+			<sta-name-en>Xiaodanan</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TY" route="G" stano="05"/>
+			</route-and-stanos>
+		</sta>
+		<sta>
+			<sta-name-zhtw>小南門</sta-name-zhtw>
+			<sta-name-en>Xiaonanmen</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TP" route="G" stano="11"/>
+			</route-and-stanos>
+		</sta>
+		<sta>
+			<sta-name-zhtw>秀朗橋</sta-name-zhtw>
+			<sta-name-en>Xiulang Bridge</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="NT" route="Y" stano="09"/>
+			</route-and-stanos>
+		</sta>
+		<sta>
+			<sta-name-zhtw>先嗇宮</sta-name-zhtw>
+			<sta-name-en>Xianse Temple</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TP" route="O" stano="16"/>
+			</route-and-stanos>
+		</sta>
+		<sta>
+			<sta-name-zhtw>新北投</sta-name-zhtw>
+			<sta-name-en>Xinbeitou</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TP" route="R" stano="22A"/>
+			</route-and-stanos>
+		</sta>
 		<sta>
 			<sta-name-zhtw>新北產業園區</sta-name-zhtw>
 			<sta-name-en>New Taipei Industrial Park</sta-name-en>
@@ -914,8 +1322,212 @@
 				<route-and-stano place="TY" route="A" stano="3"/>
 			</route-and-stanos>
 		</sta>
+		<sta>
+			<sta-name-zhtw>新埔</sta-name-zhtw>
+			<sta-name-en>Xinpu</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TP" route="BL" stano="08"/>
+			</route-and-stanos>
+		</sta>
+		<sta>
+			<sta-name-zhtw>新埔民生</sta-name-zhtw>
+			<sta-name-en>Xinpu Minsheng</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="NT" route="Y" stano="17"/>
+			</route-and-stanos>
+		</sta>
+		<sta>
+			<sta-name-zhtw>新店（碧潭）</sta-name-zhtw>
+			<sta-name-en>Xindian ( Bitan )</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TP" route="G" stano="01"/>
+			</route-and-stanos>
+		</sta>
+		<sta>
+			<sta-name-zhtw>新店區公所</sta-name-zhtw>
+			<sta-name-en>Xindian District Office</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TP" route="G" stano="02"/>
+			</route-and-stanos>
+		</sta>
+		<sta>
+			<sta-name-zhtw>新和國小</sta-name-zhtw>
+			<sta-name-en>Xinhe Elementary School</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="NT" route="K" stano="08"/>
+			</route-and-stanos>
+		</sta>
+		<sta>
+			<sta-name-zhtw>辛亥</sta-name-zhtw>
+			<sta-name-en>Xinhai</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TP" route="BR" stano="05"/>
+			</route-and-stanos>
+		</sta>
+		<sta>
+			<sta-name-zhtw>新莊（新莊廟街）</sta-name-zhtw>
+			<sta-name-en>Xinzhuang ( Xinzhuang Temple Street )</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TP" route="O" stano="18"/>
+			</route-and-stanos>
+		</sta>
+		<sta>
+			<sta-name-zhtw>新莊副都心</sta-name-zhtw>
+			<sta-name-en>Xinzhuang Fuduxin</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TY" route="A" stano="4"/>
+			</route-and-stanos>
+		</sta>
+		<sta>
+			<sta-name-zhtw>新市一路</sta-name-zhtw>
+			<sta-name-en>Xinshi 1st Road</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="NT" route="V" stano="06"/>
+			</route-and-stanos>
+		</sta>
+		<sta>
+			<sta-name-zhtw>信義安和</sta-name-zhtw>
+			<sta-name-en>Xinyi Anhe</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TP" route="R" stano="04"/>
+			</route-and-stanos>
+		</sta>
+		<sta>
+			<sta-name-zhtw>象山</sta-name-zhtw>
+			<sta-name-en>Xiangshan</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TP" route="R" stano="02"/>
+				<route-and-stano place="NT" route="Y" stano="39" no-service="true"/>
+			</route-and-stanos>
+		</sta>
+		<sta>
+			<sta-name-zhtw>幸福</sta-name-zhtw>
+			<sta-name-en>Xingfu</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="NT" route="Y" stano="19"/>
+			</route-and-stanos>
+		</sta>
+		<sta>
+			<sta-name-zhtw>行天宮</sta-name-zhtw>
+			<sta-name-en>Xingtian Temple</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TP" route="O" stano="09"/>
+				<route-and-stano place="TP" route="SB" stano="03" no-service="true"/>
+			</route-and-stanos>
+		</sta>
+		<sta>
+			<sta-name-zhtw>興南</sta-name-zhtw>
+			<sta-name-en>Xingnan</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TY" route="A" stano="20"/>
+			</route-and-stanos>
+		</sta>
+		<sta>
+			<sta-name-zhtw>徐匯中學</sta-name-zhtw>
+			<sta-name-en>Saint Ignatius High School</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TP" route="O" stano="52"/>
+				<route-and-stano place="NT" route="Y" stano="22" no-service="true"/>
+			</route-and-stanos>
+		</sta>
 	</group>
 	<group letter="ㄓ">
+		<sta>
+			<sta-name-zhtw>芝山</sta-name-zhtw>
+			<sta-name-en>Zhishan</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TP" route="R" stano="17"/>
+				<route-and-stano place="TP" route="LR" stano="57" no-service="true"/>
+			</route-and-stanos>
+		</sta>
+		<sta no-service="true">
+			<sta-name-zhtw>植物園</sta-name-zhtw>
+			<sta-name-en>Taipei Botanical Garden</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TP" route="LG" stano="02"/>
+			</route-and-stanos>
+		</sta>
+		<sta>
+			<sta-name-zhtw>竹圍</sta-name-zhtw>
+			<sta-name-en>Zhuwei</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TP" route="R" stano="26"/>
+			</route-and-stanos>
+		</sta>
+		<sta no-service="true">
+			<sta-name-zhtw>中壢車站</sta-name-zhtw>
+			<sta-name-en>Zhongli Railway Station</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TY" route="A" stano="23"/>
+				<route-and-stano place="TY" route="GE" stano="06"/>
+			</route-and-stanos>
+		</sta>
+		<sta no-service="true">
+			<sta-name-zhtw>中路</sta-name-zhtw>
+			<sta-name-en>Zhonglu</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="NT" route="Y" stano="21"/>
+			</route-and-stanos>
+		</sta>
+		<sta>
+			<sta-name-zhtw>中和</sta-name-zhtw>
+			<sta-name-en>Zhonghe</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="NT" route="Y" stano="12"/>
+				<route-and-stano place="TP" route="LG" stano="06" no-service="true"/>
+			</route-and-stanos>
+		</sta>
+		<sta no-service="true">
+			<sta-name-zhtw>中和高中</sta-name-zhtw>
+			<sta-name-en>Zhonghe Senior High School</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TP" route="LG" stano="08"/>
+			</route-and-stanos>
+		</sta>
+		<sta>
+			<sta-name-zhtw>忠孝復興</sta-name-zhtw>
+			<sta-name-en>Zhongxiao Fuxing</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TP" route="BR" stano="10"/>
+				<route-and-stano place="TP" route="BL" stano="15"/>
+			</route-and-stanos>
+		</sta>
+		<sta>
+			<sta-name-zhtw>忠孝敦化</sta-name-zhtw>
+			<sta-name-en>Zhongxiao Dunhua</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TP" route="BL" stano="16"/>
+			</route-and-stanos>
+		</sta>
+		<sta>
+			<sta-name-zhtw>忠孝新生（台北科大）</sta-name-zhtw>
+			<sta-name-en>Zhongxiao Xinsheng ( National Taipei University of Technology )</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TP" route="O" stano="07"/>
+				<route-and-stano place="TP" route="BL" stano="14"/>
+			</route-and-stanos>
+		</sta>
+		<sta no-service="true">
+			<sta-name-zhtw>中庄</sta-name-zhtw>
+			<sta-name-en>Zhongzhuang</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="NT" route="V" stano="33"/>
+			</route-and-stanos>
+		</sta>
+		<sta no-service="true">
+			<sta-name-zhtw>中正大興</sta-name-zhtw>
+			<sta-name-en>Zhongzheng Daxing</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TY" route="G" stano="10"/>
+			</route-and-stanos>
+		</sta>
+		<sta no-service="true">
+			<sta-name-zhtw>中正力行（桃園夜市）</sta-name-zhtw>
+			<sta-name-en>Zhongzheng Lixing ( Taoyuan Night Market )</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TY" route="G" stano="09"/>
+			</route-and-stanos>
+		</sta>
 		<sta>
 			<sta-name-zhtw>中正紀念堂（南門）</sta-name-zhtw>
 			<sta-name-en>Chiang Kai-Shek Memorial Hall ( Nanmen )</sta-name-en>
@@ -923,6 +1535,71 @@
 				<route-and-stano place="TP" route="R" stano="08"/>
 				<route-and-stano place="TP" route="G" stano="10"/>
 				<route-and-stano place="TP" route="LG" stano="01" no-service="true"/>
+			</route-and-stanos>
+		</sta>
+		<sta>
+			<sta-name-zhtw>中山</sta-name-zhtw>
+			<sta-name-en>Zhongshan</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TP" route="R" stano="11"/>
+				<route-and-stano place="TP" route="G" stano="14"/>
+			</route-and-stanos>
+		</sta>
+		<sta>
+			<sta-name-zhtw>中山國小（晴光商圈）</sta-name-zhtw>
+			<sta-name-en>Zhongshan Elementary School ( Qingguang Commercial Zone )</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TP" route="O" stano="10"/>
+			</route-and-stanos>
+		</sta>
+		<sta>
+			<sta-name-zhtw>中山國中</sta-name-zhtw>
+			<sta-name-en>Zhongshan Junior High School</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TP" route="BR" stano="12"/>
+			</route-and-stanos>
+		</sta>
+		<sta>
+			<sta-name-zhtw>忠義</sta-name-zhtw>
+			<sta-name-en>Zhongyi</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TP" route="R" stano="24"/>
+			</route-and-stanos>
+		</sta>
+		<sta>
+			<sta-name-zhtw>中原</sta-name-zhtw>
+			<sta-name-en>Zhongyuan</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="NT" route="Y" stano="14"/>
+			</route-and-stanos>
+		</sta>
+		<sta no-service="true">
+			<sta-name-zhtw>洲美</sta-name-zhtw>
+			<sta-name-en>Zhoumei</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TP" route="LR" stano="06"/>
+				<route-and-stano place="TP" route="LR" stano="55"/>
+			</route-and-stanos>
+		</sta>
+		<sta no-service="true">
+			<sta-name-zhtw>洲子</sta-name-zhtw>
+			<sta-name-en>Zhouzi</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="NT" route="Y" stano="32"/>
+			</route-and-stanos>
+		</sta>
+		<sta no-service="true">
+			<sta-name-zhtw>洲子洋</sta-name-zhtw>
+			<sta-name-en>Zhouziyang</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="NT" route="F" stano="08"/>
+			</route-and-stanos>
+		</sta>
+		<sta no-service="true">
+			<sta-name-zhtw>樟樹灣</sta-name-zhtw>
+			<sta-name-en>Zhangshuwan</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TP" route="SB" stano="13"/>
 			</route-and-stanos>
 		</sta>
 		<sta no-service="true">
@@ -978,10 +1655,180 @@
 		</sta>
 	</group>
 	<group letter="ㄕ">
-		
+		<sta>
+			<sta-name-zhtw>石牌（榮總）</sta-name-zhtw>
+			<sta-name-en>Shipai ( Veterans General Hospital )</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TP" route="R" stano="19"/>
+			</route-and-stanos>
+		</sta>
+		<sta>
+			<sta-name-zhtw>士林</sta-name-zhtw>
+			<sta-name-en>Shilin</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TP" route="R" stano="16"/>
+				<route-and-stano place="NT" route="Y" stano="27" no-service="true"/>
+			</route-and-stanos>
+		</sta>
+		<sta>
+			<sta-name-zhtw>市政府</sta-name-zhtw>
+			<sta-name-en>Taipei City Hall</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TP" route="BL" stano="18"/>
+			</route-and-stanos>
+		</sta>
+		<sta>
+			<sta-name-zhtw>十四張（莊敬高職）</sta-name-zhtw>
+			<sta-name-en>Shisizhang ( Juang Jing Vocational High School )</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="NT" route="Y" stano="08"/>
+				<route-and-stano place="NT" route="K" stano="09"/>
+			</route-and-stanos>
+		</sta>
+		<sta no-service="true">
+			<sta-name-zhtw>十三行</sta-name-zhtw>
+			<sta-name-en>Shihsanhang</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="NT" route="V" stano="35"/>
+			</route-and-stanos>
+		</sta>
+		<sta no-service="true">
+			<sta-name-zhtw>十三行博物館</sta-name-zhtw>
+			<sta-name-en>Shihsanhang Museum of Archaeology</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="NT" route="V" stano="34"/>
+			</route-and-stanos>
+		</sta>
+		<sta no-service="true">
+			<sta-name-zhtw>樹林</sta-name-zhtw>
+			<sta-name-en>Shulin</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TP" route="LG" stano="17"/>
+			</route-and-stanos>
+		</sta>
+		<sta no-service="true">
+			<sta-name-zhtw>豎啣埤</sta-name-zhtw>
+			<sta-name-en>Shuxianpi</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="NT" route="LB" stano="13"/>
+			</route-and-stanos>
+		</sta>
+		<sta no-service="true">
+			<sta-name-zhtw>水碓</sta-name-zhtw>
+			<sta-name-en>Shuidui</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="NT" route="F" stano="10"/>
+			</route-and-stanos>
+		</sta>
+		<sta no-service="true">
+			<sta-name-zhtw>水湳復興</sta-name-zhtw>
+			<sta-name-en>Shuinan Fuxing</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="NT" route="F" stano="03"/>
+			</route-and-stanos>
+		</sta>
+		<sta no-service="true">
+			<sta-name-zhtw>水尾</sta-name-zhtw>
+			<sta-name-en>Shuiwei</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TY" route="G" stano="15"/>
+			</route-and-stanos>
+		</sta>
+		<sta>
+			<sta-name-zhtw>雙連（馬偕紀念醫院）</sta-name-zhtw>
+			<sta-name-en>Shuanglian ( Mackay Memorial Hospital )</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TP" route="R" stano="12"/>
+				<route-and-stano place="TP" route="SB" stano="02"/>
+			</route-and-stanos>
+		</sta>
+		<sta no-service="true">
+			<sta-name-zhtw>雙和醫院</sta-name-zhtw>
+			<sta-name-en>Shuang Ho Hospital</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TP" route="LG" stano="07"/>
+			</route-and-stanos>
+		</sta>
+		<sta>
+			<sta-name-zhtw>雙城</sta-name-zhtw>
+			<sta-name-en>Shuangcheng</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="NT" route="K" stano="01"/>
+			</route-and-stanos>
+		</sta>
+		<sta>
+			<sta-name-zhtw>沙崙</sta-name-zhtw>
+			<sta-name-en>Shalun</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="NT" route="V" stano="27"/>
+			</route-and-stanos>
+		</sta>
+		<sta no-service="true">
+			<sta-name-zhtw>社后</sta-name-zhtw>
+			<sta-name-en>Shehou</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TP" route="SB" stano="12"/>
+			</route-and-stanos>
+		</sta>
+		<sta no-service="true">
+			<sta-name-zhtw>社子</sta-name-zhtw>
+			<sta-name-en>Shezi</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="NT" route="Y" stano="25"/>
+				<route-and-stano place="TP" route="LR" stano="04"/>
+			</route-and-stanos>
+		</sta>
+		<sta>
+			<sta-name-zhtw>山鼻</sta-name-zhtw>
+			<sta-name-en>Shanbi</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TY" route="A" stano="10"/>
+			</route-and-stanos>
+		</sta>
+		<sta>
+			<sta-name-zhtw>善導寺（華山）</sta-name-zhtw>
+			<sta-name-en>Shandao Temple ( Huashan )</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TP" route="BL" stano="13"/>
+			</route-and-stanos>
+		</sta>
+		<sta no-service="true">
+			<sta-name-zhtw>昇高</sta-name-zhtw>
+			<sta-name-en>Shenggao</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="NT" route="S" stano="05"/>
+			</route-and-stanos>
+		</sta>
+		<sta no-service="true">
+			<sta-name-zhtw>聖約翰大學</sta-name-zhtw>
+			<sta-name-en>Saint John's University</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="NT" route="V" stano="14"/>
+			</route-and-stanos>
+		</sta>
 	</group>
 	<group letter="ㄖ">
-		
+		<sta no-service="true">
+			<sta-name-zhtw>瑞光公園</sta-name-zhtw>
+			<sta-name-en>Ruiguang Park</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="NT" route="Y" stano="34"/>
+			</route-and-stanos>
+		</sta>
+		<sta no-service="true">
+			<sta-name-zhtw>軟橋</sta-name-zhtw>
+			<sta-name-en>Ruanqiao</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TP" route="LR" stano="56"/>
+			</route-and-stanos>
+		</sta>
+		<sta no-service="true">
+			<sta-name-zhtw>仁德公園</sta-name-zhtw>
+			<sta-name-en>Rende Park</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TY" route="G" stano="02"/>
+			</route-and-stanos>
+		</sta>
 	</group>
 	<group letter="ㄗ">
 		
@@ -1003,9 +1850,95 @@
 		</sta>
 	</group>
 	<group letter="ㄙ">
-		
+		<sta>
+			<sta-name-zhtw>松江南京</sta-name-zhtw>
+			<sta-name-en>Songjiang Nanjing</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TP" route="G" stano="15"/>
+				<route-and-stano place="TP" route="O" stano="08"/>
+			</route-and-stanos>
+		</sta>
+		<sta>
+			<sta-name-zhtw>松山</sta-name-zhtw>
+			<sta-name-en>Songshan</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TP" route="G" stano="19"/>
+				<route-and-stano place="NT" route="Y" stano="37" no-service="true"/>
+			</route-and-stanos>
+		</sta>
+		<sta>
+			<sta-name-zhtw>松山機場</sta-name-zhtw>
+			<sta-name-en>Songshan Airport</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TP" route="BR" stano="13"/>
+			</route-and-stanos>
+		</sta>
+		<sta>
+			<sta-name-zhtw>三民高中（空中大學）</sta-name-zhtw>
+			<sta-name-en>Sanmin Senior High School ( National Open University )</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TP" route="O" stano="53"/>
+			</route-and-stanos>
+		</sta>
+		<sta>
+			<sta-name-zhtw>三和國中</sta-name-zhtw>
+			<sta-name-en>Sanhe Junior High School</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TP" route="O" stano="51"/>
+			</route-and-stanos>
+		</sta>
+		<sta no-service="true">
+			<sta-name-zhtw>三角埔</sta-name-zhtw>
+			<sta-name-en>Sanjiaopu</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TP" route="LG" stano="20"/>
+			</route-and-stanos>
+		</sta>
+		<sta no-service="true">
+			<sta-name-zhtw>三峽</sta-name-zhtw>
+			<sta-name-en>Sanxia</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="NT" route="LB" stano="06"/>
+			</route-and-stanos>
+		</sta>
+		<sta no-service="true">
+			<sta-name-zhtw>三張犁</sta-name-zhtw>
+			<sta-name-en>Sanzhangli</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="NT" route="Y" stano="40"/>
+			</route-and-stanos>
+		</sta>
+		<sta>
+			<sta-name-zhtw>三重</sta-name-zhtw>
+			<sta-name-en>Sanchong</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TP" route="O" stano="15"/>
+				<route-and-stano place="TY" route="A" stano="2"/>
+			</route-and-stanos>
+		</sta>
+		<sta>
+			<sta-name-zhtw>三重國小</sta-name-zhtw>
+			<sta-name-en>Sanchong Elementary School</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TP" route="O" stano="50"/>
+			</route-and-stanos>
+		</sta>
 	</group>
 	<group letter="ㄧ">
+		<sta no-service="true">
+			<sta-name-zhtw>義學</sta-name-zhtw>
+			<sta-name-en>Yixue</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="NT" route="F" stano="13"/>
+			</route-and-stanos>
+		</sta>
+		<sta no-service="true">
+			<sta-name-zhtw>藝文特區（展演中心）</sta-name-zhtw>
+			<sta-name-en>Taoyuan Arts and Cultural Business District ( Taoyuan Arts Center )</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TY" route="G" stano="11"/>
+			</route-and-stanos>
+		</sta>
 		<sta>
 			<sta-name-zhtw>亞東醫院</sta-name-zhtw>
 			<sta-name-en>Far Eastern Hospital</sta-name-en>
@@ -1013,12 +1946,172 @@
 				<route-and-stano place="TP" route="BL" stano="02"/>
 			</route-and-stanos>
 		</sta>
+		<sta no-service="true">
+			<sta-name-zhtw>油車口</sta-name-zhtw>
+			<sta-name-en>Youchekou</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="NT" route="V" stano="25"/>
+			</route-and-stanos>
+		</sta>
+		<sta no-service="true">
+			<sta-name-zhtw>陽明運動公園（陽明高中）</sta-name-zhtw>
+			<sta-name-en>Yangming Sports Park ( Yangming Senior High School )</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TY" route="G" stano="06"/>
+			</route-and-stanos>
+		</sta>
+		<sta>
+			<sta-name-zhtw>陽光運動公園</sta-name-zhtw>
+			<sta-name-en>Sunshine Sports Park</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="NT" route="K" stano="07"/>
+			</route-and-stanos>
+		</sta>
+		<sta no-service="true">
+			<sta-name-zhtw>鶯桃福德</sta-name-zhtw>
+			<sta-name-en>Yingtao Fude</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="NT" route="LB" stano="12"/>
+			</route-and-stanos>
+		</sta>
+		<sta no-service="true">
+			<sta-name-zhtw>鶯歌車站</sta-name-zhtw>
+			<sta-name-en>Yingge Station</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="NT" route="LB" stano="08"/>
+			</route-and-stanos>
+		</sta>
 	</group>
 	<group letter="ㄨ">
-		
+		<sta no-service="true">
+			<sta-name-zhtw>五分</sta-name-zhtw>
+			<sta-name-en>Wufen</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TP" route="SB" stano="11A"/>
+			</route-and-stanos>
+		</sta>
+		<sta no-service="true">
+			<sta-name-zhtw>五分港</sta-name-zhtw>
+			<sta-name-en>Wufengang</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TP" route="LR" stano="07"/>
+			</route-and-stanos>
+		</sta>
+		<sta no-service="true">
+			<sta-name-zhtw>五股</sta-name-zhtw>
+			<sta-name-en>Wugu</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="NT" route="F" stano="09"/>
+			</route-and-stanos>
+		</sta>
+		<sta no-service="true">
+			<sta-name-zhtw>烏月</sta-name-zhtw>
+			<sta-name-en>Wuyue</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="NT" route="S" stano="06"/>
+			</route-and-stanos>
+		</sta>
+		<sta no-service="true">
+			<sta-name-zhtw>挖子</sta-name-zhtw>
+			<sta-name-en>Wazi</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="NT" route="LB" stano="03"/>
+			</route-and-stanos>
+		</sta>
+		<sta>
+			<sta-name-zhtw>萬芳社區</sta-name-zhtw>
+			<sta-name-en>Wanfang Community</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TP" route="BR" stano="03"/>
+			</route-and-stanos>
+		</sta>
+		<sta>
+			<sta-name-zhtw>萬芳醫院</sta-name-zhtw>
+			<sta-name-en>Wanfang Hospital</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TP" route="BR" stano="04"/>
+			</route-and-stanos>
+		</sta>
+		<sta>
+			<sta-name-zhtw>萬隆</sta-name-zhtw>
+			<sta-name-en>Wanlong</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TP" route="G" stano="06"/>
+			</route-and-stanos>
+		</sta>
+		<sta no-service="true">
+			<sta-name-zhtw>灣仔</sta-name-zhtw>
+			<sta-name-en>Wanzi</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TP" route="SB" stano="08"/>
+			</route-and-stanos>
+		</sta>
+		<sta>
+			<sta-name-zhtw>文德（碧湖公園）</sta-name-zhtw>
+			<sta-name-en>Wende ( Bihu Park )</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TP" route="BR" stano="18"/>
+			</route-and-stanos>
+		</sta>
+		<sta no-service="true">
+			<sta-name-zhtw>文化公園</sta-name-zhtw>
+			<sta-name-en>Shihsanhang Cultural Park</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="NT" route="V" stano="36"/>
+			</route-and-stanos>
+		</sta>
+		<sta no-service="true">
+			<sta-name-zhtw>文山區公所</sta-name-zhtw>
+			<sta-name-en>Wenshan District Office</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="NT" route="Y" stano="03"/>
+			</route-and-stanos>
+		</sta>
 	</group>
 	<group letter="ㄩ">
-		
+		<sta>
+			<sta-name-zhtw>圓山</sta-name-zhtw>
+			<sta-name-en>Yuanshan</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TP" route="R" stano="14"/>
+			</route-and-stanos>
+		</sta>
+		<sta>
+			<sta-name-zhtw>永寧</sta-name-zhtw>
+			<sta-name-en>Yongning</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TP" route="BL" stano="02"/>
+			</route-and-stanos>
+		</sta>
+		<sta no-service="true">
+			<sta-name-zhtw>永和</sta-name-zhtw>
+			<sta-name-en>Yonghe</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TP" route="LG" stano="05"/>
+			</route-and-stanos>
+		</sta>
+		<sta no-service="true">
+			<sta-name-zhtw>永吉公園</sta-name-zhtw>
+			<sta-name-en>Yongji Park</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="NT" route="LB" stano="11"/>
+			</route-and-stanos>
+		</sta>
+		<sta>
+			<sta-name-zhtw>永春</sta-name-zhtw>
+			<sta-name-en>Yongchun</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TP" route="BL" stano="19"/>
+				<route-and-stano place="NT" route="Y" stano="38"/>
+			</route-and-stanos>
+		</sta>
+		<sta>
+			<sta-name-zhtw>永安市場</sta-name-zhtw>
+			<sta-name-en>Yongan Market</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TP" route="O" stano="03"/>
+			</route-and-stanos>
+		</sta>
 	</group>
 	<group letter="ㄚ">
 		<sta no-service="true">
@@ -1070,6 +2163,13 @@
 	</group>
 	<group letter="ㄦ">
 		<sta no-service="true">
+			<sta-name-zhtw>兒童新樂園</sta-name-zhtw>
+			<sta-name-en>Taipei Children's Amusement Park</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TP" route="LR" stano="05"/>
+			</route-and-stanos>
+		</sta>
+		<sta no-service="true">
 			<sta-name-zhtw>二重</sta-name-zhtw>
 			<sta-name-en>Erchong</sta-name-en>
 			<route-and-stanos>
@@ -1078,6 +2178,27 @@
 		</sta>
 	</group>
 	<group letter="＊">
-		
+		<sta no-service="true">
+			<sta-name-zhtw>（站名未定）</sta-name-zhtw>
+			<sta-name-en>( Station Name Undecided )</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TY" route="G" stano="16"/>
+				<route-and-stano place="TY" route="G" stano="17"/>
+				<route-and-stano place="TY" route="G" stano="18"/>
+				<route-and-stano place="TY" route="GE" stano="01"/>
+				<route-and-stano place="TY" route="GE" stano="02"/>
+				<route-and-stano place="TY" route="GE" stano="03"/>
+				<route-and-stano place="TY" route="GE" stano="04"/>
+				<route-and-stano place="TY" route="GE" stano="05"/>
+				<route-and-stano place="TY" route="GA" stano="01"/>
+				<route-and-stano place="TY" route="GA" stano="02"/>
+				<route-and-stano place="TY" route="GA" stano="03"/>
+				<route-and-stano place="TY" route="BRH" stano="02"/>
+				<route-and-stano place="TY" route="BRH" stano="03"/>
+				<route-and-stano place="TY" route="BRH" stano="04"/>
+				<route-and-stano place="TY" route="BRH" stano="05"/>
+				<route-and-stano place="TY" route="BRH" stano="06"/>
+			</route-and-stanos>
+		</sta>
 	</group>
 </mrt-stalist>
