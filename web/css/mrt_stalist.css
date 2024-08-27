@@ -69,7 +69,7 @@ route-and-stano[place="KH"]{
 route-and-stano[place="KH"]::before{
 	content: attr(route) attr(stano); 
 	text-align: center; 
-	width: 2rem; 
+	width: 2.25rem; 
 }
 
 route-and-stano[place="KH"]::after{
@@ -180,7 +180,7 @@ route-and-stano[place="KH"][route="R"], route-and-stano[place="KH"][route="RL"],
 	border-color: #e20b65; 
 }
 
-route-and-stano[place="KH"][route="O"]{
+route-and-stano[place="KH"][route="O"], route-and-stano[place="KH"][route="OT"]{
 	border-color: #faa73f; 
 }
 
