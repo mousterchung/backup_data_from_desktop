@@ -31,6 +31,13 @@
 				<route-and-stano place="TP" route="G" stano="13"/>
 			</route-and-stanos>
 		</sta>
+		<sta no-service="true">
+			<sta-name-zhtw>北大台北校區</sta-name-zhtw>
+			<sta-name-en>National Taipei University Taipei Campus</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TP" route="SB" stano="04"/>
+			</route-and-stanos>
+		</sta>
 		<sta>
 			<sta-name-zhtw>北投</sta-name-zhtw>
 			<sta-name-en>Beitou</sta-name-en>
@@ -340,6 +347,27 @@
 		</sta>
 	</group>
 	<group letter="ㄊ">
+		<sta>
+			<sta-name-zhtw>體育大學</sta-name-zhtw>
+			<sta-name-en>National Taiwan Sport University</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TY" route="A" stano="7"/>
+			</route-and-stanos>
+		</sta>
+		<sta no-service="true">
+			<sta-name-zhtw>台北大學</sta-name-zhtw>
+			<sta-name-en>National Taipei University</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="NT" route="LB" stano="07"/>
+			</route-and-stanos>
+		</sta>
+		<sta>
+			<sta-name-zhtw>台大醫院</sta-name-zhtw>
+			<sta-name-en>National Taiwan University Hospital</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TP" route="R" stano="09"/>
+			</route-and-stanos>
+		</sta>
 		<sta no-service="true">
 			<sta-name-zhtw>陶瓷老街</sta-name-zhtw>
 			<sta-name-en>Ceramics Old Street</sta-name-en>
@@ -349,7 +377,77 @@
 		</sta>
 	</group>
 	<group letter="ㄋ">
-		
+		<sta no-service="true">
+			<sta-name-zhtw>農禪寺</sta-name-zhtw>
+			<sta-name-en>Nung Chan Monastary</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TP" route="LR" stano="09"/>
+			</route-and-stanos>
+		</sta>
+		<sta no-service="true">
+			<sta-name-zhtw>內溝</sta-name-zhtw>
+			<sta-name-en>Neigou</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TP" route="SB" stano="11C"/>
+			</route-and-stanos>
+		</sta>
+		<sta>
+			<sta-name-zhtw>內湖</sta-name-zhtw>
+			<sta-name-en>Neihu</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TP" route="BR" stano="19"/>
+			</route-and-stanos>
+		</sta>
+		<sta no-service="true">
+			<sta-name-zhtw>內湖科學園區</sta-name-zhtw>
+			<sta-name-en>Neihu Technology Park</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="NT" route="Y" stano="33"/>
+			</route-and-stanos>
+		</sta>
+		<sta>
+			<sta-name-zhtw>南京復興</sta-name-zhtw>
+			<sta-name-en>Nanjing Fuxing</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TP" route="BR" stano="11"/>
+				<route-and-stano place="TP" route="G" stano="16"/>
+			</route-and-stanos>
+		</sta>
+		<sta>
+			<sta-name-zhtw>南港</sta-name-zhtw>
+			<sta-name-en>Nangang</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TP" route="BL" stano="22"/>
+			</route-and-stanos>
+		</sta>
+		<sta>
+			<sta-name-zhtw>南港軟體園區</sta-name-zhtw>
+			<sta-name-en>Nangang Software Park</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TP" route="BR" stano="23"/>
+			</route-and-stanos>
+		</sta>
+		<sta no-service="true">
+			<sta-name-zhtw>南竹中正北（河底）</sta-name-zhtw>
+			<sta-name-en>Nanzhu Zhongzheng North ( Hedi )</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TY" route="G" stano="13"/>
+			</route-and-stanos>
+		</sta>
+		<sta>
+			<sta-name-zhtw>南勢角</sta-name-zhtw>
+			<sta-name-en>Nanshijiao</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TP" route="O" stano="01"/>
+			</route-and-stanos>
+		</sta>
+		<sta>
+			<sta-name-zhtw>南京三民</sta-name-zhtw>
+			<sta-name-en>Nanjing Sanmin</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TP" route="G" stano="18"/>
+			</route-and-stanos>
+		</sta>
 	</group>
 	<group letter="ㄌ">
 		<sta>
@@ -462,6 +560,13 @@
 			</route-and-stanos>
 		</sta>
 		<sta no-service="true">
+			<sta-name-zhtw>故宮博物院</sta-name-zhtw>
+			<sta-name-en>National Palace Museum</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="NT" route="Y" stano="29"/>
+			</route-and-stanos>
+		</sta>
+		<sta no-service="true">
 			<sta-name-zhtw>菓林</sta-name-zhtw>
 			<sta-name-en>Guolin</sta-name-en>
 			<route-and-stanos>
@@ -494,6 +599,13 @@
 			<sta-name-en>Gongguan ( National Taiwan University )</sta-name-en>
 			<route-and-stanos>
 				<route-and-stano place="TP" route="G" stano="07"/>
+			</route-and-stanos>
+		</sta>
+		<sta no-service="true">
+			<sta-name-zhtw>工商展覽中心</sta-name-zhtw>
+			<sta-name-en>New Taipei City Exhibition Hall</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="NT" route="Y" stano="20A"/>
 			</route-and-stanos>
 		</sta>
 		<sta no-service="true">
@@ -794,7 +906,14 @@
 		</sta>
 	</group>
 	<group letter="ㄒ">
-		
+		<sta>
+			<sta-name-zhtw>新北產業園區</sta-name-zhtw>
+			<sta-name-en>New Taipei Industrial Park</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="NT" route="Y" stano="20"/>
+				<route-and-stano place="TY" route="A" stano="3"/>
+			</route-and-stanos>
+		</sta>
 	</group>
 	<group letter="ㄓ">
 		<sta>
@@ -804,6 +923,13 @@
 				<route-and-stano place="TP" route="R" stano="08"/>
 				<route-and-stano place="TP" route="G" stano="10"/>
 				<route-and-stano place="TP" route="LG" stano="01" no-service="true"/>
+			</route-and-stanos>
+		</sta>
+		<sta no-service="true">
+			<sta-name-zhtw>政大</sta-name-zhtw>
+			<sta-name-en>National Chengchi University</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="NT" route="Y" stano="02"/>
 			</route-and-stanos>
 		</sta>
 	</group>
