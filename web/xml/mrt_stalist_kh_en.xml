@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="./../css/mrt_stalist.css" type="text/css"?>
+<!DOCTYPE mrt-stalist SYSTEM "./dtd/mrt_stalist.dtd">
+<mrt-stalist>
+	<group letter="Ａ">
+		
+	</group>
+	<group letter="Ｂ">
+		
+	</group>
+	<group letter="Ｃ">
+		<sta no-service="true">
+			<sta-name-zhtw>中鋼東門</sta-name-zhtw>
+			<sta-name-en>China Steel East Portal</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="KH" route="RL" stano="02"/>
+			</route-and-stanos>
+		</sta>
+	</group>
+	<group letter="Ｄ">
+		
+	</group>
+	<group letter="Ｅ">
+		
+	</group>
+	<group letter="Ｆ">
+		<sta no-service="true">
+			<sta-name-zhtw>鳳鼻頭</sta-name-zhtw>
+			<sta-name-en>Fongbitou</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="KH" route="RL" stano="3"/>
+			</route-and-stanos>
+		</sta>
+	</group>
+	<group letter="Ｇ">
+		<sta no-service="true">
+			<sta-name-zhtw>港仔埔</sta-name-zhtw>
+			<sta-name-en>Gangzihpu</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="KH" route="RL" stano="5"/>
+			</route-and-stanos>
+		</sta>
+	</group>
+	<group letter="Ｈ">
+		
+	</group>
+	<group letter="Ｉ">
+		
+	</group>
+	<group letter="Ｊ">
+		<sta no-service="true">
+			<sta-name-zhtw>中坑門</sta-name-zhtw>
+			<sta-name-en>Jhongkengmen</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="KH" route="RL" stano="4"/>
+			</route-and-stanos>
+		</sta>
+		<sta no-service="true">
+			<sta-name-zhtw>中林</sta-name-zhtw>
+			<sta-name-en>Jhonglin</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="KH" route="RL" stano="2"/>
+			</route-and-stanos>
+		</sta>
+	</group>
+	<group letter="Ｋ">
+		
+	</group>
+	<group letter="Ｌ">
+		<sta no-service="true">
+			<sta-name-zhtw>林園</sta-name-zhtw>
+			<sta-name-en>Linyuan</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="KH" route="RL" stano="6"/>
+			</route-and-stanos>
+		</sta>
+		<sta no-service="true">
+			<sta-name-zhtw>林園工業區</sta-name-zhtw>
+			<sta-name-en>Linyuan Industrial Park</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="KH" route="RL" stano="7"/>
+			</route-and-stanos>
+		</sta>
+	</group>
+	<group letter="Ｍ">
+		
+	</group>
+	<group letter="Ｎ">
+		
+	</group>
+	<group letter="Ｏ">
+		
+	</group>
+	<group letter="Ｐ">
+		
+	</group>
+	<group letter="Ｑ">
+		
+	</group>
+	<group letter="Ｒ">
+		
+	</group>
+	<group letter="Ｓ">
+		
+	</group>
+	<group letter="Ｔ">
+		
+	</group>
+	<group letter="Ｕ">
+		
+	</group>
+	<group letter="Ｖ">
+		
+	</group>
+	<group letter="Ｗ">
+		
+	</group>
+	<group letter="Ｘ">
+		
+	</group>
+	<group letter="Ｙ">
+		
+	</group>
+	<group letter="Ｚ">
+		
+	</group>
+	<group letter="＊">
+		
+	</group>
+</mrt-stalist>
