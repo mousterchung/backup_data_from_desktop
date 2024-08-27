@@ -9,11 +9,40 @@
 		
 	</group>
 	<group letter="Ｃ">
+		<sta>
+			<sta-name-zhtw>草衙</sta-name-zhtw>
+			<sta-name-en>Caoya</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="KH" route="R" stano="4A"/>
+			</route-and-stanos>
+		</sta>
+		<sta>
+			<sta-name-zhtw>中央公園</sta-name-zhtw>
+			<sta-name-en>Central Park</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="KH" route="R" stano="9"/>
+			</route-and-stanos>
+		</sta>
 		<sta no-service="true">
-			<sta-name-zhtw>中鋼東門</sta-name-zhtw>
+			<sta-name-zhtw>中鋼東門（店子後）</sta-name-zhtw>
 			<sta-name-en>China Steel East Portal</sta-name-en>
 			<route-and-stanos>
 				<route-and-stano place="KH" route="RL" stano="02"/>
+			</route-and-stanos>
+		</sta>
+		<sta>
+			<sta-name-zhtw>前鎮高中（五甲）</sta-name-zhtw>
+			<sta-name-en>Cianjhen Senior High School ( Wujia )</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="KH" route="R" stano="5"/>
+				<route-and-stano place="KH" route="Y" stano="23" no-service="true"/>
+			</route-and-stanos>
+		</sta>
+		<sta>
+			<sta-name-zhtw>前鎮之星</sta-name-zhtw>
+			<sta-name-en>Cianjhen Star</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="KH" route="C" stano="3"/>
 			</route-and-stanos>
 		</sta>
 	</group>
@@ -25,10 +54,18 @@
 	</group>
 	<group letter="Ｆ">
 		<sta no-service="true">
-			<sta-name-zhtw>鳳鼻頭</sta-name-zhtw>
-			<sta-name-en>Fongbitou</sta-name-en>
+			<sta-name-zhtw>鳳鼻頭（循環產業園區）</sta-name-zhtw>
+			<sta-name-en>Fongbitou ( Circular Economy Industrial Park )</sta-name-en>
 			<route-and-stanos>
 				<route-and-stano place="KH" route="RL" stano="3"/>
+			</route-and-stanos>
+		</sta>
+		<sta>
+			<sta-name-zhtw>美麗島</sta-name-zhtw>
+			<sta-name-en>Formosa Boulrvard</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="KH" route="R" stano="10"/>
+				<route-and-stano place="KH" route="O" stano="5"/>
 			</route-and-stanos>
 		</sta>
 	</group>
@@ -64,7 +101,20 @@
 		</sta>
 	</group>
 	<group letter="Ｋ">
-		
+		<sta>
+			<sta-name-zhtw>凱旋</sta-name-zhtw>
+			<sta-name-en>Kaisyuan</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="KH" route="R" stano="6"/>
+			</route-and-stanos>
+		</sta>
+		<sta>
+			<sta-name-zhtw>高雄國際機場</sta-name-zhtw>
+			<sta-name-en>Kaohsiung International Airport</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="KH" route="R" stano="4"/>
+			</route-and-stanos>
+		</sta>
 	</group>
 	<group letter="Ｌ">
 		<sta no-service="true">
@@ -101,7 +151,28 @@
 		
 	</group>
 	<group letter="Ｓ">
-		
+		<sta>
+			<sta-name-zhtw>三多商圈</sta-name-zhtw>
+			<sta-name-en>Sanduo Shopping District</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="KH" route="R" stano="8"/>
+				<route-and-stano place="KH" route="Y" stano="14" no-service="true"/>
+			</route-and-stanos>
+		</sta>
+		<sta>
+			<sta-name-zhtw>獅甲（勞工公園）</sta-name-zhtw>
+			<sta-name-en>Shihjia ( Labor Park )</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="KH" route="R" stano="7"/>
+			</route-and-stanos>
+		</sta>
+		<sta>
+			<sta-name-zhtw>小港</sta-name-zhtw>
+			<sta-name-en>Siaogang</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="KH" route="R" stano="3"/>
+			</route-and-stanos>
+		</sta>
 	</group>
 	<group letter="Ｔ">
 		
