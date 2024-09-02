@@ -9,14 +9,20 @@
 		
 	</group>
 	<group letter="Ｃ">
-		
+		<sta no-service="true">
+			<sta-name-zhtw>崇學國小</sta-name-zhtw>
+			<sta-name-en>Chongsyue Elementary School</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TN" route="B" stano="7"/>
+			</route-and-stanos>
+		</sta>
 	</group>
 	<group letter="Ｄ">
 		<sta no-service="true">
 			<sta-name-zhtw>大橋</sta-name-zhtw>
 			<sta-name-en>Daciao</sta-name-en>
 			<route-and-stanos>
-				<route-and-stano place="TN" route="B" stano="01"/>
+				<route-and-stano place="TN" route="B" stano="1"/>
 			</route-and-stanos>
 		</sta>
 	</group>
@@ -30,7 +36,13 @@
 		
 	</group>
 	<group letter="Ｈ">
-		
+		<sta no-service="true">
+			<sta-name-zhtw>虎尾寮</sta-name-zhtw>
+			<sta-name-en>Huweiliao</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TN" route="B" stano="9"/>
+			</route-and-stanos>
+		</sta>
 	</group>
 	<group letter="Ｉ">
 		
@@ -52,7 +64,7 @@
 			<sta-name-zhtw>臺南高工</sta-name-zhtw>
 			<sta-name-en>National Tainan Industrial High School</sta-name-en>
 			<route-and-stanos>
-				<route-and-stano place="TN" route="B" stano="02"/>
+				<route-and-stano place="TN" route="B" stano="2"/>
 			</route-and-stanos>
 		</sta>
 	</group>
@@ -64,7 +76,7 @@
 			<sta-name-zhtw>平實轉運站</sta-name-zhtw>
 			<sta-name-en>Pingshih Bus Station</sta-name-en>
 			<route-and-stanos>
-				<route-and-stano place="TN" route="B" stano="04"/>
+				<route-and-stano place="TN" route="B" stano="4"/>
 			</route-and-stanos>
 		</sta>
 	</group>
@@ -72,7 +84,13 @@
 		
 	</group>
 	<group letter="Ｒ">
-		
+		<sta no-service="true">
+			<sta-name-zhtw>仁德轉運站</sta-name-zhtw>
+			<sta-name-en>Rende Bus Station</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TN" route="B" stano="10"/>
+			</route-and-stanos>
+		</sta>
 	</group>
 	<group letter="Ｓ">
 		
@@ -82,7 +100,14 @@
 			<sta-name-zhtw>南紡購物中心</sta-name-zhtw>
 			<sta-name-en>T. S. Mall</sta-name-en>
 			<route-and-stanos>
-				<route-and-stano place="TN" route="B" stano="05"/>
+				<route-and-stano place="TN" route="B" stano="5"/>
+			</route-and-stanos>
+		</sta>
+		<sta no-service="true">
+			<sta-name-zhtw>文化中心</sta-name-zhtw>
+			<sta-name-en>Tainan Municipal Cultural Center</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TN" route="B" stano="8"/>
 			</route-and-stanos>
 		</sta>
 	</group>
@@ -97,7 +122,7 @@
 			<sta-name-zhtw>五王</sta-name-zhtw>
 			<sta-name-en>Wuwang</sta-name-en>
 			<route-and-stanos>
-				<route-and-stano place="TN" route="B" stano="03"/>
+				<route-and-stano place="TN" route="B" stano="3"/>
 			</route-and-stanos>
 		</sta>
 	</group>
@@ -115,7 +140,105 @@
 			<sta-name-zhtw>（站名未定）</sta-name-zhtw>
 			<sta-name-en>( Station Name Undecided )</sta-name-en>
 			<route-and-stanos>
-				<route-and-stano place="TN" route="B" stano="06"/>
+				<route-and-stano place="TN" route="B" stano="6"/>
+				<route-and-stano place="TN" route="G" stano="1"/>
+				<route-and-stano place="TN" route="G" stano="2"/>
+				<route-and-stano place="TN" route="G" stano="3"/>
+				<route-and-stano place="TN" route="G" stano="4"/>
+				<route-and-stano place="TN" route="G" stano="5"/>
+				<route-and-stano place="TN" route="G" stano="6"/>
+				<route-and-stano place="TN" route="G" stano="7"/>
+				<route-and-stano place="TN" route="G" stano="8"/>
+				<route-and-stano place="TN" route="G" stano="9"/>
+				<route-and-stano place="TN" route="G" stano="10"/>
+				<route-and-stano place="TN" route="G" stano="11"/>
+				<route-and-stano place="TN" route="G" stano="12"/>
+				<route-and-stano place="TN" route="G" stano="13"/>
+				<route-and-stano place="TN" route="G" stano="14"/>
+				<route-and-stano place="TN" route="G" stano="15"/>
+				<route-and-stano place="TN" route="G" stano="16"/>
+				<route-and-stano place="TN" route="G" stano="17"/>
+				<route-and-stano place="TN" route="G" stano="18"/>
+				<route-and-stano place="TN" route="G" stano="19"/>
+				<route-and-stano place="TN" route="G" stano="20"/>
+				<route-and-stano place="TN" route="G" stano="21"/>
+				<route-and-stano place="TN" route="G" stano="22"/>
+				<route-and-stano place="TN" route="G" stano="23"/>
+				<route-and-stano place="TN" route="G" stano="24"/>
+				<route-and-stano place="TN" route="G" stano="25"/>
+				<route-and-stano place="TN" route="G" stano="26"/>
+				<route-and-stano place="TN" route="G" stano="26A"/>
+				<route-and-stano place="TN" route="G" stano="27"/>
+				<route-and-stano place="TN" route="G" stano="27A"/>
+				<route-and-stano place="TN" route="G" stano="28"/>
+				<route-and-stano place="TN" route="R" stano="1"/>
+				<route-and-stano place="TN" route="R" stano="2"/>
+				<route-and-stano place="TN" route="R" stano="3"/>
+				<route-and-stano place="TN" route="R" stano="4"/>
+				<route-and-stano place="TN" route="R" stano="5"/>
+				<route-and-stano place="TN" route="R" stano="6"/>
+				<route-and-stano place="TN" route="R" stano="7"/>
+				<route-and-stano place="TN" route="R" stano="8"/>
+				<route-and-stano place="TN" route="R" stano="9"/>
+				<route-and-stano place="TN" route="R" stano="10"/>
+				<route-and-stano place="TN" route="R" stano="11"/>
+				<route-and-stano place="TN" route="R" stano="12"/>
+				<route-and-stano place="TN" route="R" stano="13"/>
+				<route-and-stano place="TN" route="R" stano="14"/>
+				<route-and-stano place="TN" route="R" stano="15"/>
+				<route-and-stano place="TN" route="R" stano="16"/>
+				<route-and-stano place="TN" route="R" stano="17"/>
+				<route-and-stano place="TN" route="R" stano="18"/>
+				<route-and-stano place="TN" route="R" stano="19"/>
+				<route-and-stano place="TN" route="R" stano="20"/>
+				<route-and-stano place="TN" route="R" stano="21"/>
+				<route-and-stano place="TN" route="R" stano="22"/>
+				<route-and-stano place="TN" route="R" stano="23"/>
+				<route-and-stano place="TN" route="R" stano="24"/>
+				<route-and-stano place="TN" route="R" stano="25"/>
+				<route-and-stano place="TN" route="R" stano="26"/>
+				<route-and-stano place="TN" route="BR" stano="1"/>
+				<route-and-stano place="TN" route="BR" stano="2"/>
+				<route-and-stano place="TN" route="BR" stano="3"/>
+				<route-and-stano place="TN" route="BR" stano="4"/>
+				<route-and-stano place="TN" route="BR" stano="5"/>
+				<route-and-stano place="TN" route="BR" stano="6"/>
+				<route-and-stano place="TN" route="BR" stano="7"/>
+				<route-and-stano place="TN" route="BR" stano="8"/>
+				<route-and-stano place="TN" route="BR" stano="9"/>
+				<route-and-stano place="TN" route="BR" stano="10"/>
+				<route-and-stano place="TN" route="BR" stano="11"/>
+				<route-and-stano place="TN" route="BR" stano="12"/>
+				<route-and-stano place="TN" route="BR" stano="13"/>
+				<route-and-stano place="TN" route="BR" stano="14"/>
+				<route-and-stano place="TN" route="BR" stano="15"/>
+				<route-and-stano place="TN" route="BR" stano="16"/>
+				<route-and-stano place="TN" route="BR" stano="17"/>
+				<route-and-stano place="TN" route="BR" stano="18"/>
+				<route-and-stano place="TN" route="BR" stano="19"/>
+				<route-and-stano place="TN" route="BR" stano="20"/>
+				<route-and-stano place="TN" route="BR" stano="21"/>
+				<route-and-stano place="TN" route="BR" stano="22"/>
+				<route-and-stano place="TN" route="BR" stano="23"/>
+				<route-and-stano place="TN" route="BR" stano="24"/>
+				<route-and-stano place="TN" route="BR" stano="25"/>
+				<route-and-stano place="TN" route="O" stano="1"/>
+				<route-and-stano place="TN" route="O" stano="2"/>
+				<route-and-stano place="TN" route="O" stano="3"/>
+				<route-and-stano place="TN" route="O" stano="4"/>
+				<route-and-stano place="TN" route="O" stano="5"/>
+				<route-and-stano place="TN" route="O" stano="6"/>
+				<route-and-stano place="TN" route="O" stano="7"/>
+				<route-and-stano place="TN" route="O" stano="8"/>
+				<route-and-stano place="TN" route="O" stano="9"/>
+				<route-and-stano place="TN" route="O" stano="10"/>
+				<route-and-stano place="TN" route="O" stano="11"/>
+				<route-and-stano place="TN" route="O" stano="12"/>
+				<route-and-stano place="TN" route="O" stano="13"/>
+				<route-and-stano place="TN" route="O" stano="14"/>
+				<route-and-stano place="TN" route="O" stano="15"/>
+				<route-and-stano place="TN" route="O" stano="16"/>
+				<route-and-stano place="TN" route="O" stano="17"/>
 			</route-and-stanos>
 		</sta>
 	</group>
