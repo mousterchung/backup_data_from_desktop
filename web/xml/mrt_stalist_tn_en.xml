@@ -12,7 +12,13 @@
 		
 	</group>
 	<group letter="Ｄ">
-		
+		<sta no-service="true">
+			<sta-name-zhtw>大橋</sta-name-zhtw>
+			<sta-name-en>Daciao</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TN" route="B" stano="01"/>
+			</route-and-stanos>
+		</sta>
 	</group>
 	<group letter="Ｅ">
 		
@@ -42,13 +48,25 @@
 		
 	</group>
 	<group letter="Ｎ">
-		
+		<sta no-service="true">
+			<sta-name-zhtw>臺南高工</sta-name-zhtw>
+			<sta-name-en>National Tainan Industrial High School</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TN" route="B" stano="02"/>
+			</route-and-stanos>
+		</sta>
 	</group>
 	<group letter="Ｏ">
 		
 	</group>
 	<group letter="Ｐ">
-		
+		<sta no-service="true">
+			<sta-name-zhtw>平實轉運站</sta-name-zhtw>
+			<sta-name-en>Pingshih Bus Station</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TN" route="B" stano="04"/>
+			</route-and-stanos>
+		</sta>
 	</group>
 	<group letter="Ｑ">
 		
@@ -60,7 +78,13 @@
 		
 	</group>
 	<group letter="Ｔ">
-		
+		<sta no-service="true">
+			<sta-name-zhtw>南紡購物中心</sta-name-zhtw>
+			<sta-name-en>T. S. Mall</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TN" route="B" stano="05"/>
+			</route-and-stanos>
+		</sta>
 	</group>
 	<group letter="Ｕ">
 		
@@ -69,7 +93,13 @@
 		
 	</group>
 	<group letter="Ｗ">
-		
+		<sta no-service="true">
+			<sta-name-zhtw>五王</sta-name-zhtw>
+			<sta-name-en>Wuwang</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TN" route="B" stano="03"/>
+			</route-and-stanos>
+		</sta>
 	</group>
 	<group letter="Ｘ">
 		
@@ -81,6 +111,12 @@
 		
 	</group>
 	<group letter="＊">
-		
+		<sta no-service="true">
+			<sta-name-zhtw>（站名未定）</sta-name-zhtw>
+			<sta-name-en>( Station Name Undecided )</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TN" route="B" stano="06"/>
+			</route-and-stanos>
+		</sta>
 	</group>
 </mrt-stalist>
