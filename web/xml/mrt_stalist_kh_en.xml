@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="./../css/mrt_stalist.css" type="text/css"?>
 <!DOCTYPE mrt-stalist SYSTEM "./dtd/mrt_stalist.dtd">
-<!--C23-->
 <mrt-stalist>
 	<group letter="Ａ">
 		<sta>
@@ -133,10 +132,24 @@
 			</route-and-stanos>
 		</sta>
 		<sta>
+			<sta-name-zhtw>大順民族</sta-name-zhtw>
+			<sta-name-en>Dashun Minzu</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="KH" route="C" stano="26"/>
+			</route-and-stanos>
+		</sta>
+		<sta>
 			<sta-name-zhtw>駁二大義</sta-name-zhtw>
 			<sta-name-en>Dayi Pier-2</sta-name-en>
 			<route-and-stanos>
 				<route-and-stano place="KH" route="C" stano="12"/>
+			</route-and-stanos>
+		</sta>
+		<sta>
+			<sta-name-zhtw>衛生局</sta-name-zhtw>
+			<sta-name-en>Department of Health</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="KH" route="C" stano="33"/>
 			</route-and-stanos>
 		</sta>
 		<sta>
@@ -290,6 +303,13 @@
 			</route-and-stanos>
 		</sta>
 		<sta>
+			<sta-name-zhtw>凱旋二聖</sta-name-zhtw>
+			<sta-name-en>Kaisyuan Ersheng</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="KH" route="C" stano="36"/>
+			</route-and-stanos>
+		</sta>
+		<sta>
 			<sta-name-zhtw>凱旋中華</sta-name-zhtw>
 			<sta-name-en>Kaisyuan Jhonghua</sta-name-en>
 			<route-and-stanos>
@@ -297,10 +317,24 @@
 			</route-and-stanos>
 		</sta>
 		<sta>
+			<sta-name-zhtw>凱旋公園</sta-name-zhtw>
+			<sta-name-en>Kaisyuan Park</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="KH" route="C" stano="32"/>
+			</route-and-stanos>
+		</sta>
+		<sta>
 			<sta-name-zhtw>凱旋瑞田</sta-name-zhtw>
 			<sta-name-en>Kaisyuan Rueitian</sta-name-en>
 			<route-and-stanos>
 				<route-and-stano place="KH" route="C" stano="2"/>
+			</route-and-stanos>
+		</sta>
+		<sta>
+			<sta-name-zhtw>凱旋武昌</sta-name-zhtw>
+			<sta-name-en>Kaisyuan Wuchang</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="KH" route="C" stano="35"/>
 			</route-and-stanos>
 		</sta>
 		<sta no-service="true">
@@ -322,6 +356,14 @@
 			<sta-name-en>Kaohsiung Exhibition Center</sta-name-en>
 			<route-and-stanos>
 				<route-and-stano place="KH" route="C" stano="8"/>
+			</route-and-stanos>
+		</sta>
+		<sta>
+			<sta-name-zhtw>高雄高工</sta-name-zhtw>
+			<sta-name-en>Kaohsiung Industrial High School</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="KH" route="C" stano="28"/>
+				<route-and-stano place="KH" route="Y" stano="8"/>
 			</route-and-stanos>
 		</sta>
 		<sta>
@@ -410,6 +452,13 @@
 				<route-and-stano place="KH" route="C" stano="11"/>
 			</route-and-stanos>
 		</sta>
+		<sta>
+			<sta-name-zhtw>輕軌機場</sta-name-zhtw>
+			<sta-name-en>LRT Depot</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="KH" route="C" stano="37"/>
+			</route-and-stanos>
+		</sta>
 		<sta no-service="true">
 			<sta-name-zhtw>路竹</sta-name-zhtw>
 			<sta-name-en>Lujhu</sta-name-en>
@@ -437,6 +486,13 @@
 			<sta-name-en>Metropolitan Park</sta-name-en>
 			<route-and-stanos>
 				<route-and-stano place="KH" route="R" stano="21"/>
+			</route-and-stanos>
+		</sta>
+		<sta no-service="true">
+			<sta-name-zhtw>民族</sta-name-zhtw>
+			<sta-name-en>Muzha</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="KH" route="Y" stano="10"/>
 			</route-and-stanos>
 		</sta>
 	</group>
@@ -490,6 +546,13 @@
 			</route-and-stanos>
 		</sta>
 		<sta>
+			<sta-name-zhtw>科工館</sta-name-zhtw>
+			<sta-name-en>Science and Technology Museum</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="KH" route="C" stano="30"/>
+			</route-and-stanos>
+		</sta>
+		<sta>
 			<sta-name-zhtw>獅甲（勞工公園）</sta-name-zhtw>
 			<sta-name-en>Shihjia ( Labor Park )</sta-name-en>
 			<route-and-stanos>
@@ -501,6 +564,13 @@
 			<sta-name-en>Shoushan Park ( ALIEN Art Centre )</sta-name-en>
 			<route-and-stanos>
 				<route-and-stano place="KH" route="C" stano="15"/>
+			</route-and-stanos>
+		</sta>
+		<sta>
+			<sta-name-zhtw>樹德家商</sta-name-zhtw>
+			<sta-name-en>Shu-Te Home-Economics &amp; Commercial High School</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="KH" route="C" stano="29"/>
 			</route-and-stanos>
 		</sta>
 		<sta>
@@ -532,6 +602,13 @@
 				<route-and-stano place="KH" route="C" stano="7"/>
 			</route-and-stanos>
 		</sta>
+		<sta>
+			<sta-name-zhtw>聖功醫院（道明中學）</sta-name-zhtw>
+			<sta-name-en>St. Joseph Hospital ( St. Dominic Catholic High School )</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="KH" route="C" stano="31"/>
+			</route-and-stanos>
+		</sta>
 	</group>
 	<group letter="Ｔ">
 		<sta no-service="true">
@@ -557,6 +634,13 @@
 	</group>
 	<group letter="Ｗ">
 		<sta>
+			<sta-name-zhtw>灣仔內（大順鼎山）</sta-name-zhtw>
+			<sta-name-en>Wanzihnei ( Dashun Dingshan )</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="KH" route="C" stano="27"/>
+			</route-and-stanos>
+		</sta>
+		<sta>
 			<sta-name-zhtw>衛武營</sta-name-zhtw>
 			<sta-name-en>Weiwuying</sta-name-en>
 			<route-and-stanos>
@@ -576,6 +660,13 @@
 			<sta-name-en>World Games ( National Sports Complex )</sta-name-en>
 			<route-and-stanos>
 				<route-and-stano place="KH" route="R" stano="17"/>
+			</route-and-stanos>
+		</sta>
+		<sta>
+			<sta-name-zhtw>五權國小</sta-name-zhtw>
+			<sta-name-en>Wucyuan Elementary School</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="KH" route="C" stano="34"/>
 			</route-and-stanos>
 		</sta>
 		<sta>
@@ -600,6 +691,13 @@
 	</group>
 	<group letter="Ｚ">
 		<sta no-service="true">
+			<sta-name-zhtw>正義</sta-name-zhtw>
+			<sta-name-en>Zhengyi</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="KH" route="Y" stano="17"/>
+			</route-and-stanos>
+		</sta>
+		<sta no-service="true">
 			<sta-name-zhtw>左營</sta-name-zhtw>
 			<sta-name-en>Zuoying</sta-name-en>
 			<route-and-stanos>
@@ -614,6 +712,53 @@
 		</sta>
 	</group>
 	<group letter="＊">
-		
+		<sta>
+			<sta-name-zhtw>（站名未定）</sta-name-zhtw>
+			<sta-name-en>( Station Name Undecided )</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="KH" route="Y" stano="1"/>
+				<route-and-stano place="KH" route="Y" stano="2"/>
+				<route-and-stano place="KH" route="Y" stano="3"/>
+				<route-and-stano place="KH" route="Y" stano="4"/>
+				<route-and-stano place="KH" route="Y" stano="5"/>
+				<route-and-stano place="KH" route="Y" stano="6"/>
+				<route-and-stano place="KH" route="Y" stano="7"/>
+				<route-and-stano place="KH" route="Y" stano="9"/>
+				<route-and-stano place="KH" route="Y" stano="12"/>
+				<route-and-stano place="KH" route="Y" stano="13"/>
+				<route-and-stano place="KH" route="Y" stano="16"/>
+				<route-and-stano place="KH" route="Y" stano="19"/>
+				<route-and-stano place="KH" route="Y" stano="20"/>
+				<route-and-stano place="KH" route="Y" stano="21"/>
+				<route-and-stano place="KH" route="Y" stano="22"/>
+				<route-and-stano place="KH" route="P" stano="01"/>
+				<route-and-stano place="KH" route="P" stano="02"/>
+				<route-and-stano place="KH" route="P" stano="03"/>
+				<route-and-stano place="KH" route="P" stano="04"/>
+				<route-and-stano place="KH" route="P" stano="05"/>
+				<route-and-stano place="KH" route="P" stano="07"/>
+				<route-and-stano place="KH" route="P" stano="08"/>
+				<route-and-stano place="KH" route="P" stano="09"/>
+				<route-and-stano place="KH" route="P" stano="10"/>
+				<route-and-stano place="KH" route="P" stano="11"/>
+				<route-and-stano place="KH" route="P" stano="12"/>
+				<route-and-stano place="KH" route="P" stano="13"/>
+				<route-and-stano place="KH" route="P" stano="14"/>
+				<route-and-stano place="KH" route="P" stano="15"/>
+				<route-and-stano place="KH" route="P" stano="16"/>
+				<route-and-stano place="KH" route="P" stano="18"/>
+				<route-and-stano place="KH" route="P" stano="19"/>
+				<route-and-stano place="KH" route="P" stano="20"/>
+				<route-and-stano place="KH" route="P" stano="21"/>
+				<route-and-stano place="KH" route="P" stano="22"/>
+				<route-and-stano place="KH" route="P" stano="23"/>
+				<route-and-stano place="KH" route="P" stano="24"/>
+				<route-and-stano place="KH" route="P" stano="25"/>
+				<route-and-stano place="KH" route="P" stano="26"/>
+				<route-and-stano place="KH" route="P" stano="27"/>
+				<route-and-stano place="KH" route="P" stano="28"/>
+				<route-and-stano place="KH" route="P" stano="29"/>
+			</route-and-stanos>
+		</sta>
 	</group>
 </mrt-stalist>
