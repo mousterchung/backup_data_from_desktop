@@ -54,16 +54,13 @@ sta-name-zhtw, sta-name-en, route-and-stanos{
 route-and-stano{
 	display: inline-block; 
 	border-style: solid; 
-	
-}
-
-route-and-stano[place="TP"], route-and-stano[place="NT"], route-and-stano[place="TY"]{
 	border-radius: 10px; 
 	width: 1.7rem; 
 }
 
 route-and-stano[place="KH"]{
 	border-radius: 50%; 
+	width: 2.25rem; 
 }
 
 route-and-stano[place="KH"]::before{
