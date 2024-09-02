@@ -511,6 +511,13 @@
 			</route-and-stanos>
 		</sta>
 		<sta>
+			<sta-name-zhtw>新上國小</sta-name-zhtw>
+			<sta-name-en>Sinshang Elementary School</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="KH" route="R" stano="25"/>
+			</route-and-stanos>
+		</sta>
+		<sta>
 			<sta-name-zhtw>信義國小</sta-name-zhtw>
 			<sta-name-en>Sinyi Elementary School</sta-name-en>
 			<route-and-stanos>
