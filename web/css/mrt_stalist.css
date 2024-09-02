@@ -185,6 +185,14 @@ route-and-stano[place="TN"][route="R"]{
 	border-color: #d90023; 
 }
 
+route-and-stano[place="TN"][route="BR"]{
+	border-color: #7f0037; 
+}
+
+route-and-stano[place="TN"][route="O"]{
+	border-color: #f5a818; 
+}
+
 route-and-stano[place="KH"][route="R"], route-and-stano[place="KH"][route="RL"], route-and-stano[place="KH"][route="RK"]{
 	border-color: #e20b65; 
 }
