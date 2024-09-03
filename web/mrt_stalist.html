@@ -6,6 +6,7 @@
 		<link href="./css/mrt_stalist.css" rel="stylesheet"/>
 	</head>
 	<body>
+		<div id="stalist-content"></div>
 		<script>
 			const query_str = window.location.search; 
 			const url_param = new URLSearchParams(query_str); 
@@ -21,5 +22,39 @@
 			}
 			console.log(place); 
 			console.log(lang); 
+			
+			function loadXML() {
+				var xhr = new XMLHttpRequest(); 
+				xhr.open('GET', './xml/mrt_stalist_'+place+'_'+lang'.xml', true); 
+				
+				xhr.onload = function() {
+					if (xhr.status === 200) {
+						var xml = xhr.responseXML; 
+						var groups = xml.getElementsByTagName('group'); 
+						var content = ''; 
+						
+						for (var i = 0; i < groups.length; i++) {
+							var sta = groups[i].getElementsByTagName('sta')[0]; 
+							var sta_name_zhtw = sta.getElementsByTagName('sta-name-zhtw')[0].textContent; 
+							var sta_name_en = sta.getElementsByTagName('sta-name-en')[0].textContent; 
+							content += '<li>' + name + ': ' + value + '</li>'; 
+						}
+						
+						content += '</ul>'; 
+						document.getElementById('stalist-content').innerHTML = content; 
+					} else {
+						console.error('無法載入，請重試'); 
+					}
+				};  
+				
+				xhr.onerror = function() {
+					console.error('載入時發生錯誤，請重試'); 
+				}; 
+				
+				xhr.send(); 
+			}
+			
+			window.onload = loadXML; 
+		</script>
 	</body>
 </html>
