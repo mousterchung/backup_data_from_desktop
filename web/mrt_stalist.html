@@ -6,6 +6,20 @@
 		<link href="./css/mrt_stalist.css" rel="stylesheet"/>
 	</head>
 	<body>
-		
+		<script>
+			const query_str = window.location.search; 
+			const url_param = new URLSearchParams(query_str); 
+			if (url_param.has('place')) {
+				const place = url_param.get('place'); 
+			} else {
+				const place = 'tpty'; 
+			}
+			if (url_param.has('lang')) {
+				const lang = url_param.get('lang'); 
+			} else {
+				const lang = 'en'; 
+			}
+			console.log(place); 
+			console.log(lang); 
 	</body>
 </html>
