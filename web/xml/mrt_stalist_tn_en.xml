@@ -10,6 +10,13 @@
 	</group>
 	<group letter="Ｃ">
 		<sta no-service="true">
+			<sta-name-zhtw>家樂福</sta-name-zhtw>
+			<sta-name-en>Carrefour</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TN" route="BK" stano="1"/>
+			</route-and-stanos>
+		</sta>
+		<sta no-service="true">
 			<sta-name-zhtw>崇學國小</sta-name-zhtw>
 			<sta-name-en>Chongsyue Elementary School</sta-name-en>
 			<route-and-stanos>
@@ -33,9 +40,50 @@
 		
 	</group>
 	<group letter="Ｇ">
-		
+		<sta no-service="true">
+			<sta-name-zhtw>關廟國中</sta-name-zhtw>
+			<sta-name-en>Guanmiao Junior High School</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TN" route="BK" stano="7"/>
+			</route-and-stanos>
+		</sta>
+		<sta no-service="true">
+			<sta-name-zhtw>歸南路</sta-name-zhtw>
+			<sta-name-en>Gueinan Road</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TN" route="BH" stano="1"/>
+			</route-and-stanos>
+		</sta>
+		<sta no-service="true">
+			<sta-name-zhtw>歸仁圓環</sta-name-zhtw>
+			<sta-name-en>Gueiren Circle</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TN" route="BK" stano="5"/>
+			</route-and-stanos>
+		</sta>
+		<sta no-service="true">
+			<sta-name-zhtw>歸仁交流道</sta-name-zhtw>
+			<sta-name-en>Gueiren Interchange</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TN" route="BK" stano="7"/>
+			</route-and-stanos>
+		</sta>
+		<sta no-service="true">
+			<sta-name-zhtw>歸仁六甲</sta-name-zhtw>
+			<sta-name-en>Gueiren Liujia</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TN" route="BH" stano="2"/>
+			</route-and-stanos>
+		</sta>
 	</group>
 	<group letter="Ｈ">
+		<sta no-service="true">
+			<sta-name-zhtw>高鐵台南站</sta-name-zhtw>
+			<sta-name-en>HSR Tainan Station</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TN" route="BH" stano="6"/>
+			</route-and-stanos>
+		</sta>
 		<sta no-service="true">
 			<sta-name-zhtw>虎尾寮</sta-name-zhtw>
 			<sta-name-en>Huweiliao</sta-name-en>
@@ -51,7 +99,13 @@
 		
 	</group>
 	<group letter="Ｋ">
-		
+		<sta no-service="true">
+			<sta-name-zhtw>凱旋路</sta-name-zhtw>
+			<sta-name-en>Kaisyuan Road</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TN" route="BH" stano="3"/>
+			</route-and-stanos>
+		</sta>
 	</group>
 	<group letter="Ｌ">
 		
@@ -60,6 +114,20 @@
 		
 	</group>
 	<group letter="Ｎ">
+		<sta no-service="true">
+			<sta-name-zhtw>南興里</sta-name-zhtw>
+			<sta-name-en>Nansing Village</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TN" route="BK" stano="4"/>
+			</route-and-stanos>
+		</sta>
+		<sta no-service="true">
+			<sta-name-zhtw>國家地震研究中心</sta-name-zhtw>
+			<sta-name-en>National Center of Research on Earthquake Engineering</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TN" route="BH" stano="4"/>
+			</route-and-stanos>
+		</sta>
 		<sta no-service="true">
 			<sta-name-zhtw>臺南高工</sta-name-zhtw>
 			<sta-name-en>National Tainan Industrial High School</sta-name-en>
@@ -91,9 +159,36 @@
 				<route-and-stano place="TN" route="B" stano="10"/>
 			</route-and-stanos>
 		</sta>
+		<sta no-service="true">
+			<sta-name-zhtw>仁德區公所</sta-name-zhtw>
+			<sta-name-en>Rende District Office</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TN" route="BK" stano="2"/>
+			</route-and-stanos>
+		</sta>
 	</group>
 	<group letter="Ｓ">
-		
+		<sta no-service="true">
+			<sta-name-zhtw>綠能科學城</sta-name-zhtw>
+			<sta-name-en>Shalun Green Energy Science City</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TN" route="BH" stano="6"/>
+			</route-and-stanos>
+		</sta>
+		<sta no-service="true">
+			<sta-name-zhtw>沙崙國際學校</sta-name-zhtw>
+			<sta-name-en>Shalun International School</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TN" route="BH" stano="5"/>
+			</route-and-stanos>
+		</sta>
+		<sta no-service="true">
+			<sta-name-zhtw>善化寺</sta-name-zhtw>
+			<sta-name-en>Shanhua Temple</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TN" route="BK" stano="6"/>
+			</route-and-stanos>
+		</sta>
 	</group>
 	<group letter="Ｔ">
 		<sta no-service="true">
@@ -130,7 +225,13 @@
 		
 	</group>
 	<group letter="Ｙ">
-		
+		<sta no-service="true">
+			<sta-name-zhtw>義林路</sta-name-zhtw>
+			<sta-name-en>Yilin Road</sta-name-en>
+			<route-and-stanos>
+				<route-and-stano place="TN" route="BK" stano="3"/>
+			</route-and-stanos>
+		</sta>
 	</group>
 	<group letter="Ｚ">
 		
