@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet href="./../css/mrt_stalist.css" type="text/css"?>
+<?xml-stylesheet href="./../css/mrt_stalist_xml.css" type="text/css"?>
 <!DOCTYPE mrt-stalist SYSTEM "./dtd/mrt_stalist.dtd">
 <mrt-stalist>
 	<group letter="Ａ">
