@@ -8,7 +8,8 @@ from tkinter import filedialog
 
 root = tk.Tk()
 '''
-file_path = filedialog.askopenfilename()
+file_types = (('jpeg files', '*.jpg'), ('png files', '*.png'), ('gif files', '*.gif'), ('all files', '*.*'))
+file_path = filedialog.askopenfilename(parent=root, title='select file', filetypes=file_types)
 print(file_path)
 '''
 
