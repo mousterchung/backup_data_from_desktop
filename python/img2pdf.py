@@ -8,33 +8,43 @@ from tkinter import filedialog as fd
 from tkinter import messagebox as msgbox
 
 file_types = (('image files', ('*.jpg', '*.jpeg', '*.jpe', '*.jfif', '*.png', '*.bmp', '*.jdib', '*.gif')), ('JPEG files', ('*.jpg', '*.jpeg', '*.jpe', '*.jfif')), ('PNG files', '*.png'), ('BMP files', ('*.bmp', '*.jdib')), ('GIF files', '*.gif'), ('PDF files', '*.pdf'), ('all files', '*.*'))
+img_path = ()
 
 window = tk.Tk()
 window.title = 'image to PDF file converter'
-window.geometry('400x200')
+window.geometry('700x400')
 window.resizable(False, False)
 window.iconbitmap(os.path.join('.', 'img', 'favicon.ico'))
 
 title_label = ttk.Label(text='image to PDF file converter')
 title_label.grid(column=0, row=0, columnspan=2)
 
-img_path_entry_stringvar = tk.StringVar(window, '')
-img_path_entry = ttk.Entry(window, textvariable=img_path_entry_stringvar, width=40)
-img_path_entry.grid(column=0, row=1)
+img_path_entry_frame = ttk.Frame(window)
+img_path_entry_frame.grid(column=0, row=1, rowspan=3)
+
+img_path_entry = tk.Listbox(img_path_entry_frame, width=60)
+img_path_entry.grid(column=0, row=0)
+
+img_path_entry_scrollbar_horizontal_frame = ttk.Frame(img_path_entry_frame)
+img_path_entry_scrollbar_horizontal_frame.grid(column=0, row=1)
+img_path_entry_scrollbar_horizontal = ttk.Scrollbar(img_path_entry_scrollbar_horizontal_frame, command=img_path_entry.xview, orient=tk.HORIZONTAL)
+img_path_entry_scrollbar_horizontal.grid(column=0, row=0, sticky=tk.N+tk.S+tk.W)
+
+img_path_entry_scrollbar_vertical_frame = ttk.Frame(img_path_entry_frame)
+img_path_entry_scrollbar_vertical_frame.grid(column=1, row=0)
+img_path_entry_scrollbar_vertical = ttk.Scrollbar(img_path_entry_scrollbar_vertical_frame, command=img_path_entry.yview, orient=tk.VERTICAL)
+img_path_entry_scrollbar_vertical.grid(sticky=tk.W+tk.E+tk.N)
 
 def get_img_only_file_name(img_path):
     img_only_file_name = img_path.split(os.path.sep)[-1].replace('.jpg', '').replace('.png', '').replace('.gif', '')
     return img_only_file_name
 
 def browse_img_path_command():
-    global img_path, img_path_entry_stringvar
+    global img_path
     img_path = fd.askopenfilenames(parent=window, title='select image file', filetypes=file_types)
-    img_path_entry_stringvar_value = ''
-    for i in img_path:
-        img_path_entry_stringvar_value += i + '; '
-    img_path_entry_stringvar.set(img_path_entry_stringvar_value)
+    img_path_entry.delete(0, tk.END)
+    img_path_entry.insert(tk.END, *img_path)
     print(img_path)
-    print(img_path_entry_stringvar.get())
 browse_img_path = ttk.Button(window, text='Browse', command=lambda: browse_img_path_command())
 browse_img_path.grid(column=1, row=1)
 
@@ -62,7 +72,9 @@ def save_pdf_command(img_path, img_only_file_name=None):
         except Exception as e:
             result = msgbox.askretrycancel('Error Saving File!', 'Error Saving File! \nPlease Retry.')
             if result: window.after(100, convert_file_button_command, img_path, img_only_file_name)(filetypes=file_types, defaultextension=img_only_file_name+'.pdf')
-save_pdf = ttk.Button(window, text='save PDF file', command=lambda: save_pdf_command(img_path_entry_stringvar.split('; ')))
+save_pdf = ttk.Button(window, text='save PDF file', command=lambda: save_pdf_command(img_path))
 save_pdf.grid(column=1, row=3)
+
+print(img_path)
 
 window.mainloop()
