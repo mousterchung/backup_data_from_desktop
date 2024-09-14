@@ -7,12 +7,10 @@ from tkinter import ttk
 from tkinter import fd
 
 root = tk.Tk()
-'''
 file_types = (('jpeg files', '*.jpg'), ('png files', '*.png'), ('gif files', '*.gif'), ('all files', '*.*'))
+'''
 file_path = fd.askopenfilename(parent=root, title='select file', filetypes=file_types)
 print(file_path)
-'''
-'''
 fd.asksaveasfile(filetypes = file_types, defaultextension = 'default file name')
 '''
 
