@@ -21,11 +21,11 @@ title_label = ttk.Label(text='image to PDF file converter')
 title_label.grid(column=0, row=0, rowspan=2)
 
 img_path = tk.StringVar(window, '')
-img_path_entry = ttk.Entry(window, textvariable=file_path)
+img_path_entry = ttk.Entry(window, textvariable=img_path)
 img_path_entry.grid(column=0, row=1)
 def reconfirm_img_only_file_name():
     global img_only_file_name
-    img_only_file_name = img_path.split(os.path.sep)[-1].replace('.jpg', '').replace('.png', '').replace('.gif', '')
+    img_only_file_name = img_path.get().split(os.path.sep)[-1].replace('.jpg', '').replace('.png', '').replace('.gif', '')
 reconfirm_img_only_file_name()
 
 def browse_file_path_command():
