@@ -29,7 +29,7 @@ reconfirm_img_only_file_name()
 def browse_img_path_command():
     global img_path
     img_path.set(fd.askopenfilename(parent=window, title='select image file', filetypes=file_types))
-    print(img_path)
+    print(img_path.get())
 browse_img_path = ttk.Button(window, text='Browse', command=lambda: browse_img_path_command())
 browse_img_path.grid(column=1, row=1)
 
