@@ -4,7 +4,9 @@ from PIL import Image
 import os
 import tkinter as tk
 from tkinter import ttk
-from tkinter import fd
+from tkinter import filedialog as fd
+from tkinter import messagebox as msgbox
+
 
 
 file_types = (('jpeg files', '*.jpg'), ('png files', '*.png'), ('gif files', '*.gif'), ('pdf files', '*.pdf'), ('all files', '*.*'))
@@ -28,30 +30,31 @@ reconfirm_img_only_file_name()
 
 def browse_file_path_command():
     global img_path
-    img_path.set(fd.askopenfilename(parent=window, title='select file', filetypes=file_types))
+    img_path.set(fd.askopenfilename(parent=window, title='select image file', filetypes=file_types))
     print(file_path)
 browse_img_path = ttk.Button(window, text='Browse', command=lambda: browse_file_path_command())
 browse_img_path.grid(column=1, row=1)
 
+def convert_file_button_command(img_path):
+    reconfirm_img_only_file_name()
+    image = Image.open(img_path)
+    pdf_path = fd.asksaveasfilename(filetypes=file_types, defaultextension=img_only_file_name+'pdf')
+    if pdf_path:
+        try:
+            with open(file_path, 'wb') as pdf_file:
+                pdf_bytes = img2pdf.convert(image.filename)
+                file.write(pdf_bytes)
+                image.close()
+            print('Successfully made pdf file')
+        except Exception as e:
+            result = msgbox.askretrycancel('Error Saving File!', 'Error Saving File! \nPlease Retry.')
+            if result: window.after(100, convert_file_button_command, img_path)
+convert_file_button = ttk.Button(window, text='convert file', command=lambda: convert_file_button_command(img_path))
+convert_file_button.grid(column=0, row=2)
+
 def save_pdf_command():
     reconfirm_img_only_file_name()
     fd.asksaveasfile(filetypes=file_types, defaultextension=img_only_file_name+'.pdf')
-
-'''
-img_path = 'C:/Users/Admin/Desktop/GfG_images/do_nawab.png' # storing image path
-pdf_path = 'C:/Users/Admin/Desktop/GfG_images/file.pdf' # storing pdf path
-image = Image.open(img_path) # opening image
-pdf_bytes = img2pdf.convert(image.filename) # converting into chunks using img2pdf
-'''
-
-'''only_file_name = image.filename.split(os.path.sep)[-1]'''
-
-'''
-file = open(pdf_path, 'wb') # opening or creating pdf file
-file.write(pdf_bytes) # writing pdf files with chunks
-image.close() # closing image file
-file.close() # closing pdf file
-print('Successfully made pdf file') # output
-'''
+save_pdf = ttk.Button(window, text='save PDF file', command=lambda: save_pdf_command())
 
 window.mainloop()
