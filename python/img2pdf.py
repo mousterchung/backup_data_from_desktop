@@ -12,7 +12,7 @@ img_path = ()
 
 window = tk.Tk()
 window.title = 'image to PDF file converter'
-window.geometry('700x400')
+window.geometry('570x200')
 window.resizable(False, False)
 window.iconbitmap(os.path.join('.', 'img', 'favicon.ico'))
 
@@ -25,15 +25,11 @@ img_path_entry_frame.grid(column=0, row=1, rowspan=3)
 img_path_entry = tk.Listbox(img_path_entry_frame, width=60)
 img_path_entry.grid(column=0, row=0)
 
-img_path_entry_scrollbar_horizontal_frame = ttk.Frame(img_path_entry_frame)
-img_path_entry_scrollbar_horizontal_frame.grid(column=0, row=1)
-img_path_entry_scrollbar_horizontal = ttk.Scrollbar(img_path_entry_scrollbar_horizontal_frame, command=img_path_entry.xview, orient=tk.HORIZONTAL)
-img_path_entry_scrollbar_horizontal.grid(column=0, row=0, sticky=tk.N+tk.S+tk.W)
+img_path_entry_scrollbar_vertical = ttk.Scrollbar(img_path_entry_frame, command=img_path_entry.yview, orient=tk.VERTICAL)
+img_path_entry_scrollbar_vertical.grid(column=1, row=0, sticky=tk.N+tk.S)
 
-img_path_entry_scrollbar_vertical_frame = ttk.Frame(img_path_entry_frame)
-img_path_entry_scrollbar_vertical_frame.grid(column=1, row=0)
-img_path_entry_scrollbar_vertical = ttk.Scrollbar(img_path_entry_scrollbar_vertical_frame, command=img_path_entry.yview, orient=tk.VERTICAL)
-img_path_entry_scrollbar_vertical.grid(sticky=tk.W+tk.E+tk.N)
+img_path_entry_scrollbar_horizontal = ttk.Scrollbar(img_path_entry_frame, command=img_path_entry.xview, orient=tk.HORIZONTAL)
+img_path_entry_scrollbar_horizontal.grid(column=0, row=1, sticky=tk.W+tk.E)
 
 def get_img_only_file_name(img_path):
     img_only_file_name = img_path.split(os.path.sep)[-1].replace('.jpg', '').replace('.png', '').replace('.gif', '')
@@ -61,7 +57,7 @@ def save_pdf_command(img_path, img_only_file_name=None):
         for i in img_path:
             save_pdf_command(i)
     if img_only_file_name is None: img_only_file_name = get_img_only_file_name(img_path)
-    pdf_path = fd.asksaveasfilename(filetypes=file_types, defaultextension=img_only_file_name+'pdf')
+    pdf_path = fd.asksaveasfilename(filetypes=file_types, defaultextension=img_only_file_name+'.pdf')
     if pdf_path:
         try:
             with open(img_path, 'wb') as pdf_file:
