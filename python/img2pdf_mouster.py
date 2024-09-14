@@ -48,11 +48,11 @@ def convert_file_button_command(img_paths):
     for img_path in img_paths:
         img_only_file_name = get_img_only_file_name(img_path)
         image = Image.open(img_path)
-        save_pdf_command(img_path)
+        save_pdf_command(img_path, image=image)
 convert_file_button = ttk.Button(window, text='convert file', command=lambda: convert_file_button_command(img_path))
 convert_file_button.grid(column=1, row=2)
 
-def save_pdf_command(img_path, img_only_file_name=None):
+def save_pdf_command(img_path, img_only_file_name=None, image=None):
     if type(img_path) in (tuple, list):
         for i in img_path:
             save_pdf_command(i)
@@ -67,7 +67,7 @@ def save_pdf_command(img_path, img_only_file_name=None):
             print('Successfully made pdf file')
         except Exception as e:
             result = msgbox.askretrycancel('Error Saving File!', 'Error Saving File! \nPlease Retry.')
-            if result: window.after(100, save_pdf_command, img_path, img_only_file_name)(filetypes=file_types, defaultextension=img_only_file_name+'.pdf')
+            if result: window.after(100, save_pdf_command, img_path, img_only_file_name, image)(filetypes=file_types, defaultextension=img_only_file_name+'.pdf')
 save_pdf = ttk.Button(window, text='save PDF file', command=lambda: save_pdf_command(img_path))
 save_pdf.grid(column=1, row=3)
 
