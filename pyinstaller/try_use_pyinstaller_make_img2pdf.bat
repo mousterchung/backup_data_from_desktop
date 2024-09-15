@@ -1,0 +1,2 @@
+cd C:\Users\Dinsh\Documents\GitHub\backup_data_from_desktop\pyinstaller\img2pdf
+pyinstaller "C:\Users\Dinsh\Documents\GitHub\backup_data_from_desktop\python\img2pdf_mouster.py" --onefile --noconsole --icon="C:\Users\Dinsh\Documents\GitHub\backup_data_from_desktop\python\img\favicon.ico" --name=img2pdf
