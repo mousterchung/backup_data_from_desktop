@@ -22,7 +22,7 @@ window = tk.Tk()
 window.title('Image to PDF File Converter')
 window.geometry('600x210')
 window.resizable(False, False)
-window.iconbitmap('./img/favicon.ico')
+'''window.iconbitmap('./img/favicon.ico')'''
 
 title_label = ttk.Label(text='Image to PDF File Converter')
 title_label.grid(column=0, row=1, columnspan=2)
