@@ -18,13 +18,13 @@ window = tk.Tk()
 window.title('Image to PDF File Converter')
 window.geometry('570x200')
 window.resizable(False, False)
-window.iconbitmap(os.path.join('.', 'img', 'favicon.ico'))
+window.iconbitmap('./img/favicon.ico')
 
 title_label = ttk.Label(text='Image to PDF File Converter')
 title_label.grid(column=0, row=0, columnspan=2)
 
 img_path_entry_frame = ttk.Frame(window)
-img_path_entry_frame.grid(column=0, row=1, rowspan=3)
+img_path_entry_frame.grid(column=0, row=1, rowspan=4)
 
 img_path_entry = tk.Listbox(img_path_entry_frame, width=60)
 img_path_entry.grid(column=0, row=0)
@@ -56,7 +56,7 @@ def convert_file_button_command(img_paths):
 convert_file_button = ttk.Button(window, text='Convert to PDF File', command=lambda: convert_file_button_command(img_path))
 convert_file_button.grid(column=1, row=2)
 
-def save_pdf_command(img_path, img_only_file_name=None, image=None):
+def save_pdf_command(img_path, img_only_file_name=None, image=None, folder_count=0):
     if type(img_path) in (tuple, list):
         for i in img_path:
             save_pdf_command(i)
@@ -68,11 +68,12 @@ def save_pdf_command(img_path, img_only_file_name=None, image=None):
                 pdf_bytes = img2pdf.convert(image.filename)
                 image.close()
                 pdf_file.write(pdf_bytes)
-            print(f'Successfully Made PDF File. \n`{img_path.split(os.path.sep)[-1]}`')
+            print(f'Successfully Made PDF File. \n`{img_path.split("/")[-1]}`')
             msgbox.showinfo('Successfully Made PDF File.', f'Successfully Made PDF File. \n`{img_path.split("/")[-1]}`')
         except IOError as e:
             result = msgbox.askretrycancel('Error Saving File!', 'Error Saving File! \nPlease Retry.')
-            if result: window.after(100, save_pdf_command, img_path, img_only_file_name, image)
+            if result: window.after(100, save_pdf_command, img_path, img_only_file_name, image, folder_count)
+    folder_count += 1
 save_pdf = ttk.Button(window, text='Save PDF File', command=lambda: save_pdf_command(img_path))
 save_pdf.grid(column=1, row=3)
 
