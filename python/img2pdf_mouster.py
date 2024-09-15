@@ -45,32 +45,33 @@ pdf_path_entry.grid(column=0, row=1)
 
 def browse_pdf_path_command():
     global pdf_path
-    pdf_path.set(fd.askdirectory(title=f'Browse PDF File Path'))
+    pdf_path.set(fd.askdirectory(title='Browse PDF File Path'))
 browse_pdf_path = ttk.Button(window, text='Browse PDF File Path', command=lambda: browse_pdf_path_command())
 browse_pdf_path.grid(column=1, row=1)
 
 def browse_img_path_command():
     global img_path, folder_count
-    img_path = fd.askopenfilenames(parent=window, title='Select Image File', filetypes=img_file_types)
+    img_path = fd.askopenfilenames(parent=window, title='Select Image Files', filetypes=img_file_types)
     img_path_entry.delete(0, tk.END)
     img_path_entry.insert(tk.END, *img_path)
     print(img_path)
     folder_count = 1
-browse_img_path = ttk.Button(window, text='Browse', command=lambda: browse_img_path_command())
+browse_img_path = ttk.Button(window, text='Browse Image Files', command=lambda: browse_img_path_command())
 browse_img_path.grid(column=1, row=2)
 
-def convert_file_button_command(img_paths):
-    for img_path in img_paths:
-        img_only_file_name = get_img_only_file_name(img_path)
-        save_pdf_command(img_path)
+def convert_file_button_command(img_path):
+   save_pdf_command(img_path)
 convert_file_button = ttk.Button(window, text='Convert to PDF File', command=lambda: convert_file_button_command(img_path))
 convert_file_button.grid(column=1, row=3)
 
 def save_pdf_command(img_path, img_only_file_name=None, image=None):
     global pdf_path
     if type(img_path) in (tuple, list):
+        msgshow = 'Successfully Made PDF Files. '
         for i in img_path:
             save_pdf_command(i)
+            msgshow += f'\n`{i.split("/")[-1]}`'
+        msgbox.showinfo('Successfully Made PDF Files.', msgshow)
     else:
         if img_only_file_name is None: img_only_file_name = get_img_only_file_name(img_path)
         if pdf_path:
@@ -81,7 +82,6 @@ def save_pdf_command(img_path, img_only_file_name=None, image=None):
                     image.close()
                     pdf_file.write(pdf_bytes)
                 print(f'Successfully Made PDF File. \n`{img_path.split("/")[-1]}`')
-                msgbox.showinfo('Successfully Made PDF File.', f'Successfully Made PDF File. \n`{img_path.split("/")[-1]}`')
             except IOError as e:
                 result = msgbox.askretrycancel('Error Saving File!', 'Error Saving File! \nPlease Retry.')
                 if result: window.after(100, save_pdf_command, img_path, img_only_file_name, image)
