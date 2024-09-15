@@ -7,6 +7,6 @@ PIP:
 PyInstaller:
  cd "C:\Users\Dinsh\AppData\local\packages\pythonsoftwarefoundation.python.3.10_qbz5n2kfra8p0\localcache\local-packages\python310\site-packages"
  python pyinstaller -F "C:\Users\Dinsh\Desktop\pyinstaller\hello_test.py"
-  --distpath "C:\Users\Dinsh\Desktop\pyinstaller\dist"
-  --workpath "C:\Users\Dinsh\Desktop\pyinstaller\build"
-  --specpath "C:\Users\Dinsh\Desktop\pyinstaller"
+  --distpath "C:\Users\Dinsh\Documents\backup_data_from_desktop\pyinstaller\dist"
+  --workpath "C:\Users\Dinsh\Documents\backup_data_from_desktop\pyinstaller\build"
+  --specpath "C:\Users\Dinsh\Documents\backup_data_from_desktop\pyinstaller"
