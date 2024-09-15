@@ -7,7 +7,11 @@ from tkinter import ttk
 from tkinter import filedialog as fd
 from tkinter import messagebox as msgbox
 
-file_types = (('image files', ('*.jpg', '*.jpeg', '*.jpe', '*.jfif', '*.png', '*.bmp', '*.jdib', '*.gif')), ('JPEG files', ('*.jpg', '*.jpeg', '*.jpe', '*.jfif')), ('PNG files', '*.png'), ('BMP files', ('*.bmp', '*.jdib')), ('GIF files', '*.gif'), ('PDF files', '*.pdf'), ('all files', '*.*'))
+def replace_extension(path):
+    return path.replace('.jpg', '').replace('.jpeg', '').replace('.jpe', '').replace('.jfif', '').replace('.png', '').replace('.bmp', '').replace('.jdib', '').replace('.gif', '')
+
+img_file_types = (('image files', ('*.jpg', '*.jpeg', '*.jpe', '*.jfif', '*.png', '*.bmp', '*.jdib', '*.gif')), ('JPEG files', ('*.jpg', '*.jpeg', '*.jpe', '*.jfif')), ('PNG files', '*.png'), ('BMP files', ('*.bmp', '*.jdib')), ('GIF files', '*.gif'), ('PDF files', '*.pdf'), ('all files', '*.*'))
+pdf_file_types = (('PDF files', '*.pdf'), ('image files', ('*.jpg', '*.jpeg', '*.jpe', '*.jfif', '*.png', '*.bmp', '*.jdib', '*.gif')), ('JPEG files', ('*.jpg', '*.jpeg', '*.jpe', '*.jfif')), ('PNG files', '*.png'), ('BMP files', ('*.bmp', '*.jdib')), ('GIF files', '*.gif'), ('all files', '*.*'))
 img_path = ()
 
 window = tk.Tk()
@@ -37,7 +41,7 @@ def get_img_only_file_name(img_path):
 
 def browse_img_path_command():
     global img_path
-    img_path = fd.askopenfilenames(parent=window, title='select image file', filetypes=file_types)
+    img_path = fd.askopenfilenames(parent=window, title='select image file', filetypes=img_file_types)
     img_path_entry.delete(0, tk.END)
     img_path_entry.insert(tk.END, *img_path)
     print(img_path)
@@ -57,17 +61,17 @@ def save_pdf_command(img_path, img_only_file_name=None, image=None):
         for i in img_path:
             save_pdf_command(i)
     if img_only_file_name is None: img_only_file_name = get_img_only_file_name(img_path)
-    pdf_path = fd.asksaveasfilename(filetypes=file_types, defaultextension=img_only_file_name+'.pdf')
+    pdf_path = fd.asksaveasfilename(filetypes=pdf_file_types, defaultextension=img_only_file_name+'.pdf')
     if pdf_path:
         try:
-            with open(img_path, 'wb') as pdf_file:
+            with open(replace_extension(img_path)+'.pdf', 'wb') as pdf_file:
                 pdf_bytes = img2pdf.convert(image.filename)
-                file.write(pdf_bytes)
                 image.close()
+                pdf_file.write(pdf_bytes)
             print('Successfully made pdf file')
-        except Exception as e:
+        except IOError as e:
             result = msgbox.askretrycancel('Error Saving File!', 'Error Saving File! \nPlease Retry.')
-            if result: window.after(100, save_pdf_command, img_path, img_only_file_name, image)(filetypes=file_types, defaultextension=img_only_file_name+'.pdf')
+            if result: window.after(100, save_pdf_command, img_path, img_only_file_name, image)
 save_pdf = ttk.Button(window, text='save PDF file', command=lambda: save_pdf_command(img_path))
 save_pdf.grid(column=1, row=3)
 
