@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Children</key>
+	<array>
+		<dict>
+			<key>Children</key>
+			<array>
+				<dict>
+					<key>URIDictionary</key>
+					<dict>
+						<key></key>
+						<string>http://azo-freeware.blogspot.com/</string>
+						<key>title</key>
+						<string>ªüºaºÖ§Q¨ý</string>
+					</dict>
+					<key>URLString</key>
+					<string>http://azo-freeware.blogspot.com/</string>
+					<key>WebBookmarkType</key>
+					<string>WebBookmarkTypeLeaf</string>
+				</dict>
+				<dict>
+					<key>URIDictionary</key>
+					<dict>
+						<key></key>
+						<string>http://portableappz.blogspot.com/</string>
+						<key>title</key>
+						<string>PortableAppZ</string>
+					</dict>
+					<key>URLString</key>
+					<string>http://portableappz.blogspot.com/</string>
+					<key>WebBookmarkType</key>
+					<string>WebBookmarkTypeLeaf</string>
+				</dict>
+				<dict>
+					<key>URIDictionary</key>
+					<dict>
+						<key></key>
+						<string>http://portableapps.com/</string>
+						<key>title</key>
+						<string>PortableApps</string>
+					</dict>
+					<key>URLString</key>
+					<string>http://portableapps.com/</string>
+					<key>WebBookmarkType</key>
+					<string>WebBookmarkTypeLeaf</string>
+				</dict>
+			</array>
+			<key>Title</key>
+			<string>BookmarksBar</string>
+			<key>WebBookmarkType</key>
+			<string>WebBookmarkTypeList</string>
+		</dict>
+	</array>
+	<key>WebBookmarkFileVersion</key>
+	<integer>1</integer>
+	<key>WebBookmarkType</key>
+	<string>WebBookmarkTypeList</string>
+</dict>
+</plist>

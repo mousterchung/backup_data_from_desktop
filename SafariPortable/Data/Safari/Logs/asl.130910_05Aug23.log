@@ -1,0 +1,2 @@
+[11624 @ Sat Aug 05 13:09:10 2023] [com.apple.WebKit2WebProcess WebKit2WebProcess.exe] (Initialize|Accept)SecurityContext failed with error 0x80090302
+[11624 @ Sat Aug 05 13:09:10 2023] [com.apple.WebKit2WebProcess WebKit2WebProcess.exe] CertGetCertificateChain failed with error 0x80090301
