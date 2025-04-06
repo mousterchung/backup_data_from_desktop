@@ -1,72 +1,75 @@
-清音
-あア	 いイ	うウ	えエ	おオ
-a	i	u	e	o
+		清音
+あア	いイ	うウ	えエ	おオ
+  a	   i	  u	  e	  o
 かカ	きキ	くク	けケ	こコ
-ka	ki	ku	ke	ko
+ ka	 ki	 ku	 ke	 ko
 さサ	しシ	すス	せセ	そソ
-sa	si,shi	su	se	so
+ sa	si,shi	 su	 se	 so
 たタ	ちチ	つツ	てテ	とト
-ta	ti,chi	tu,tsu	te	to
+ ta	ti,chi	tu,tsu	 te	 to
 なナ	にニ	ぬヌ	ねネ	のノ
-na	ni	nu	ne	no
+ na	 ni	 nu	 ne	 no
 はハ	ひヒ	ふフ	へヘ	ほホ
-ha	hi	fu,hu	he	ho
+ ha	 hi	fu,hu	 he	 ho
 まマ	みミ	むム	めメ	もモ
-ma	mi	mu	me	mo
-やヤ	----	ゆユ	----	よヨ
-ya	----	yu	----	yo
-わワ	----	----	----	をヲ
-wa	----	----	----	wo
-んン
-nn,n
-濁音
+ ma	 mi	 mu	 me	 mo
+やヤ		ゆユ		よヨ
+ ya		 yu		 yo
+わワ				をヲ
+ wa				wo
+		んン
+		nn,n
+
+		濁音
 がガ	ぎギ	ぐグ	げゲ	ごゴ
-ga	gi	gu	ge	go
+ ga	 gi	 gu	 ge	 go
 ざザ	じジ	ずズ	ぜゼ	ぞゾ
-za	ji,zi	zu	ze	zo
+ za	ji,zi	 zu	 ze	 zo
 だダ	ぢヂ	づヅ	でデ	どド
-da	di	du	de	do
+ da	 di	 du	 de	 do
 ばバ	びビ	ぶブ	べベ	ぼボ
-ba	bi	bu	be	bo
-半濁音
+ ba	 bi	 bu	 be	 bo
+
+		半濁音
 ぱパ	ぴピ	ぷプ	ぺペ	ぽポ
-pa	pi	pu	pe	po
-拗音
+ pa	 pi	 pu	 pe	 po
+
+				　拗音
 きゃキャ	きぃキィ	きゅキュ	きぇきぇ	きょきょ
-kya		kyi		kyu		kye		kyo
+   kya		   kyi		   kyu		   kye		   kyo
 ぎゃギャ	ぎぃギィ	ぎゅギュ	ぎぇギェ	ぎょギョ
-gya		gyi		gyu		gye		gyo
+   gya		   gyi		   gyu		   gye		   gyo
 くぁクァ	くぃクィ	くぅクゥ	くぇクェ	くぉクォ
-qa		qi		qu		qe		qo
+   qa		   qi		   qu		   qe		   qo
 しゃシャ	しぃシィ	しゅシュ	しぇシェ	しょショ
-sha,sya		syi		shu,syu		she,sye		sho,syo
+ sha,sya	   syi		 shu,syu	 she,sye	 sho,syo
 じゃジャ	じいジィ	じゅジュ	じぇジェ	じょジョ
-ja,jya		jyi		ju,jyu		je,jye		jo,jyo
+ ja,jya		   jyi		 ju,jyu		 je,jye		 jo,jyo
 ちゃチャ	ちぃチィ	ちゅチュ	ちぇチェ	ちょチョ
-tya,cya,cha	tyi,cyi		tyu,cyu,chu	tye,cye,che	tyo,cyo,cho
+tya,cya,cha	 tyi,cyi	tyu,cyu,chu	tye,cye,che	tyo,cyo,cho
 ぢゃジャ	ぢぃジィ	ぢゅジュ	ぢぇジェ	ぢょジョ
-dya		dyi		dyu		dye		dyo
+   dya		   dyi		   dyu		   dye		   dyo
 てゃテャ	てぃティ	てゅテュ	てぇテェ	てょテョ
-tha		dhi		dhu		dhe		dho
+   tha		   dhi		   dhu		   dhe		   dho
 でゃデャ	でぃディ	でゅデュ	でえデェ	でょデョ
-dha		dhi		dhu		dhe		dho
+   dha		   dhi		   dhu		   dhe		   dho
 にゃニャ	にぃニィ	にゅニュ	にぇニェ	にょニョ
-nya		nyi		nyu		nye		nyo
+   nya		   nyi		   nyu		   nye		   nyo
 ひゃヒャ	ひぃヒィ	ひゅヒュ	ひぇヒェ	ひょヒョ
-hya		hyi		hyu		hye		hyo
+   hya		   hyi		   hyu		   hye		   hyo
 びゃビャ	びぃビィ	びゅビュ	びぇビェ	びょビョ
-bya		byi		byu		bye		byo
+   bya		   byi		   byu		   bye		   byo
 ぴゃピャ	ぴぃピィ	ぴゅピュ	ぴぇピェ	ぴょピョ
-pya		pyi		pyu		pye		pyo
-ふぁファ	ふぃフィ	--------	ふぇフェ	ふぉフォ
-fa		fi,fyi		--------	fe,fye		fo
-ふゃフャ	--------	ふゅフュ	--------	ふょフョ
-fya		--------	fyu		--------	fyo
+   pya		   pyi		   pyu		   pye		   pyo
+ふぁファ	ふぃフィ			ふぇフェ	ふぉフォ
+   fa		 fi,fyi				 fe,fye		   fo
+ふゃフャ			ふゅフュ			ふょフョ
+   fya				   fyu				   fyo
 ゔぁヴァ		ゔぃヴィ		ゔヴ		ゔぇヴェ		ゔぉヴォ
-va		vi,vyi		vu		ve,vye		vo
+   va		 vi,vyi		   vu		 ve,vye		   vo
 みゃミャ	みぃミィ	みうミュ	むえミェ	みょミョ
-mya		myi		myu		mye		myo
+   mya		   myi		   myu		   mye		   myo
 りゃリャ	りぃリィ	りゅリュ	りぇリェ	りょリョ
-rya		ryi		ryu		rye		ryo
-うぁウァ	うぃウィ	--------	うぇウェ	うぉウォ
-wha		wi,whi		--------	we,whe		who
+   rya		   ryi		   ryu		   rye		   ryo
+うぁウァ	うぃウィ			うぇウェ	うぉウォ
+   wha		 wi,whi				 we,whe		   who
