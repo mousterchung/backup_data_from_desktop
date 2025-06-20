@@ -1,6 +1,23 @@
+  3.53 MiB	    3,623 KiB	    3,709,888 B	.exe	202305141930-v-VisualStudioSetup.exe
+ 89.9  MiB	   92,109 KiB	   94,318,648 B	.exe	202305150715-x-ndp471-devpack-enu.exe
 115    MiB	  117,916 KiB	  120,745,072 B	.exe	202305160657-x-UnityHubSetup.exe
+  1.30 MiB	    1,336 KiB	    1,367,592 B	.exe	202305180720-v-GoogleJapaneseInputSetup.exe
 132    MiB	  136,175 KiB	  139,442,464 B	.exe	202306301726-v-GitHubDesktopSetup-x64.exe
+ 88.6  MiB	   90,821 KiB	   92,999,832 B	.exe	202306301727-v-VSCodeUserSetup-x64-1.79.2.exe
+ 19.9  MiB	   20,457 KiB	   20,947,032 B	.exe	202306301727-v-VSCodeUserSetup-x64-1.79.2.exe
+  3.63 MiB	    3,721 KiB	    3,809,416 B	.exe	202307011542-x-GLP_installer_900223150_market.exe
+897    KiB	      898 KiB	      919,304 B	.exe	202307011547-x-BlueStacksInstaller_5.12.102.1001_native_60ecc5682b05f335e12bd8bbfd245a08_MDs1LDM7MTUsMTsxNSw0OzE1.exe
+897    KiB	      898 KiB	      919,304 B	.exe	202307011547-x-BlueStacks10Installer_10.2.5.1004_native_b1c3fc8ddb55cd0b57ef05c66d15665e_MDs1LDM7MTUsMTsxNSw0OzE1.exe
 732    MiB	  750,567 KiB	  768,580,048 B	.exe	202307011603-x-nox_setup_v7.0.5.8_full_intl.exe
+  2.73 MiB	    2,805 KiB	    2,871,600 B	.exe	202307091705-v-OperaSetup.exe
+  1.68 MiB	    1,726 KiB	    1,766,720 B	.exe	202307091705-v-OperaSetup.exe
+ 36.7  MiB	   37,593 KiB	   38,494,576 B	.exe	202307091753-v-SafariSetup.exe
+ 18.4  MiB	   18,877 KiB	   19,329,928 B	.exe	202307181954-v-sublime_text_build_4143_x64_setup.exe
+  1.30 MiB	    1,340 KiB	    1,371,176 B	.exe	202307201812-x-Install-GooglePlayGames-Beta.exe
+898    KiB	      899 KiB	      919,624 B	.exe	202307201938-x-BlueStacks10Installer_10.2.10.1003.exe
+892    KiB	      893 KiB	      913,656 B	.exe	202307201939-x-bluestacksinstaller_5.11.56.1003_native.exe
+897    KiB	      898 KiB	      919,392 B	.exe	202307201939-x-202307201942-x-BlueStacks10Installer_10.2.10.1002_native_6ec05dc6dbfdc501cf59ac528710faa9_MDs1LDM7MTUsMTsxNSw0OzE1_UGxhbnRzIHZzLiBab21iaWVzIDI=.exe
+  1.35 MiB	    1,389 KiB	    1,421,880 B	.exe	202307261940-v-ColorPic.exe
 198    MiB	  203,746 KiB	  208,635,168 B	.exe	202310081454-v-atom-1-63-1.exe
 183    MiB	  187,522 KiB	  192,022,512 B	.exe	202311131821-x-cloudebooksetup_lo.exe
 174    MiB	  178,845 KiB	  183,136,544 B	.exe	202311301923-x-GoogleDriveSetup.exe
