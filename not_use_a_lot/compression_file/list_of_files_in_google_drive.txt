@@ -1,3 +1,17 @@
+ 62.6  MiB	   64,110 KiB	   65,648,580 B	.zip	202109291119-備份.zip
+151    KiB	      152 KiB	      155,024 B	.zip	202110020655-新備份.zip
+ 19.3  MiB	   19,861 KiB	   20,337,064 B	.zip	202111071919-20211027解答-20211107T111845Z-001.zip
+  4.06 MiB	    4,159 KiB	    4,258,597 B	.zip	202112111956-drive-download-20211211T115607Z-001.zip
+ 14.0  MiB	   14,346 KiB	   14,689,972 B	.zip	202205021920-5_02p_68p_70.zip
+  4.35 MiB	    4,457 KiB	    4,563,727 B	.zip	202205031935-re503p_73p_74p_7330_95.zip
+ 18.0  MiB	   18,480 KiB	   18,922,955 B	.zip	202205051632-505.zip
+ 10.7  MiB	   11,035 KiB	   11,299,526 B	.zip	202205071124-0506作業.zip
+ 13.4  MiB	   13,796 KiB	   14,126,324 B	.zip	202205191320-國習L13.心智圖L13.zip
 163    MiB	  167,632 KiB	  171,654,413 B	.zip	202210291052-阿豆選照片-print-20221029T024852Z-001.zip
 123    MiB	  126,447 KiB	  129,481,617 B	.zip	202305061148-GoogleChrome.zip
+ 28.3  MiB	   29,051 KiB	   29,747,714 B	.zip	202307181956-v-sublime_text_build_4143_x64.zip
+ 17.7  MiB	   18,216 KiB	   18,653,070 B	.zip	202310161956-iFontCloud-Manager-Installer_4.0.2.7.zip
+ 28.8  MiB	   29,560 KiB	   30,269,057 B	.zip	202312030601-node-v21.3.0-win-x64.zip
+260    KiB	      261 KiB	      266,536 B	.zip	202312030625-nvm-master.zip
   1.04 GiB	1,100,327 KiB	1,126,734,320 B	.zip	202312030631-android-studio-2022.3.1.21-windows.zip
+  4.63 MiB	    4,746 KiB	    4,859,873 B	.7z 	202410122033-x-recuva 1.53.2074.7z
