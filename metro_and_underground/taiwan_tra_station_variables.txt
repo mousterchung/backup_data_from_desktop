@@ -1,0 +1,39 @@
+StationNameChineseText
+	x = 
+		StationNameOffsetHorizontal==="center"?0
+		:StationNameOffsetHorizontal==="left"?-16
+		:StationNameOffsetHorizontal==="right"?16
+		:null
+	
+	y = 
+		StationNameOffsetVertical==="middle"?0
+		:StationNameOffsetVertical==="top"?-22
+		:StationNameOffsetVertical==="bottom"?34
+		:null
+	
+	textAnchor = 
+		StationNameOffsetHorizontal==="center"?"middle"
+		:StationNameOffsetHorizontal==="left"?"end"
+		:StationNameOffsetHorizontal==="right"?"start"
+		:null
+	
+	transform-origin = 
+		StationNameOffsetHorizontal==="center"?(
+			StationNameOffsetVertical==="middle"?"0px 0px"
+			:StationNameOffsetVertical==="top"?"0px 22px"
+			:StationNameOffsetVertical==="bottom"?"0px -34px"
+			:null
+		)
+		:StationNameOffsetHorizontal==="left"?(
+			StationNameOffsetVertical==="middle"?"16px 0px"
+			:StationNameOffsetVertical==="top"?"16px 22px"
+			:StationNameOffsetVertical==="bottom"?"16px -34px"
+			:null
+		)
+		:StationNameOffsetHorizontal==="right"?(
+			StationNameOffsetVertical==="middle"?"-16px 0px"
+			:StationNameOffsetVertical==="top"?"-16px 22px"
+			:StationNameOffsetVertical==="bottom"?"-16px -34px"
+			:null
+		)
+		:null
