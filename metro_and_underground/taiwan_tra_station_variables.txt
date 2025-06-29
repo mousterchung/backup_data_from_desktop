@@ -1,4 +1,4 @@
-StationNameChineseText
+StationNameText
 	x = 
 		StationNameOffsetHorizontal==="center"?0
 		:StationNameOffsetHorizontal==="left"?-16
@@ -17,7 +17,35 @@ StationNameChineseText
 		:StationNameOffsetHorizontal==="right"?"start"
 		:null
 	
-	transform-origin = 
+	transform = 
+		(StationNameDirection!=0?("translate(" + 
+			(StationNameOffsetHorizontal==="center"?"+0"
+			:StationNameOffsetHorizontal==="left"?"-12"
+			:StationNameOffsetHorizontal==="right"?"+12"
+			:"+0") + 
+			" " + 
+			(StationNameOffsetVertical==="middle"?"+0"
+			:StationNameOffsetVertical==="top"?"-12"
+			:StationNameOffsetVertical==="bottom"?"+18"
+			:"+0") + 
+		") ")
+		:"") + 
+		"rotate(" + (-1)*StationNameDirection + ")" + 
+		(StationNameDirection!=0?("translate(" + 
+			(StationNameOffsetHorizontal==="center"?"-0"
+			:StationNameOffsetHorizontal==="left"?"+12"
+			:StationNameOffsetHorizontal==="right"?"-12"
+			:"-0") + 
+			" " + 
+			(StationNameOffsetVertical==="middle"?"-0"
+			:StationNameOffsetVertical==="top"?"+12"
+			:StationNameOffsetVertical==="bottom"?"-12"
+			:"-0") + 
+		") ")
+		:"")
+	
+	transform-origin = "0px 0px"
+		/*
 		StationNameOffsetHorizontal==="center"?(
 			StationNameOffsetVertical==="middle"?"0px 0px"
 			:StationNameOffsetVertical==="top"?"0px 22px"
@@ -37,3 +65,20 @@ StationNameChineseText
 			:null
 		)
 		:null
+		
+		StationNameOffsetHorizontal==="center"?"-12px 22px"
+		:StationNameOffsetHorizontal==="left"?"0px 8px"
+		:StationNameOffsetHorizontal==="right"?"0px 8px"
+		:null
+		
+		(StationNameOffsetHorizontal==="center"?((-1)*Math.max(12*StationNameChinese.length, 8*StationNameEnglish.length)/2).toString()
+			:StationNameOffsetHorizontal==="left"?"0"
+			:StationNameOffsetHorizontal==="right"?"0"
+			:"0") + 
+			"px " + 
+			(StationNameOffsetVertical==="middle"?"0"
+			:StationNameOffsetVertical==="top"?"0"
+			:StationNameOffsetVertical==="bottom"?"0"
+			:"0") + 
+		"px"
+		*/
