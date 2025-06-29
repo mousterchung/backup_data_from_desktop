@@ -1,27 +1,18 @@
 StationNameText
 	x = 
-		/*
-		StationNameOffsetHorizontal==="center"?0
-		:StationNameOffsetHorizontal==="left"?-16
-		:StationNameOffsetHorizontal==="right"?16
-		:null
-		*/
+		x = (StationNameOffsetVertical==='top' || StationNameOffsetVertical==='bottom')?0:(StationNameOffsetHorizontal==='left'?(-(Math.max(((RouteNumbering.length===1 || RouteNumbering.length===2)?20:8*(RouteNumbering.length)+6), ((StationNumbering.length===1 || StationNumbering.length===2)?20:7*(StationNumbering.length)+6))/2)-2):(StationNameOffsetHorizontal==='right'?(Math.max(((RouteNumbering.length===1 || RouteNumbering.length===2)?20:8*(RouteNumbering.length)+6), ((StationNumbering.length===1 || StationNumbering.length===2)?20:7*(StationNumbering.length)+6))/2+2):''))
 	
 	y = 
-		/*
 		StationNameOffsetVertical==="middle"?0
-		:StationNameOffsetVertical==="top"?-22
-		:StationNameOffsetVertical==="bottom"?34
+		:StationNameOffsetVertical==="top"?-30
+		:StationNameOffsetVertical==="bottom"?30
 		:null
-		*/
 	
 	textAnchor = 
-		/*
-		StationNameOffsetHorizontal==="center"?"middle"
-		:StationNameOffsetHorizontal==="left"?"end"
-		:StationNameOffsetHorizontal==="right"?"start"
-		:null*/
-		
+		StationNameOffsetHorizontal==='center'?'middle'
+		:StationNameOffsetHorizontal==='left'?'end'
+		:StationNameOffsetHorizontal==='right'?'start'
+		:null
 	
 	transform = 
 		/*
@@ -91,10 +82,6 @@ StationNameText
 		"px"
 		*/
 
-x = (StationNameOffsetVertical==='top' || StationNameOffsetVertical==='bottom')?0:(StationNameOffsetHorizontal==='left'?(-(Math.max(((RouteNumbering.length===1 || RouteNumbering.length===2)?20:8*(RouteNumbering.length)+6), ((StationNumbering.length===1 || StationNumbering.length===2)?20:7*(StationNumbering.length)+6))/2)-2):(StationNameOffsetHorizontal==='right'?(Math.max(((RouteNumbering.length===1 || RouteNumbering.length===2)?20:8*(RouteNumbering.length)+6), ((StationNumbering.length===1 || StationNumbering.length===2)?20:7*(StationNumbering.length)+6))/2+2):''))
 y = (StationNameOffsetHorizontal==='left' || StationNameOffsetHorizontal==='right')?(-1):(StationNameOffsetVertical==='top'?(-14-10-2):(StationNameOffsetVertical==='bottom'?(14+10):''))
-textAnchor = (StationNameOffsetVertical==='top' || StationNameOffsetVertical==='bottom')?'middle':(StationNameOffsetHorizontal==='left'?'end':(StationNameOffsetHorizontal==='right'?'start':''))
 
-x = (StationNameOffsetVertical==='top' || StationNameOffsetVertical==='bottom')?0:(StationNameOffsetHorizontal==='left'?(-(Math.max(((RouteNumbering.length===1 || RouteNumbering.length===2)?20:8*(RouteNumbering.length)+6), ((StationNumbering.length===1 || StationNumbering.length===2)?20:7*(StationNumbering.length)+6))/2)-2):(StationNameOffsetHorizontal==='right'?(Math.max(((RouteNumbering.length===1 || RouteNumbering.length===2)?20:8*(RouteNumbering.length)+6), ((StationNumbering.length===1 || StationNumbering.length===2)?20:7*(StationNumbering.length)+6))/2+2):''))
 y = (StationNameOffsetHorizontal==='left' || StationNameOffsetHorizontal==='right')?(-1+10):(StationNameOffsetVertical==='top'?(-14-2):(StationNameOffsetVertical==='bottom'?(14+10+10):''))
-textAnchor = (StationNameOffsetVertical==='top' || StationNameOffsetVertical==='bottom')?'middle':(StationNameOffsetHorizontal==='left'?'end':(StationNameOffsetHorizontal==='right'?'start':''))
