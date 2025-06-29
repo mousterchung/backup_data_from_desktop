@@ -15,4 +15,4 @@
 260    KiB	      261 KiB	      266,536 B	.zip	202312030625-nvm-master.zip
   1.04 GiB	1,100,327 KiB	1,126,734,320 B	.zip	202312030631-android-studio-2022.3.1.21-windows.zip
   4.63 MiB	    4,746 KiB	    4,859,873 B	.7z 	202410122033-x-recuva 1.53.2074.7z
-*  3.91 GiB	4,109,236 KiB	4,207,857,588 B	.zip	"202506211454-Adobe Illustrator 2025 v29.1.0.142_password-@crackedresource1111.zip"
+  3.91 GiB	4,109,236 KiB	4,207,857,588 B	.zip	"202506211454-Adobe Illustrator 2025 v29.1.0.142_password-@crackedresource1111.zip"
