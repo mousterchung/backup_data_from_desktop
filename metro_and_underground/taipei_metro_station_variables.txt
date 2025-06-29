@@ -90,3 +90,11 @@ StationNameText
 			:"0") + 
 		"px"
 		*/
+
+x = (StationNameOffsetVertical==='top' || StationNameOffsetVertical==='bottom')?0:(StationNameOffsetHorizontal==='left'?(-(Math.max(((RouteNumbering.length===1 || RouteNumbering.length===2)?20:8*(RouteNumbering.length)+6), ((StationNumbering.length===1 || StationNumbering.length===2)?20:7*(StationNumbering.length)+6))/2)-2):(StationNameOffsetHorizontal==='right'?(Math.max(((RouteNumbering.length===1 || RouteNumbering.length===2)?20:8*(RouteNumbering.length)+6), ((StationNumbering.length===1 || StationNumbering.length===2)?20:7*(StationNumbering.length)+6))/2+2):''))
+y = (StationNameOffsetHorizontal==='left' || StationNameOffsetHorizontal==='right')?(-1):(StationNameOffsetVertical==='top'?(-14-10-2):(StationNameOffsetVertical==='bottom'?(14+10):''))
+textAnchor = (StationNameOffsetVertical==='top' || StationNameOffsetVertical==='bottom')?'middle':(StationNameOffsetHorizontal==='left'?'end':(StationNameOffsetHorizontal==='right'?'start':''))
+
+x = (StationNameOffsetVertical==='top' || StationNameOffsetVertical==='bottom')?0:(StationNameOffsetHorizontal==='left'?(-(Math.max(((RouteNumbering.length===1 || RouteNumbering.length===2)?20:8*(RouteNumbering.length)+6), ((StationNumbering.length===1 || StationNumbering.length===2)?20:7*(StationNumbering.length)+6))/2)-2):(StationNameOffsetHorizontal==='right'?(Math.max(((RouteNumbering.length===1 || RouteNumbering.length===2)?20:8*(RouteNumbering.length)+6), ((StationNumbering.length===1 || StationNumbering.length===2)?20:7*(StationNumbering.length)+6))/2+2):''))
+y = (StationNameOffsetHorizontal==='left' || StationNameOffsetHorizontal==='right')?(-1+10):(StationNameOffsetVertical==='top'?(-14-2):(StationNameOffsetVertical==='bottom'?(14+10+10):''))
+textAnchor = (StationNameOffsetVertical==='top' || StationNameOffsetVertical==='bottom')?'middle':(StationNameOffsetHorizontal==='left'?'end':(StationNameOffsetHorizontal==='right'?'start':''))
