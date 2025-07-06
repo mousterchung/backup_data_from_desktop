@@ -1,0 +1,29 @@
+Border
+	width = 
+		((RouteNumbering.length===1 || RouteNumbering.length===2)?25
+		:11*(RouteNumbering.length)+6) + 
+		5 + 
+		Math.max(12*(RouteNameChinese.length), 
+		         0.6*10*(RouteNameEnglish.length))+2
+
+RouteNumberingText
+	x = 
+		2 + 
+		(RouteNumbering.length===1?5.5
+		:0)
+
+SeparationLine
+	x = 
+		((RouteNumbering.length===1 || RouteNumbering.length===2)?25
+		:11*(RouteNumbering.length)+3) + 1
+
+RouteNameText
+	x = 
+		((RouteNumbering.length===1 || RouteNumbering.length===2)?25
+		:11*(RouteNumbering.length)+3) + 5
+	
+	
+	RouteNameChineseText, RouteNameEnglishText
+		x = 
+			Math.max(12*(RouteNameChinese.length), 
+			         0.6*10*(RouteNameEnglish.length))/2
