@@ -4,7 +4,7 @@ Border
 		:11*(RouteNumbering.length)+6) + 
 		5 + 
 		Math.max(12*(RouteNameChinese.length), 
-		         0.6*10*(RouteNameEnglish.length))+2
+		         0.5*10*(RouteNameEnglish.length))+6 + 2
 
 RouteNumberingText
 	x = 
@@ -26,4 +26,5 @@ RouteNameText
 	RouteNameChineseText, RouteNameEnglishText
 		x = 
 			Math.max(12*(RouteNameChinese.length), 
-			         0.6*10*(RouteNameEnglish.length))/2
+			         0.5*10*(RouteNameEnglish.length))/2 + 
+			3
