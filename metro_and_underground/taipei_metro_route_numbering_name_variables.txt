@@ -4,7 +4,7 @@ RouteNumberingText
 		 (RouteNumbering.length===1?6
 		  :RouteNumbering.length===2?1
 		  :0))
-		*0.64
+		*0.53
 	
 	visibility = 
 		RouteNumbering.length===0?"hidden"
@@ -14,7 +14,7 @@ SeparationLine
 	x = 
 		(((RouteNumbering.length===1 || RouteNumbering.length===2)?25
 		  :11*(RouteNumbering.length)+3) + 1)
-		*0.64
+		*0.53
 	
 	visibility = 
 		RouteNumbering.length===0?"hidden"
@@ -25,15 +25,14 @@ RouteNameText
 		(RouteNumbering.length===0?2 + 2
 		:(((RouteNumbering.length===1 || RouteNumbering.length===2)?25
 		:11*(RouteNumbering.length)+3) + 1) + 4)
-		 *0.64
-	
+		 *0.53
 	
 	RouteNameChineseText, RouteNameEnglishText
 		x = 
 			(Math.max(12*(RouteNameChinese.length), 
 			          0.5*10*(RouteNameEnglish.length))/2 + 
 			 3)
-			*0.64
+			*0.53
 
 Border
 	width = 
@@ -43,4 +42,4 @@ Border
 		 5 + 
 		 Math.max(12*(RouteNameChinese.length), 
 		          0.5*10*(RouteNameEnglish.length))+6 + 2)
-		*0.64
+		*0.53
