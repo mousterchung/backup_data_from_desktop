@@ -1,0 +1,11 @@
+RouteNumberingText
+	x = 
+		((RouteNumbering.length===1 || RouteNumbering.length===2)?25
+		 :11*(RouteNumbering.length)+6)
+		*0.64/2
+
+Border
+	width = 
+		((RouteNumbering.length===1 || RouteNumbering.length===2)?25
+		 :11*(RouteNumbering.length)+6)
+		*0.64
