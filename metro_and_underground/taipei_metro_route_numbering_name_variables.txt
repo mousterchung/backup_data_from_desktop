@@ -1,30 +1,46 @@
-Border
-	width = 
-		((RouteNumbering.length===1 || RouteNumbering.length===2)?25
-		:11*(RouteNumbering.length)+6) + 
-		5 + 
-		Math.max(12*(RouteNameChinese.length), 
-		         0.5*10*(RouteNameEnglish.length))+6 + 2
-
 RouteNumberingText
 	x = 
-		2 + 
-		(RouteNumbering.length===1?5.5
-		:0)
+		(2 + 
+		 (RouteNumbering.length===1?6
+		  :RouteNumbering.length===2?1
+		  :0))
+		*0.64
+	
+	visibility = 
+		RouteNumbering.length===0?"hidden"
+		:"visible"
 
 SeparationLine
 	x = 
-		((RouteNumbering.length===1 || RouteNumbering.length===2)?25
-		:11*(RouteNumbering.length)+3) + 1
+		(((RouteNumbering.length===1 || RouteNumbering.length===2)?25
+		  :11*(RouteNumbering.length)+3) + 1)
+		*0.64
+	
+	visibility = 
+		RouteNumbering.length===0?"hidden"
+		:"visible"
 
 RouteNameText
 	x = 
-		((RouteNumbering.length===1 || RouteNumbering.length===2)?25
-		:11*(RouteNumbering.length)+3) + 5
+		(RouteNumbering.length===0?2 + 2
+		:(((RouteNumbering.length===1 || RouteNumbering.length===2)?25
+		:11*(RouteNumbering.length)+3) + 1) + 4)
+		 *0.64
 	
 	
 	RouteNameChineseText, RouteNameEnglishText
 		x = 
-			Math.max(12*(RouteNameChinese.length), 
-			         0.5*10*(RouteNameEnglish.length))/2 + 
-			3
+			(Math.max(12*(RouteNameChinese.length), 
+			          0.5*10*(RouteNameEnglish.length))/2 + 
+			 3)
+			*0.64
+
+Border
+	width = 
+		((RouteNumbering.length===0?0
+		 :(RouteNumbering.length===1 || RouteNumbering.length===2)?25
+		 :11*(RouteNumbering.length)+3 + 3) + 
+		 5 + 
+		 Math.max(12*(RouteNameChinese.length), 
+		          0.5*10*(RouteNameEnglish.length))+6 + 2)
+		*0.64
