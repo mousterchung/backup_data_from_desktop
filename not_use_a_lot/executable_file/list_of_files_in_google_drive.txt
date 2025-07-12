@@ -36,3 +36,4 @@
 570    MiB	  584,548 KiB	  598,576,376 B	.exe	202505020522-v-nox_setup_v7.0.6.2_full_intl.exe
 161    MiB	  165,323 KiB	  169,289,760 B	.exe	202506210802-v-TeraBox_sl_b_1.40.0.132.exe
 418    MiB	  428,868 KiB	  439,160,000 B	.exe	202507070558-v-Rail.Map.Toolkit_25.7.1_x64-setup.exe
+112    MiB	  115,425 KiB	  118,194,784 B	.exe	202507111141-v-GeoGebraCalculator-Windows-Installer-6-0-893-2.exe
