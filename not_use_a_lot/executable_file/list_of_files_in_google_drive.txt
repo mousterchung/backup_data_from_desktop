@@ -4,7 +4,7 @@
   1.30 MiB	    1,336 KiB	    1,367,592 B	.exe	202305180720-v-GoogleJapaneseInputSetup.exe
 132    MiB	  136,175 KiB	  139,442,464 B	.exe	202306301726-v-GitHubDesktopSetup-x64.exe
  88.6  MiB	   90,821 KiB	   92,999,832 B	.exe	202306301727-v-VSCodeUserSetup-x64-1.79.2.exe
- 19.9  MiB	   20,457 KiB	   20,947,032 B	.exe	202306301727-v-VSCodeUserSetup-x64-1.79.2.exe
+ 19.9  MiB	   20,457 KiB	   20,947,032 B	.exe	202307011534-x-MEmu-setup-abroad-sdk.exe
   3.63 MiB	    3,721 KiB	    3,809,416 B	.exe	202307011542-x-GLP_installer_900223150_market.exe
 897    KiB	      898 KiB	      919,304 B	.exe	202307011547-x-BlueStacksInstaller_5.12.102.1001_native_60ecc5682b05f335e12bd8bbfd245a08_MDs1LDM7MTUsMTsxNSw0OzE1.exe
 897    KiB	      898 KiB	      919,304 B	.exe	202307011547-x-BlueStacks10Installer_10.2.5.1004_native_b1c3fc8ddb55cd0b57ef05c66d15665e_MDs1LDM7MTUsMTsxNSw0OzE1.exe
