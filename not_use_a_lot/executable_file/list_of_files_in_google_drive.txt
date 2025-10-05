@@ -18,12 +18,27 @@
 892    KiB	      893 KiB	      913,656 B	.exe	202307201939-x-bluestacksinstaller_5.11.56.1003_native.exe
 897    KiB	      898 KiB	      919,392 B	.exe	202307201939-x-202307201942-x-BlueStacks10Installer_10.2.10.1002_native_6ec05dc6dbfdc501cf59ac528710faa9_MDs1LDM7MTUsMTsxNSw0OzE1_UGxhbnRzIHZzLiBab21iaWVzIDI=.exe
   1.35 MiB	    1,389 KiB	    1,421,880 B	.exe	202307261940-v-ColorPic.exe
+  2.80 MiB	    2,878 KiB	    2,946,312 B	.exe	202308211940-x-Stormshot.PC.V1.0_3c55919bf0.exe
 198    MiB	  203,746 KiB	  208,635,168 B	.exe	202310081454-v-atom-1-63-1.exe
+ 23.1  MiB	   23,733 KiB	   24,302,592 B	.exe	202310131809-x-setup44.exe
+ 18.8  MiB	   19,314 KiB	   19,776,600 B	.exe	202310161956-x-iFontCloud Installer.exe
+  1.84 MiB	    1,894 KiB	    1,939,456 B	.msi	202310291046-x-大英電腦學習版-scpc.msi
 183    MiB	  187,522 KiB	  192,022,512 B	.exe	202311131821-x-cloudebooksetup_lo.exe
+ 13.3  MiB	   13,722 KiB	   14,050,752 B	.exe	202311210600-x-pvz-year-XboxInstaller.exe
+  2.45 MiB	    2,517 KiB	    2,576,632 B	.exe	202311220537-x-LDPlayer9_tw_1000_ld.exe
 174    MiB	  178,845 KiB	  183,136,544 B	.exe	202311301923-x-GoogleDriveSetup.exe
   1.04 GiB	1,096,508 KiB	1,122,823,272 B	.exe	202312030545-x-android-studio-2022.3.1.21-windows.exe
+ 25.8  MiB	   26,512 KiB	   27,148,288 B	.msi	202312030559-h-node-v21.3.0-x64.msi
 434    MiB	  444,482 KiB	  455,149,312 B	.exe	202312071940-x-翰林行動大師.exe
+ 14.9  MiB	   15,354 KiB	   15,721,984 B	.exe	202312150555-h-electroserver_5_3_2_32bit_windows_online.exe
 111    MiB	  114,160 KiB	  116,899,241 B	.exe	202312161926-x-JRE_8u381_setup_azo.exe
+  2.22 MiB	    2,280 KiB	    2,333,800 B	.exe	202312161946-x-jre-8u391-windows-i586-iftw.exe
+ 58.3  MiB	   59,745 KiB	   61,178,472 B	.exe	202312161947-x-jre-8u391-windows-i586.exe
+  2.22 MiB	    2,280 KiB	    2,333,800 B	.exe	202312161948-1-x-JavaSetup8u391.exe
+ 64.3  MiB	   65,911 KiB	   67,492,456 B	.exe	202312161948-2-x-jre-8u391-windows-x64.exe
+ 97.3  MiB	   99,733 KiB	  102,126,342 B	.exe	202312161958-x-JRE_10.0.2_setup_azo.exe
+ 17.2  MiB	   17,616 KiB	   18,038,784 B	.msi	202312310516-x-DB.Browser.for.SQLite-3.12.2-win64.msi
+ 24.1  MiB	   24,755 KiB	   25,348,656 B	.exe	202312310534-v-OK-SQLiteDatabaseBrowserPortable_3.12.2_English.paf.exe
   1.47 GiB	1,549,418 KiB	1,586,603,016 B	.exe	202401100524-v-MIT_App_Inventor_Tools_30.265.0_win_setup64.exe
 274    MiB	  281,460 KiB	  288,215,040 B	.msi	202401100554-x-vagrant_2.4.0_windows_i686.msi
 163    MiB	  167,753 KiB	  171,778,680 B	.exe	202401120458-x-jdk-21_windows-x64_bin.exe
