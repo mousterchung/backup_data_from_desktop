@@ -4,6 +4,7 @@ import winerror
 import pywintypes
 import datetime
 import random
+# import os
 
 # Connect to localhost or remote. Empty str -> localhost
 server = None
@@ -83,3 +84,4 @@ finally:
         win32evtlog.CloseEventLog(hand)
 
 input("\nPress Enter to leave...")
+# os.system("pause")
