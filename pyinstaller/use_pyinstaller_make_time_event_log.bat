@@ -1,0 +1,2 @@
+cd C:\Users\Dinsh\Documents\GitHub\backup_data_from_desktop\pyinstaller\time_event_log
+pyinstaller "C:\Users\Dinsh\Documents\GitHub\backup_data_from_desktop\python\time_event_log.py" --onefile --windowed --icon="C:\Users\Dinsh\Documents\GitHub\backup_data_from_desktop\python\img\favicon.ico" --name=time_event_log
