@@ -57,3 +57,4 @@
 419    MiB	  429,981 KiB	  440,300,038 B	.exe	202511080636-v-Rail.Map.Toolkit_25.11.1_x64-setup_windows.exe
 417    MiB	  427,159 KiB	  437,410,473 B	.exe	202512070700-v-Rail.Map.Toolkit_25.11.13_x64-setup.exe
 404    MiB	  414,149 KiB	  424,088,033 B	.exe	202512070706-v-Rail.Map.Toolkit_25.12.1_x64-setup.exe
+395    MiB	  404,870 KiB	  414,586,289 B	.exe	202601100800-v-Rail.Map.Toolkit_26.1.1_x64-setup.exe
